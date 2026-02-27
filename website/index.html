@@ -1540,29 +1540,176 @@
         </div>
     </div>
 
+    <!-- HOW IT WORKS SECTION -->
+    <section class="section page-section" id="how-it-works" style="background: var(--white);">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Simple Process</span>
+                <h2>How It Works</h2>
+                <p>Getting your medicines home delivered is as easy as 1-2-3</p>
+            </div>
+            
+            <div class="about-features" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; text-align: center; margin-top: 40px;">
+                <div class="about-feature" style="flex-direction: column; align-items: center; justify-content: flex-start; padding: 32px 24px; background: var(--gray-100); border-radius: var(--radius);">
+                    <div class="about-feature-icon" style="margin-bottom: 16px;"><i class="fab fa-whatsapp"></i></div>
+                    <div>
+                        <h4 style="margin-bottom: 8px;">1. Send Prescription</h4>
+                        <p style="font-size: 14px; margin: 0;">Share your prescription or medicine list on WhatsApp</p>
+                    </div>
+                </div>
+                
+                <div class="about-feature" style="flex-direction: column; align-items: center; justify-content: flex-start; padding: 32px 24px; background: var(--gray-100); border-radius: var(--radius);">
+                    <div class="about-feature-icon" style="margin-bottom: 16px;"><i class="fas fa-check-circle"></i></div>
+                    <div>
+                        <h4 style="margin-bottom: 8px;">2. We Confirm & Pack</h4>
+                        <p style="font-size: 14px; margin: 0;">We verify availability, confirm price, and pack your order</p>
+                    </div>
+                </div>
+                
+                <div class="about-feature" style="flex-direction: column; align-items: center; justify-content: flex-start; padding: 32px 24px; background: var(--gray-100); border-radius: var(--radius);">
+                    <div class="about-feature-icon" style="margin-bottom: 16px;"><i class="fas fa-motorcycle"></i></div>
+                    <div>
+                        <h4 style="margin-bottom: 8px;">3. Delivered to Your Door</h4>
+                        <p style="font-size: 14px; margin: 0;">Get free delivery within 2KM in under 60 minutes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- PRODUCTS SECTION -->
     <section class="section page-section" id="products">
         <div class="section-container">
             <div class="section-header">
-                <span class="section-label">Our Products</span>
+                <span class="section-label">Our Categories</span>
                 <h2>Medicines & Health Products</h2>
-                <p>Browse our inventory and order via WhatsApp or call us directly</p>
+                <p>Browse our categories and order via WhatsApp</p>
             </div>
-            <div class="products-toolbar">
-                <div class="search-box">
-                    <i class="fas fa-search"></i>
-                    <input type="text" id="searchInput" placeholder="Search medicines, brands, categories..."
-                        oninput="filterProducts()">
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 24px; margin-top: 40px;">
+                <!-- Category 1 -->
+                <div class="product-card" style="text-align: center; padding: 32px 24px;">
+                    <div style="font-size: 40px; color: var(--primary); margin-bottom: 16px;"><i class="fas fa-prescription-bottle-alt"></i></div>
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">Prescription Medicines</h3>
+                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 24px;">All genuine prescribed drugs for chronic and acute conditions.</p>
+                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20Prescription%20Medicines." class="btn btn-whatsapp" style="width: 100%; border-radius: 50px; padding: 10px;" target="_blank">Order on WhatsApp</a>
                 </div>
-                <div class="filter-chips" id="filterChips">
-                    <button class="chip active" onclick="setCategory('all')">All</button>
+
+                <!-- Category 2 -->
+                <div class="product-card" style="text-align: center; padding: 32px 24px;">
+                    <div style="font-size: 40px; color: var(--primary); margin-bottom: 16px;"><i class="fas fa-pills"></i></div>
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">OTC & General</h3>
+                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 24px;">Essential over-the-counter medicines for daily health needs.</p>
+                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20OTC%20&%20General." class="btn btn-whatsapp" style="width: 100%; border-radius: 50px; padding: 10px;" target="_blank">Order on WhatsApp</a>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="product-card" style="text-align: center; padding: 32px 24px;">
+                    <div style="font-size: 40px; color: var(--primary); margin-bottom: 16px;"><i class="fas fa-tint"></i></div>
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">Diabetes Care</h3>
+                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 24px;">Insulin, test strips, and specialized diabetic supplements.</p>
+                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20Diabetes%20Care." class="btn btn-whatsapp" style="width: 100%; border-radius: 50px; padding: 10px;" target="_blank">Order on WhatsApp</a>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="product-card" style="text-align: center; padding: 32px 24px;">
+                    <div style="font-size: 40px; color: var(--primary); margin-bottom: 16px;"><i class="fas fa-baby"></i></div>
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">Baby & Mom Care</h3>
+                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 24px;">Diapers, baby food, lotions, and maternity essentials.</p>
+                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20Baby%20&%20Mom%20Care." class="btn btn-whatsapp" style="width: 100%; border-radius: 50px; padding: 10px;" target="_blank">Order on WhatsApp</a>
+                </div>
+
+                <!-- Category 5 -->
+                <div class="product-card" style="text-align: center; padding: 32px 24px;">
+                    <div style="font-size: 40px; color: var(--primary); margin-bottom: 16px;"><i class="fas fa-head-side-cough"></i></div>
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">Pain Relief & Fever</h3>
+                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 24px;">Gels, sprays, tablets, and syrups for fast relief.</p>
+                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20Pain%20Relief%20&%20Fever." class="btn btn-whatsapp" style="width: 100%; border-radius: 50px; padding: 10px;" target="_blank">Order on WhatsApp</a>
+                </div>
+
+                <!-- Category 6 -->
+                <div class="product-card" style="text-align: center; padding: 32px 24px;">
+                    <div style="font-size: 40px; color: var(--primary); margin-bottom: 16px;"><i class="fas fa-apple-alt"></i></div>
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">Vitamins & Supplements</h3>
+                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 24px;">Daily multivitamins, protein powders, and immunity boosters.</p>
+                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20Vitamins%20&%20Supplements." class="btn btn-whatsapp" style="width: 100%; border-radius: 50px; padding: 10px;" target="_blank">Order on WhatsApp</a>
+                </div>
+
+                <!-- Category 7 -->
+                <div class="product-card" style="text-align: center; padding: 32px 24px;">
+                    <div style="font-size: 40px; color: var(--primary); margin-bottom: 16px;"><i class="fas fa-spa"></i></div>
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">Skin & Hair Care</h3>
+                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 24px;">Dermatologist-recommended creams, lotions, and shampoos.</p>
+                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20Skin%20&%20Hair%20Care." class="btn btn-whatsapp" style="width: 100%; border-radius: 50px; padding: 10px;" target="_blank">Order on WhatsApp</a>
+                </div>
+
+                <!-- Category 8 -->
+                <div class="product-card" style="text-align: center; padding: 32px 24px;">
+                    <div style="font-size: 40px; color: var(--primary); margin-bottom: 16px;"><i class="fas fa-briefcase-medical"></i></div>
+                    <h3 style="font-size: 18px; margin-bottom: 8px;">First Aid & Surgical</h3>
+                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 24px;">Bandages, antiseptics, thermometers, and medical devices.</p>
+                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20First%20Aid%20&%20Surgical." class="btn btn-whatsapp" style="width: 100%; border-radius: 50px; padding: 10px;" target="_blank">Order on WhatsApp</a>
                 </div>
             </div>
-            <div class="products-count" id="productsCount"></div>
-            <div class="products-grid" id="productsGrid">
-                <div class="products-loading" id="productsLoading">
-                    <i class="fas fa-spinner"></i>
-                    <p>Loading inventory...</p>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="section page-section" id="testimonials" style="background: var(--primary-bg);">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Customer Reviews</span>
+                <h2>What Lucknow Says About Us</h2>
+                <p>Trusted by 500+ families in Vrindavan Yojna and nearby areas</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; margin-top: 40px;">
+                <div class="product-card" style="background: var(--white); padding: 32px 24px; position: relative;">
+                    <i class="fas fa-quote-left" style="position: absolute; top: 24px; right: 24px; font-size: 32px; color: rgba(76, 175, 80, 0.1);"></i>
+                    <div style="color: #FFB300; margin-bottom: 16px; font-size: 14px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="font-size: 15px; color: var(--gray-700); font-style: italic; margin-bottom: 24px;">"Dawa 30 min mein ghar pe aa gayi. Very reliable!"</p>
+                    <div>
+                        <h4 style="font-size: 16px; margin: 0;">Priya S.</h4>
+                        <span style="font-size: 12px; color: var(--gray-500);">Vrindavan Yojna</span>
+                    </div>
+                </div>
+                
+                <div class="product-card" style="background: var(--white); padding: 32px 24px; position: relative;">
+                    <i class="fas fa-quote-left" style="position: absolute; top: 24px; right: 24px; font-size: 32px; color: rgba(76, 175, 80, 0.1);"></i>
+                    <div style="color: #FFB300; margin-bottom: 16px; font-size: 14px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="font-size: 15px; color: var(--gray-700); font-style: italic; margin-bottom: 24px;">"Best prices in the area and genuine medicines always."</p>
+                    <div>
+                        <h4 style="font-size: 16px; margin: 0;">Rakesh K.</h4>
+                        <span style="font-size: 12px; color: var(--gray-500);">Sector 11</span>
+                    </div>
+                </div>
+                
+                <div class="product-card" style="background: var(--white); padding: 32px 24px; position: relative;">
+                    <i class="fas fa-quote-left" style="position: absolute; top: 24px; right: 24px; font-size: 32px; color: rgba(76, 175, 80, 0.1);"></i>
+                    <div style="color: #FFB300; margin-bottom: 16px; font-size: 14px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="font-size: 15px; color: var(--gray-700); font-style: italic; margin-bottom: 24px;">"WhatsApp ordering is so convenient. No need to step out!"</p>
+                    <div>
+                        <h4 style="font-size: 16px; margin: 0;">Neha G.</h4>
+                        <span style="font-size: 12px; color: var(--gray-500);">Vrindavan Yojna</span>
+                    </div>
+                </div>
+                
+                <div class="product-card" style="background: var(--white); padding: 32px 24px; position: relative;">
+                    <i class="fas fa-quote-left" style="position: absolute; top: 24px; right: 24px; font-size: 32px; color: rgba(76, 175, 80, 0.1);"></i>
+                    <div style="color: #FFB300; margin-bottom: 16px; font-size: 14px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p style="font-size: 15px; color: var(--gray-700); font-style: italic; margin-bottom: 24px;">"Friendly staff and they always have what I need in stock."</p>
+                    <div>
+                        <h4 style="font-size: 16px; margin: 0;">Amit P.</h4>
+                        <span style="font-size: 12px; color: var(--gray-500);">Sector 8</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1917,6 +2064,7 @@
         function renderProducts(products) {
             const grid = document.getElementById('productsGrid');
             const countEl = document.getElementById('productsCount');
+            const query = document.getElementById('searchInput').value.toLowerCase().trim();
 
             if (products.length === 0) {
                 grid.innerHTML = `
