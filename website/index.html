@@ -2134,7 +2134,7 @@
             const words = ["Medical Store", "Pharmacy", "Chemists", "Health Partner"];
             let wordIndex = 0;
             let charIndex = words[0].length;
-            let isDeleting = false;
+            let isDeleting = true; // Start by deleting because the initial word is already present
             let typingDelay = 2500;
 
             function typeEffect() {
