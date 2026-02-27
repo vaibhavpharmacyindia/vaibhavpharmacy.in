@@ -1393,12 +1393,13 @@
     <!-- NAVBAR -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <img src="vp_logo_new.png" alt="Vaibhav Pharmacy Logo"
-                style="height: 2.2em; width: auto; object-fit: contain;">
-            <span class="nav-logo-text">
-                <span class="nav-logo-title">VAIBHAV PHARMACY</span>
-                <span class="nav-logo-tagline">Sahi Dava, Sahi Daam</span>
-            </span>
+            <a href="#home" class="nav-logo">
+                <img src="vp_logo_new.png" alt="Vaibhav Pharmacy Logo"
+                    style="height: 72px; width: auto; object-fit: contain;">
+                <span class="nav-logo-text">
+                    <span class="nav-logo-title">VAIBHAV PHARMACY</span>
+                    <span class="nav-logo-tagline">Sahi Dava, Sahi Daam</span>
+                </span>
             </a>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#home" class="active" onclick="navigateTo('home')">Home</a></li>
@@ -1440,23 +1441,12 @@
                     </a>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="hero-card" style="margin-bottom: 20px;">
-                    <h3 style="margin-bottom: 10px; color: var(--primary); text-align: center;">🔥 LIVE OFFER 🔥</h3>
-                    <!-- SHOP MANAGER: To update this offer, replace the 'offer_poster.jpg' file in the website folder with your new image. Keep the same filename. -->
-                    <marquee direction="left" scrollamount="5"
-                        style="border-radius: 8px; overflow: hidden; display: block;">
-                        <img src="offer_poster.jpg" alt="Live Offer"
-                            style="height: 150px; width: auto; border-radius: 8px;"
-                            onerror="this.onerror=null; this.src='data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'300\' height=\'150\'><rect width=\'300\' height=\'150\' fill=\'#e8f5e9\'/><text x=\'50%\' y=\'50%\' font-family=\'sans-serif\' font-size=\'14\' fill=\'#1b5e20\' text-anchor=\'middle\' dy=\'.3em\'>Upload offer_poster.jpg</text></svg>'">
-                    </marquee>
-                </div>
-
+            <div class="hero-visual">
                 <div class="hero-card">
                     <div class="hero-logo-container"
-                        style="background: transparent; box-shadow: none; width: 100%; display: flex; justify-content: center; margin-bottom: 20px;">
+                        style="background: transparent; box-shadow: none; width: 240px; height: 240px;">
                         <img src="vp_logo_new.png" alt="Vaibhav Pharmacy Logo"
-                            style="width: 12em; height: auto; object-fit: contain;">
+                            style="width: 200px; height: auto; object-fit: contain;">
                     </div>
                     <h3>Vaibhav Pharmacy</h3>
                     <p>Vrindavan Yojna, Lucknow</p>
@@ -1705,16 +1695,8 @@
         <div class="footer-container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="50" cy="50" r="48" fill="#2E7D32" />
-                        <circle cx="50" cy="50" r="44" fill="#388E3C" />
-                        <rect x="46" y="22" width="8" height="56" rx="4" fill="white" opacity="0.3" />
-                        <rect x="22" y="46" width="56" height="8" rx="4" fill="white" opacity="0.3" />
-                        <text x="50" y="42" text-anchor="middle" font-family="Inter, sans-serif" font-size="22"
-                            font-weight="800" fill="white">V</text>
-                        <text x="50" y="68" text-anchor="middle" font-family="Inter, sans-serif" font-size="22"
-                            font-weight="800" fill="white">P</text>
-                    </svg>
+                    <img src="vp_logo_new.png" alt="Vaibhav Pharmacy Logo"
+                        style="width: 80px; height: auto; margin-bottom: 16px;">
                     <p>Vaibhav Pharmacy - Sahi Dava, Sahi Daam. Your trusted neighbourhood pharmacy in Vrindavan Yojna,
                         Lucknow.</p>
                     <div class="footer-social">
