@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="500" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </linearGradient>
+    <linearGradient id="coatGrad" x1="180" y1="200" x2="320" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F5F5F5"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="220" y1="80" x2="280" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFCC80"/>
+      <stop offset="100%" stop-color="#FFB74D"/>
+    </linearGradient>
+    <linearGradient id="crossGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="pillGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#43A047"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.1"/>
+    </filter>
+    <filter id="shadowSm" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="250" cy="290" r="240" fill="url(#bgGrad)" filter="url(#shadow)"/>
+
+  <!-- Sparkles around -->
+  <g opacity="0.6">
+    <text x="80" y="120" font-size="24" fill="#4CAF50">✦</text>
+    <text x="410" y="150" font-size="20" fill="#81C784">✦</text>
+    <text x="60" y="400" font-size="18" fill="#66BB6A">✦</text>
+    <text x="430" y="380" font-size="22" fill="#4CAF50">✦</text>
+    <text x="120" y="530" font-size="16" fill="#A5D6A7">✦</text>
+    <text x="380" y="510" font-size="16" fill="#81C784">✦</text>
+    <!-- Small plus signs -->
+    <text x="100" y="200" font-size="16" font-weight="bold" fill="#A5D6A7">+</text>
+    <text x="390" y="240" font-size="14" font-weight="bold" fill="#C8E6C9">+</text>
+    <text x="440" y="460" font-size="16" font-weight="bold" fill="#A5D6A7">+</text>
+  </g>
+
+  <!-- BODY - White Lab Coat -->
+  <g filter="url(#shadowSm)">
+    <!-- Coat body -->
+    <path d="M175 260 C175 260 160 340 158 400 C156 460 165 510 175 530 L325 530 C335 510 344 460 342 400 C340 340 325 260 325 260 Z" fill="url(#coatGrad)" stroke="#E0E0E0" stroke-width="1.5"/>
+    <!-- Coat collar left -->
+    <path d="M195 255 L175 260 L195 310 L220 280 Z" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+    <!-- Coat collar right -->
+    <path d="M305 255 L325 260 L305 310 L280 280 Z" fill="white" stroke="#E0E0E0" stroke-width="1"/>
+    <!-- Coat center line -->
+    <line x1="250" y1="280" x2="250" y2="530" stroke="#E8E8E8" stroke-width="1.5"/>
+    <!-- Coat buttons -->
+    <circle cx="250" cy="320" r="5" fill="#BDBDBD"/>
+    <circle cx="250" cy="370" r="5" fill="#BDBDBD"/>
+    <circle cx="250" cy="420" r="5" fill="#BDBDBD"/>
+  </g>
+
+  <!-- Pocket with green cross badge -->
+  <rect x="270" y="340" width="45" height="35" rx="5" fill="#FAFAFA" stroke="#E0E0E0" stroke-width="1"/>
+  <!-- Green cross on pocket -->
+  <rect x="286" y="347" width="13" height="21" rx="2" fill="url(#crossGrad)"/>
+  <rect x="281" y="351" width="23" height="13" rx="2" fill="url(#crossGrad)"/>
+
+  <!-- Stethoscope -->
+  <g opacity="0.85">
+    <path d="M215 270 C215 270 195 300 190 340 C185 380 200 410 215 420" fill="none" stroke="#546E7A" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="215" cy="425" r="10" fill="#78909C" stroke="#546E7A" stroke-width="2"/>
+    <circle cx="215" cy="425" r="4" fill="#B0BEC5"/>
+    <!-- Earpieces -->
+    <path d="M215 270 L210 255" stroke="#546E7A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M215 270 L225 258" stroke="#546E7A" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="208" cy="253" r="4" fill="#607D8B"/>
+    <circle cx="227" cy="256" r="4" fill="#607D8B"/>
+  </g>
+
+  <!-- ARMS -->
+  <!-- Left arm -->
+  <path d="M175 270 C155 300 130 340 115 370 C108 385 115 395 125 392 C135 389 150 370 165 345" fill="url(#skinGrad)" stroke="#F9A825" stroke-width="1" opacity="0.9"/>
+  <!-- Left hand holding medicine bag -->
+  <g transform="translate(95, 370)">
+    <!-- Medicine bag -->
+    <rect x="-5" y="-10" width="45" height="50" rx="6" fill="#FFFFFF" stroke="#4CAF50" stroke-width="2" filter="url(#shadowSm)"/>
+    <!-- Green cross on bag -->
+    <rect x="12" y="-2" width="10" height="34" rx="2" fill="#4CAF50"/>
+    <rect x="4" y="10" width="26" height="10" rx="2" fill="#4CAF50"/>
+    <!-- Bag handle -->
+    <path d="M8 -10 C8 -22 27 -22 27 -10" fill="none" stroke="#4CAF50" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Hand -->
+    <ellipse cx="18" cy="-5" rx="18" ry="12" fill="#FFB74D" opacity="0.9"/>
+  </g>
+
+  <!-- Right arm -->
+  <path d="M325 270 C345 300 365 330 378 345 C385 353 380 360 372 358" fill="url(#skinGrad)" stroke="#F9A825" stroke-width="1" opacity="0.9"/>
+  <!-- Right hand with thumbs up -->
+  <g transform="translate(365, 345)">
+    <!-- Fist -->
+    <ellipse cx="8" cy="8" rx="16" ry="14" fill="#FFB74D"/>
+    <!-- Thumb up -->
+    <path d="M-2 4 C-5 -8 -3 -22 2 -28 C5 -32 10 -30 9 -24 C8 -16 6 -6 6 2" fill="#FFB74D" stroke="#F9A825" stroke-width="0.5"/>
+    <!-- Thumb nail -->
+    <ellipse cx="5" cy="-26" rx="4" ry="3" fill="#FFE0B2" opacity="0.7"/>
+  </g>
+
+  <!-- HEAD -->
+  <g filter="url(#shadowSm)">
+    <!-- Face -->
+    <ellipse cx="250" cy="175" rx="72" ry="80" fill="url(#skinGrad)"/>
+
+    <!-- Hair (black, neat) -->
+    <path d="M178 165 C178 110 200 75 250 70 C300 75 322 110 322 165 C322 140 310 105 250 100 C190 105 178 140 178 165 Z" fill="#212121"/>
+    <!-- Hair side left -->
+    <path d="M178 165 C175 145 178 125 185 115 C180 135 179 155 178 165 Z" fill="#1a1a1a"/>
+    <!-- Hair side right -->
+    <path d="M322 165 C325 145 322 125 315 115 C320 135 321 155 322 165 Z" fill="#1a1a1a"/>
+
+    <!-- Eyebrows -->
+    <path d="M210 148 C215 142 230 140 238 144" stroke="#424242" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path d="M262 144 C270 140 285 142 290 148" stroke="#424242" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Eyes -->
+    <!-- Left eye -->
+    <ellipse cx="224" cy="162" rx="14" ry="15" fill="white"/>
+    <circle cx="226" cy="163" r="8" fill="#3E2723"/>
+    <circle cx="228" cy="160" r="3" fill="white"/>
+    <circle cx="224" cy="165" r="1.5" fill="white" opacity="0.5"/>
+    <!-- Right eye -->
+    <ellipse cx="276" cy="162" rx="14" ry="15" fill="white"/>
+    <circle cx="274" cy="163" r="8" fill="#3E2723"/>
+    <circle cx="276" cy="160" r="3" fill="white"/>
+    <circle cx="272" cy="165" r="1.5" fill="white" opacity="0.5"/>
+
+    <!-- Nose -->
+    <path d="M248 178 C248 183 244 188 250 190 C256 188 252 183 252 178" fill="#F9A825" opacity="0.4"/>
+
+    <!-- Smile -->
+    <path d="M228 202 C238 218 262 218 272 202" stroke="#BF360C" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Smile teeth hint -->
+    <path d="M236 207 C244 214 256 214 264 207" fill="white" opacity="0.8"/>
+
+    <!-- Cheek blush -->
+    <ellipse cx="210" cy="198" rx="12" ry="8" fill="#FFAB91" opacity="0.35"/>
+    <ellipse cx="290" cy="198" rx="12" ry="8" fill="#FFAB91" opacity="0.35"/>
+
+    <!-- Ears -->
+    <ellipse cx="178" cy="170" rx="10" ry="16" fill="#FFB74D"/>
+    <ellipse cx="178" cy="170" rx="6" ry="10" fill="#FFA726" opacity="0.5"/>
+    <ellipse cx="322" cy="170" rx="10" ry="16" fill="#FFB74D"/>
+    <ellipse cx="322" cy="170" rx="6" ry="10" fill="#FFA726" opacity="0.5"/>
+  </g>
+
+  <!-- Name tag on coat -->
+  <g transform="translate(185, 290)">
+    <rect width="55" height="22" rx="3" fill="#E8F5E9" stroke="#4CAF50" stroke-width="1"/>
+    <text x="27.5" y="15" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="600" fill="#1B5E20">VAIBHAV</text>
+  </g>
+
+  <!-- Floating pill decoration (left) -->
+  <g transform="translate(68, 280) rotate(-30)">
+    <rect width="40" height="18" rx="9" fill="url(#pillGrad)" opacity="0.8" filter="url(#shadowSm)"/>
+    <rect x="20" width="20" height="18" rx="0" fill="#81C784" opacity="0.6"/>
+    <rect width="40" height="18" rx="9" fill="none" stroke="#43A047" stroke-width="0.5" opacity="0.5"/>
+  </g>
+
+  <!-- Floating pill (right) -->
+  <g transform="translate(385, 300) rotate(20)">
+    <rect width="36" height="16" rx="8" fill="#FF7043" opacity="0.7" filter="url(#shadowSm)"/>
+    <rect x="18" width="18" height="16" rx="0" fill="#FF5722" opacity="0.5"/>
+    <rect width="36" height="16" rx="8" fill="none" stroke="#E64A19" stroke-width="0.5" opacity="0.5"/>
+  </g>
+
+  <!-- Floating heart -->
+  <g transform="translate(400, 180)" opacity="0.7">
+    <path d="M12 4 C12 -2 20 -2 20 4 C20 -2 28 -2 28 4 C28 12 20 20 20 20 C20 20 12 12 12 4 Z" fill="#EF5350"/>
+  </g>
+
+  <!-- Small floating heart -->
+  <g transform="translate(75, 170)" opacity="0.5">
+    <path d="M6 2 C6 -1 10 -1 10 2 C10 -1 14 -1 14 2 C14 6 10 10 10 10 C10 10 6 6 6 2 Z" fill="#EF5350"/>
+  </g>
+
+  <!-- LEGS / SHOES (peeking at bottom) -->
+  <ellipse cx="220" cy="540" rx="28" ry="12" fill="#37474F" filter="url(#shadowSm)"/>
+  <ellipse cx="280" cy="540" rx="28" ry="12" fill="#37474F" filter="url(#shadowSm)"/>
+
+  <!-- Bottom tagline ribbon -->
+  <g transform="translate(120, 555)">
+    <rect x="0" y="0" width="260" height="32" rx="16" fill="#1B5E20" filter="url(#shadowSm)"/>
+    <text x="130" y="21" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="white" letter-spacing="1">SAHI DAVA, SAHI DAAM</text>
+  </g>
+</svg>

@@ -1,0 +1,3618 @@
+[
+  {
+    "name": "A To Z Drop 15ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 150.0,
+    "rate": 0.0,
+    "company": "ALKEM"
+  },
+  {
+    "name": "A To Z Gold Cap",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 494.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "A To Z Syp 100ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 126.0,
+    "rate": 0.0,
+    "company": "ALKEM"
+  },
+  {
+    "name": "A To Z Syp 200ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 205.55,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "A To Z Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.13,
+    "mrp": 192.0,
+    "rate": 0.0,
+    "company": "ALKEM"
+  },
+  {
+    "name": "Abzorb Powder 120GM",
+    "category": "Powders",
+    "stock": 1.0,
+    "mrp": 175.0,
+    "rate": 0.0,
+    "company": "RANBAXY"
+  },
+  {
+    "name": "Abzorb Powder 60GM",
+    "category": "Powders",
+    "stock": 2.0,
+    "mrp": 91.88,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Aciloc 150 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.27,
+    "mrp": 50.43,
+    "rate": 0.0,
+    "company": "CADILA"
+  },
+  {
+    "name": "Aciloc 300 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.16,
+    "mrp": 60.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ad Oil Growmed 100ML",
+    "category": "Oils",
+    "stock": 2.0,
+    "mrp": 190.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ad Oil Growmed 200ML",
+    "category": "Oils",
+    "stock": 1.0,
+    "mrp": 340.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ajubi Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 22.5,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Alex P Syp",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 107.81,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Alex Syp(suger Free) 50ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 159.43,
+    "rate": 0.0,
+    "company": "GLENMARK"
+  },
+  {
+    "name": "Alex Syp.(sugar Free) 100ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 169.02,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Alex Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 129.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Allegra 120MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.7,
+    "mrp": 272.99,
+    "rate": 0.0,
+    "company": "AVENTIS"
+  },
+  {
+    "name": "Allegra 180MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 312.04,
+    "rate": 0.0,
+    "company": "AVENTIS"
+  },
+  {
+    "name": "Allegra M Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 301.3,
+    "rate": 0.0,
+    "company": "SANOFI"
+  },
+  {
+    "name": "Allegra Syp 100ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 251.2,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Allout Liqued 45 Night",
+    "category": "Syrups",
+    "stock": 1.0,
+    "mrp": 85.0,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Almox 250 Cap",
+    "category": "Tablets & Capsules",
+    "stock": 6.0,
+    "mrp": 38.43,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Alprax 0.25mg Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 42.3,
+    "rate": 0.0,
+    "company": "TORRENT"
+  },
+  {
+    "name": "Alprax 0.5mg Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 81.35,
+    "rate": 0.0,
+    "company": "TORRENT"
+  },
+  {
+    "name": "Amlokind 5 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 12.0,
+    "mrp": 23.67,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Amlokind At Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 55.62,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Amritanjan Balm 9 Gm",
+    "category": "Ointments",
+    "stock": 1.0,
+    "mrp": 44.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Anafortan Inj 2ML 2ML",
+    "category": "Injections",
+    "stock": 1.0,
+    "mrp": 796.8,
+    "rate": 0.0,
+    "company": "KHANDELWAL"
+  },
+  {
+    "name": "Anovate Oint 20GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 147.6,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Aptivate Syp 200ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 186.0,
+    "rate": 0.0,
+    "company": "LUPIN"
+  },
+  {
+    "name": "Architol Nano 1",
+    "category": "Injections",
+    "stock": 1.0,
+    "mrp": 461.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Architol-6l Inj",
+    "category": "Injections",
+    "stock": 1.0,
+    "mrp": 508.73,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Aristozyme Drops 15ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 79.7,
+    "rate": 0.0,
+    "company": "KAPBRO"
+  },
+  {
+    "name": "Aristozyme Syp 200ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 151.87,
+    "rate": 0.0,
+    "company": "ARISTO"
+  },
+  {
+    "name": "Arjunaristh-d 450ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 220.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ashokaristh-d",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 175.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ashwagandha Churna 60GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 115.0,
+    "rate": 0.0,
+    "company": "DABUR"
+  },
+  {
+    "name": "Augmentin 625",
+    "category": "Tablets",
+    "stock": 1.0,
+    "mrp": 195.39,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Augmentin Duo Syp 30ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 64.42,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Avas 10MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 170.0,
+    "rate": 0.0,
+    "company": "MICRO LABS LTD."
+  },
+  {
+    "name": "Avas 20MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 395.63,
+    "rate": 0.0,
+    "company": "MICRO LABS LTD."
+  },
+  {
+    "name": "Avas 40 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 219.86,
+    "rate": 0.0,
+    "company": "MICRO LABS LTD."
+  },
+  {
+    "name": "Avil 25MG",
+    "category": "Tablets",
+    "stock": 4.0,
+    "mrp": 13.25,
+    "rate": 0.0,
+    "company": "AVENTIS"
+  },
+  {
+    "name": "Azee 100 Syp 15ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 50.46,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Azee 200 Syp 15ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 58.28,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Azee 500 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 134.28,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Bandy Plus Syp 10ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 42.27,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Bandy Plus Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 317.3,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Bandy Susp 10ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 19.09,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Becosule Cap",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 67.14,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Becosules Performance",
+    "category": "Tablets",
+    "stock": 3.0,
+    "mrp": 66.53,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Belli Cool Susp 5ml*1",
+    "category": "Syrups",
+    "stock": 12.0,
+    "mrp": 55.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Belodona Plaster",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 220.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Benadryl 150ML Syp 150ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 170.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Benadryl 50ML 50ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 80.0,
+    "rate": 0.0,
+    "company": "PFIZER"
+  },
+  {
+    "name": "Betadine Gargle M/w 100ML",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 313.13,
+    "rate": 0.0,
+    "company": "WIN MEDICARE LTD."
+  },
+  {
+    "name": "Betadine Lotion 100ML",
+    "category": "Ointments",
+    "stock": 3.0,
+    "mrp": 102.9,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Betadine Ointment 20GM",
+    "category": "Ointments",
+    "stock": 3.0,
+    "mrp": 131.46,
+    "rate": 0.0,
+    "company": "WIN MEDICARE LTD."
+  },
+  {
+    "name": "Betadine Powder 10GM",
+    "category": "Powders",
+    "stock": 3.0,
+    "mrp": 173.0,
+    "rate": 0.0,
+    "company": "WIN MEDICARE LTD."
+  },
+  {
+    "name": "Betnesol-n E/drop 5ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 22.59,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Betnovate-c Cream 30GM",
+    "category": "Ointments",
+    "stock": 5.0,
+    "mrp": 73.03,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Betnovate-gm 20G",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 46.63,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Betnovate-n Cream 20GM",
+    "category": "Ointments",
+    "stock": 4.0,
+    "mrp": 62.67,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Bonne Sasti 150ML 150ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 50.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Bonne Sasti 250ML 250ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 46.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Bonne Tender Care Nipple 1",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 225.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Boric Acid 200GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 148.13,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Boric Acid Ip 10 Gm",
+    "category": "Powders",
+    "stock": 1.0,
+    "mrp": 202.5,
+    "rate": 0.0,
+    "company": "CHEM INDIA"
+  },
+  {
+    "name": "Boroline Cream 21GM",
+    "category": "Ointments",
+    "stock": 5.0,
+    "mrp": 40.0,
+    "rate": 0.0,
+    "company": "PHARMACEUTICS"
+  },
+  {
+    "name": "Boroplus 19ML 19ML",
+    "category": "Others",
+    "stock": 5.0,
+    "mrp": 42.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Bournvita 200GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 138.0,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Bournvita 500G",
+    "category": "Powders",
+    "stock": 2.0,
+    "mrp": 263.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Brufen 200MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.0,
+    "mrp": 11.3,
+    "rate": 0.0,
+    "company": "KNOLL"
+  },
+  {
+    "name": "Brufen 400MG",
+    "category": "Tablets",
+    "stock": 3.0,
+    "mrp": 25.59,
+    "rate": 0.0,
+    "company": "KNOLL"
+  },
+  {
+    "name": "Brufen 600MG",
+    "category": "Tablets",
+    "stock": 3.0,
+    "mrp": 42.38,
+    "rate": 0.0,
+    "company": "KNOLL"
+  },
+  {
+    "name": "Burnol Oint 15GM 15GM",
+    "category": "Ointments",
+    "stock": 3.0,
+    "mrp": 80.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Caladryl Lotion",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 75.0,
+    "rate": 0.0,
+    "company": "PFIZER"
+  },
+  {
+    "name": "Calpol 120MG Syp 120MG",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 37.8,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Calpol 250 Syp 60ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 42.84,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Calpol 650MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.5,
+    "mrp": 32.04,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Calpol Drop",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 30.98,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Candid Powder 100GM",
+    "category": "Powders",
+    "stock": 1.0,
+    "mrp": 174.0,
+    "rate": 0.0,
+    "company": "GLENMARK"
+  },
+  {
+    "name": "Castor Oil 30 Ml",
+    "category": "Oils",
+    "stock": 1.0,
+    "mrp": 250.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Cetrizine Syp (generic) 30ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 20.01,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Cheston Cold Syp 60ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 72.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Cheston Cold Tab",
+    "category": "Tablets & Capsules",
+    "stock": 22.3,
+    "mrp": 65.79,
+    "rate": 0.0,
+    "company": "PROTEC"
+  },
+  {
+    "name": "Cheston Cs Syp 60ML",
+    "category": "Syrups",
+    "stock": 6.0,
+    "mrp": 72.0,
+    "rate": 43.37,
+    "company": "PROTEC"
+  },
+  {
+    "name": "Chyanprash Sf 1KG 1KG",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 440.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Chyawanprakash 500GM 500GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 240.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Chyawanprakash S/f (dabur) 500GM",
+    "category": "Tablets",
+    "stock": 1.0,
+    "mrp": 275.0,
+    "rate": 0.0,
+    "company": "DABUR"
+  },
+  {
+    "name": "Cinkara Syp 500ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 154.65,
+    "rate": 0.0,
+    "company": "HAMDARD"
+  },
+  {
+    "name": "Cipcal 500 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 20.0,
+    "mrp": 98.12,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Cipladine Cream 10GM",
+    "category": "Ointments",
+    "stock": 11.0,
+    "mrp": 35.15,
+    "rate": 0.0,
+    "company": "CIPLA GENRICS"
+  },
+  {
+    "name": "Cipladine Pwd 10GM",
+    "category": "Powders",
+    "stock": 3.0,
+    "mrp": 90.03,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ciplox 500MG",
+    "category": "Tablets",
+    "stock": 6.0,
+    "mrp": 48.38,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Ciplox D E/d 5ML",
+    "category": "Drops",
+    "stock": 8.0,
+    "mrp": 27.37,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Ciplox E/d 5ML",
+    "category": "Drops",
+    "stock": 10.0,
+    "mrp": 17.58,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Clavam 625 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.6,
+    "mrp": 195.97,
+    "rate": 0.0,
+    "company": "ALKEM"
+  },
+  {
+    "name": "Clavam Syp 30ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 65.84,
+    "rate": 0.0,
+    "company": "ALKEM"
+  },
+  {
+    "name": "Clonafit 0.25 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 21.46,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Clonafit Plus Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 170.15,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Clonafit-0.50 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 36.84,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Clop G Cream 25GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 44.37,
+    "rate": 0.0,
+    "company": "LIVA HEALTHCARE LTD"
+  },
+  {
+    "name": "Cofdex Syp 100ML",
+    "category": "Syrups",
+    "stock": 1.0,
+    "mrp": 108.29,
+    "rate": 0.0,
+    "company": "CIPLA GENRICS"
+  },
+  {
+    "name": "Cofton Exp 100ML",
+    "category": "Syrups",
+    "stock": 5.0,
+    "mrp": 91.35,
+    "rate": 0.0,
+    "company": "CIPLA GENRICS"
+  },
+  {
+    "name": "Colgate Strong Paste 100GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 70.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Combiflam Syp 60ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 49.15,
+    "rate": 0.0,
+    "company": "AVENTIS"
+  },
+  {
+    "name": "Combiflam Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 55.71,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Complan (c) 450GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 315.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Complan 200 200GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 146.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Corn Cap",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 40.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Crocin Advance Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 19.31,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Crocin Drops 15ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 37.5,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Crocin Ds Syp 60ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 71.62,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Crocin Syp 60ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 39.06,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Cypon Drop 15ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 68.9,
+    "rate": 0.0,
+    "company": "GENO PHARMA LTD"
+  },
+  {
+    "name": "Cypon Syp 200ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 139.69,
+    "rate": 0.0,
+    "company": "GENO PHARMA LTD"
+  },
+  {
+    "name": "Cyra D Cap",
+    "category": "Tablets & Capsules",
+    "stock": 1.6,
+    "mrp": 47.81,
+    "rate": 0.0,
+    "company": "SYSTOPIC"
+  },
+  {
+    "name": "D Clove Oil 2 Ml",
+    "category": "Oils",
+    "stock": 5.0,
+    "mrp": 50.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "D Gulabari 30ML 30ML",
+    "category": "Others",
+    "stock": 6.0,
+    "mrp": 16.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "D H Anardana Bottel 120 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 65.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "D H Candy Jar 260 T",
+    "category": "Tablets",
+    "stock": 1.0,
+    "mrp": 121.49,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "D Hingoli Bottel 90T",
+    "category": "Tablets",
+    "stock": 1.0,
+    "mrp": 42.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "D3 Must Drop 15ML",
+    "category": "Drops",
+    "stock": 1.0,
+    "mrp": 41.81,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dasmulakwath-d",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 242.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dasmularistra Syp Dabur 450ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 215.0,
+    "rate": 0.0,
+    "company": "AYURVED VIKAS SANSTHAN"
+  },
+  {
+    "name": "Denim Tab(gene) Box",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 187.5,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dermicool Regular Powder 150GM",
+    "category": "Powders",
+    "stock": 2.0,
+    "mrp": 149.06,
+    "rate": 0.0,
+    "company": "PARAS PHARMA"
+  },
+  {
+    "name": "Dettol 125ML 125ML",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 83.03,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dettol 200ML 200ML",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 144.93,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dettol 500ML",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 284.0,
+    "rate": 247.56,
+    "company": "RECKITT BENCKISER"
+  },
+  {
+    "name": "Dettol 60ML",
+    "category": "Others",
+    "stock": 5.0,
+    "mrp": 41.49,
+    "rate": 0.0,
+    "company": "RECKITT BENCKISER"
+  },
+  {
+    "name": "Dettol Soap Original 70GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 149.49,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dexin E/d 5ML",
+    "category": "Drops",
+    "stock": 1.0,
+    "mrp": 22.3,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dexorange Syp 200ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 211.0,
+    "rate": 0.0,
+    "company": "FRANCO INDIAN PHARMA"
+  },
+  {
+    "name": "Dh Imli Bottle 120T",
+    "category": "Tablets",
+    "stock": 2.0,
+    "mrp": 65.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dh Reg Bottle 120T",
+    "category": "Tablets",
+    "stock": 1.0,
+    "mrp": 65.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dh Reg Jaar 160p/c",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 159.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Diclo Plus Tab 200",
+    "category": "Tablets & Capsules",
+    "stock": 198.0,
+    "mrp": 2.34,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Digene Gel Mint 170ML",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 192.8,
+    "rate": 0.0,
+    "company": "ABBOTT LABS INDIA PVT. LTD."
+  },
+  {
+    "name": "Digene Tab(m) 1",
+    "category": "Tablets & Capsules",
+    "stock": 30.0,
+    "mrp": 30.1,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dipeal-m Tab 1 Box",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 281.25,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Disprin Tab",
+    "category": "Tablets & Capsules",
+    "stock": 30.0,
+    "mrp": 7.08,
+    "rate": 0.0,
+    "company": "RECKITT BENCKISER"
+  },
+  {
+    "name": "Dolo 250 Syp 60ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 42.8,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dolo 650 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 27.14,
+    "mrp": 34.27,
+    "rate": 0.0,
+    "company": "MICRO LABS LTD."
+  },
+  {
+    "name": "Dolo Drops",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 30.94,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dolo120 Syp 120ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 38.43,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Doxt Sl Tab",
+    "category": "Tablets & Capsules",
+    "stock": 10.0,
+    "mrp": 146.25,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dr Ortho Oil 120ML",
+    "category": "Oils",
+    "stock": 1.0,
+    "mrp": 295.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dr Ortho Oil 60ML",
+    "category": "Oils",
+    "stock": 1.0,
+    "mrp": 148.13,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dulcoflex Tab",
+    "category": "Tablets & Capsules",
+    "stock": 7.0,
+    "mrp": 55.77,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Duphalac Syp 150ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 196.87,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Durex Extra Time",
+    "category": "Others",
+    "stock": 10.0,
+    "mrp": 90.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Durex Condom",
+    "category": "Others",
+    "stock": 5.0,
+    "mrp": 324.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Dynapar Inj 1ML",
+    "category": "Injections",
+    "stock": 10.0,
+    "mrp": 43.56,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ecosprin 75MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 24.0,
+    "mrp": 5.29,
+    "rate": 0.0,
+    "company": "USV LTD."
+  },
+  {
+    "name": "Electral Orange Liq. 200ML",
+    "category": "Syrups",
+    "stock": 10.0,
+    "mrp": 31.5,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Electral Powder 21.8gm",
+    "category": "Powders",
+    "stock": 26.0,
+    "mrp": 23.05,
+    "rate": 0.0,
+    "company": "FDC"
+  },
+  {
+    "name": "Eltroxin 100MCG",
+    "category": "Tablets",
+    "stock": 1.0,
+    "mrp": 180.1,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Eltroxin 50MG",
+    "category": "Tablets",
+    "stock": 1.0,
+    "mrp": 114.03,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Emset 4MG",
+    "category": "Tablets",
+    "stock": 5.0,
+    "mrp": 53.96,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Endcort-6 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 9.6,
+    "mrp": 121.88,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Enerzal Powder 75GM",
+    "category": "Powders",
+    "stock": 15.0,
+    "mrp": 49.0,
+    "rate": 0.0,
+    "company": "FDC"
+  },
+  {
+    "name": "Enerzal Powder Orange Small 75GM",
+    "category": "Powders",
+    "stock": 10.0,
+    "mrp": 53.9,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Enterogermina Vial",
+    "category": "Injections",
+    "stock": 6.0,
+    "mrp": 79.6,
+    "rate": 0.0,
+    "company": "TORRENT"
+  },
+  {
+    "name": "Entro*quinol Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.1,
+    "mrp": 60.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Evion 400MG Cap",
+    "category": "Tablets & Capsules",
+    "stock": 8.0,
+    "mrp": 89.57,
+    "rate": 0.0,
+    "company": "E MERCK"
+  },
+  {
+    "name": "Febrinil Ampoule 1",
+    "category": "Injections",
+    "stock": 10.0,
+    "mrp": 24.55,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Figaro Olive Oil 100ML",
+    "category": "Oils",
+    "stock": 2.0,
+    "mrp": 225.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Figaro Olive Oil 200ML",
+    "category": "Oils",
+    "stock": 1.0,
+    "mrp": 399.0,
+    "rate": 0.0,
+    "company": "COSMETICS ITEMS"
+  },
+  {
+    "name": "Fourderm Cream 10GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 117.97,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Fourdrem 20GM 20GM",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 184.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "G-cet(cetize) Tab",
+    "category": "Tablets & Capsules",
+    "stock": 48.0,
+    "mrp": 19.38,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Gaso Fast Sachet",
+    "category": "Others",
+    "stock": 99.0,
+    "mrp": 10.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Glimestar-m1 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 6.0,
+    "mrp": 112.35,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Glimstar M2",
+    "category": "Tablets",
+    "stock": 6.0,
+    "mrp": 161.71,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Glucon C 100GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 56.05,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Glucon C 1KG",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 369.28,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Glucon C 500GM 500GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 219.1,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Glucon D Green 500GM 500GM",
+    "category": "Powders",
+    "stock": 2.0,
+    "mrp": 124.58,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Glucon D 100GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 35.59,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Glucon D 200GM 200GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 79.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Glycerine 50ML (neurochem)",
+    "category": "Others",
+    "stock": 5.0,
+    "mrp": 60.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Glynase Mf Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 20.81,
+    "rate": 0.0,
+    "company": "USV LTD."
+  },
+  {
+    "name": "Good Night Advance Refill 45ML",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 85.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Grilinctus L Syp 100ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 160.7,
+    "rate": 0.0,
+    "company": "DR. REDDY'S"
+  },
+  {
+    "name": "Grilinctus Ls Syp 100ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 145.92,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Grilinctus-bm 2.5+8mg/5ml 30 Ml",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 59.6,
+    "rate": 0.0,
+    "company": "FRANCO INDIAN PHARMA"
+  },
+  {
+    "name": "Grilinctus-dx Syp 100ML",
+    "category": "Syrups",
+    "stock": 1.0,
+    "mrp": 152.2,
+    "rate": 0.0,
+    "company": "WARDEX PHARMA."
+  },
+  {
+    "name": "Grilintus Dx Syp 100ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 142.65,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Gripe Water (wood Words)",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 60.0,
+    "rate": 0.0,
+    "company": "COSMETICS ITEMS"
+  },
+  {
+    "name": "H-lipbalm",
+    "category": "Others",
+    "stock": 17.0,
+    "mrp": 20.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Hadensa Oint. 20GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 98.0,
+    "rate": 0.0,
+    "company": "DOLLAR"
+  },
+  {
+    "name": "Hansaplast Plain",
+    "category": "Others",
+    "stock": 95.0,
+    "mrp": 2.5,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Hansaplast W.p.500",
+    "category": "Others",
+    "stock": 10.0,
+    "mrp": 24.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Harbolax Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 220.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Hazmola Candy",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 121.49,
+    "rate": 0.0,
+    "company": "COSMETICS ITEMS"
+  },
+  {
+    "name": "Hazmola Jar Imli 170n*4",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 158.87,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Hazmola Jar Reg 170n*4",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 158.87,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Head & Sho.anti Hair Fall 180ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 235.0,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Head N Sho.",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 89.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Heptaglobin Syp 300ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 255.0,
+    "rate": 0.0,
+    "company": "RAPTAKOS"
+  },
+  {
+    "name": "Hexidine M/w 160ML",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 145.42,
+    "rate": 0.0,
+    "company": "ICPA"
+  },
+  {
+    "name": "Hexidine M/w 80ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 74.05,
+    "rate": 0.0,
+    "company": "ICPA"
+  },
+  {
+    "name": "Himalaya Face Wash 50ML",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 90.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Honey Bottle (dabur) 100GM 100GM",
+    "category": "Others",
+    "stock": 4.0,
+    "mrp": 70.0,
+    "rate": 0.0,
+    "company": "DABUR"
+  },
+  {
+    "name": "Honey Bottle(dabur) 50GM",
+    "category": "Others",
+    "stock": 4.0,
+    "mrp": 45.0,
+    "rate": 0.0,
+    "company": "DABUR"
+  },
+  {
+    "name": "Honey Bottle(dabur)250gm 250GM",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 125.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Honitus Cough Syp 100ML",
+    "category": "Syrups",
+    "stock": 1.0,
+    "mrp": 121.0,
+    "rate": 0.0,
+    "company": "DABUR"
+  },
+  {
+    "name": "Honitus Toffy 300n*2.2g",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 280.35,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Horlicks Choclate 200GM 200GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 110.0,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Horlicks Choclate 500GM 500GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 229.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "I-pill 1TAB",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 76.66,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Ibugesic Plus Syp 60ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 44.72,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Ibugesic Plus Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.2,
+    "mrp": 40.24,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Intagesic-mr",
+    "category": "Tablets",
+    "stock": 2.0,
+    "mrp": 105.94,
+    "rate": 0.0,
+    "company": "INTAS GENRIC"
+  },
+  {
+    "name": "Iodex 16GM 16GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 90.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Iodex(s) 8GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 45.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Itone E/d 10ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 64.69,
+    "rate": 0.0,
+    "company": "DEY'S(9450754827P.P.MUKHERJEE)"
+  },
+  {
+    "name": "Jencal Tab",
+    "category": "Tablets & Capsules",
+    "stock": 9.6,
+    "mrp": 83.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Jyocal Eye Cap 1 Box",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 234.38,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Kayam Churna 50GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 63.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ketorol Dt Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.13,
+    "mrp": 182.78,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Krack Sr Cream 15GM",
+    "category": "Ointments",
+    "stock": 6.0,
+    "mrp": 61.88,
+    "rate": 0.0,
+    "company": "PARAS PHARMA"
+  },
+  {
+    "name": "Kuffdryl Syp 100ML",
+    "category": "Syrups",
+    "stock": 1.0,
+    "mrp": 119.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Lactogen 1 400GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 440.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Lactogen 2 400GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 440.0,
+    "rate": 0.0,
+    "company": "NESTLE"
+  },
+  {
+    "name": "Lactogen 3 400GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 435.0,
+    "rate": 0.0,
+    "company": "NESTLE"
+  },
+  {
+    "name": "Lactogen 4 400GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 435.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Lavan Bhaskar Churna 30GM",
+    "category": "Powders",
+    "stock": 2.0,
+    "mrp": 45.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Lavana Bhaskar Churna 60GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 85.0,
+    "rate": 0.0,
+    "company": "DABUR"
+  },
+  {
+    "name": "Lcz Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 48.5,
+    "rate": 0.0,
+    "company": "SANTE VISION (HEALTHCARE)"
+  },
+  {
+    "name": "Limcee Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 24.68,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Listerine Cool Mint Mouth Wash 250ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 164.62,
+    "rate": 0.0,
+    "company": "PFIZER"
+  },
+  {
+    "name": "Listerine Mouth Wash 85ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 75.0,
+    "rate": 0.0,
+    "company": "PARKE-DAVIS"
+  },
+  {
+    "name": "Liv 52 Ds Syp 200ML",
+    "category": "Syrups",
+    "stock": 4.0,
+    "mrp": 250.01,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Liv 52 Ds Syrup 100ML",
+    "category": "Syrups",
+    "stock": 4.0,
+    "mrp": 150.0,
+    "rate": 0.0,
+    "company": "HIMALAYA DRUGS"
+  },
+  {
+    "name": "Liv-52 100ML Drop 100ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 168.75,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Liv-52 Drops",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 155.0,
+    "rate": 0.0,
+    "company": "HIMALAYA DRUGS"
+  },
+  {
+    "name": "Liv-52 Ds Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 281.0,
+    "rate": 0.0,
+    "company": "HIMALAYA DRUGS"
+  },
+  {
+    "name": "Liv-52 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 220.0,
+    "rate": 0.0,
+    "company": "HIMALAYA DRUGS"
+  },
+  {
+    "name": "Lohasav Dabur 450ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 214.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Lomofen Plus Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.16,
+    "mrp": 51.68,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Lomotil Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 30.74,
+    "rate": 0.0,
+    "company": "RPG LIFESCIENCE (SEARLE)"
+  },
+  {
+    "name": "Lopamide Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 23.89,
+    "rate": 0.0,
+    "company": "TORRENT"
+  },
+  {
+    "name": "Manforce 100MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.3,
+    "mrp": 260.0,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Manforce 50MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 300.0,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Mefkind Ds Syp 60ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 57.18,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Mefkind Forte Syp. 60ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 62.81,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Meftal Spas Syp 30ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 93.75,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Meftal Spas Tab",
+    "category": "Tablets & Capsules",
+    "stock": 56.0,
+    "mrp": 5.55,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Meftal-p Syp 60ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 37.0,
+    "rate": 0.0,
+    "company": "BLUE CROSS"
+  },
+  {
+    "name": "Metacin Drop 15ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 50.0,
+    "rate": 0.0,
+    "company": "THEMIS"
+  },
+  {
+    "name": "Metacin Syp 60ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 39.06,
+    "rate": 0.0,
+    "company": "THEMIS"
+  },
+  {
+    "name": "Metfor 500 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 35.96,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Metosartan 50 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 208.13,
+    "rate": 0.0,
+    "company": "SUN"
+  },
+  {
+    "name": "Metrogyl 200MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 17.41,
+    "rate": 0.0,
+    "company": "UNIQUE"
+  },
+  {
+    "name": "Metrogyl 400 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.6,
+    "mrp": 34.72,
+    "rate": 0.0,
+    "company": "J.B. CHEMICALS"
+  },
+  {
+    "name": "Metrogyl Syp 60ML",
+    "category": "Syrups",
+    "stock": 5.0,
+    "mrp": 35.26,
+    "rate": 0.0,
+    "company": "UNIQUE"
+  },
+  {
+    "name": "Mf Condom",
+    "category": "Others",
+    "stock": 10.0,
+    "mrp": 99.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Mf Condom Sunny Edition",
+    "category": "Others",
+    "stock": 5.0,
+    "mrp": 30.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Monocef O 100 Mg",
+    "category": "Tablets",
+    "stock": 2.0,
+    "mrp": 153.75,
+    "rate": 141.54,
+    "company": "ARISTO"
+  },
+  {
+    "name": "Monocef O 100MG Syp. 30ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 210.0,
+    "rate": 0.0,
+    "company": "ARISTO"
+  },
+  {
+    "name": "Monocef O 200 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 215.62,
+    "rate": 0.0,
+    "company": "ARISTO"
+  },
+  {
+    "name": "Monocef O 50 Syp 1",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 130.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Montair Lc Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.7,
+    "mrp": 419.79,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Montimed-lc Tab",
+    "category": "Tablets & Capsules",
+    "stock": 10.0,
+    "mrp": 92.81,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Moov 10GM 10GM",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 68.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Moov Spray 15GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 99.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Moov Spray 35GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 186.0,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Moov20gm 20GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 121.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Moxikind Cv 625 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 182.96,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Mycin Eye Drop 5ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 65.63,
+    "rate": 0.0,
+    "company": "SYNTHO PHARMA"
+  },
+  {
+    "name": "Mycoderm Pwd 100GM",
+    "category": "Powders",
+    "stock": 1.0,
+    "mrp": 144.7,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Mycoderm-c Powder 75G",
+    "category": "Powders",
+    "stock": 1.0,
+    "mrp": 122.48,
+    "rate": 0.0,
+    "company": "FDC"
+  },
+  {
+    "name": "Naprosyn 250 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 98.61,
+    "rate": 0.0,
+    "company": "RPG LIFESCIENCE (SEARLE)"
+  },
+  {
+    "name": "Naprosyn 500 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 147.77,
+    "rate": 0.0,
+    "company": "RPG LIFESCIENCE (SEARLE)"
+  },
+  {
+    "name": "Nasivion Adult Nasal 0.05% 10ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 112.41,
+    "rate": 0.0,
+    "company": "E MERCK"
+  },
+  {
+    "name": "Nasivion Ped.drop 0.25% 10ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 100.38,
+    "rate": 0.0,
+    "company": "E MERCK"
+  },
+  {
+    "name": "Nasoclear N/d 1",
+    "category": "Drops",
+    "stock": 3.0,
+    "mrp": 66.36,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Naxdom 250 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 117.19,
+    "rate": 0.0,
+    "company": "SUN"
+  },
+  {
+    "name": "Nayan Jyoti",
+    "category": "Drops",
+    "stock": 3.0,
+    "mrp": 45.0,
+    "rate": 0.0,
+    "company": "AYURVED VIKAS SANSTHAN"
+  },
+  {
+    "name": "Neosporin Ointment 10GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 123.38,
+    "rate": 0.0,
+    "company": "GERMAN REMEDIES(ZYDUS CADILA)"
+  },
+  {
+    "name": "Neosporin Pow. 10G",
+    "category": "Powders",
+    "stock": 2.0,
+    "mrp": 107.15,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Neurobion Forte Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 47.53,
+    "rate": 0.0,
+    "company": "ABBOTT LABS INDIA PVT. LTD."
+  },
+  {
+    "name": "Nicip Plus Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.6,
+    "mrp": 61.03,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Nicotex 2",
+    "category": "Tablets",
+    "stock": 3.0,
+    "mrp": 123.1,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Nicotex 4 Mg Sugarfree",
+    "category": "Tablets",
+    "stock": 3.0,
+    "mrp": 152.61,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Noorani 100ML 100ML",
+    "category": "Oils",
+    "stock": 2.0,
+    "mrp": 117.0,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Noorani 20ML 20ML",
+    "category": "Oils",
+    "stock": 2.0,
+    "mrp": 37.5,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Noorani Oil 200ML 200ML",
+    "category": "Oils",
+    "stock": 2.0,
+    "mrp": 206.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Noorani Tail 50ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 65.5,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Noorani Tel 10ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 21.56,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Nor-metrogyl Syp 30ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 58.11,
+    "rate": 0.0,
+    "company": "LEKAR PHARMA"
+  },
+  {
+    "name": "Norflox Tz",
+    "category": "Tablets",
+    "stock": 4.3,
+    "mrp": 130.04,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Norflox-400 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 88.53,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Novamox-250",
+    "category": "Capsules",
+    "stock": 5.0,
+    "mrp": 39.06,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Nurament Oil 50ML",
+    "category": "Oils",
+    "stock": 2.0,
+    "mrp": 71.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Nurament Oint 10GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 28.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Nurament Oint 20GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 51.5,
+    "rate": 0.0,
+    "company": "RAHAT INDUSTRIES (MAN.OF NOORANI TAIL)"
+  },
+  {
+    "name": "Nycil Classic 50GM",
+    "category": "Powders",
+    "stock": 2.0,
+    "mrp": 46.88,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ocid 20MG Cap",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 64.28,
+    "rate": 0.0,
+    "company": "CACHET"
+  },
+  {
+    "name": "Odomas Lotion 40ML",
+    "category": "Ointments",
+    "stock": 3.0,
+    "mrp": 22.25,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Odomos Cream 25GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 34.0,
+    "rate": 0.0,
+    "company": "COSMETICS (BRYL)"
+  },
+  {
+    "name": "Odomos Cream 50GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 65.0,
+    "rate": 0.0,
+    "company": "COSMETICS (BRYL)"
+  },
+  {
+    "name": "Oflox Oz Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 220.15,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Omez 20MG Cap",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 65.31,
+    "rate": 0.0,
+    "company": "DR. REDDY'S"
+  },
+  {
+    "name": "Omez D Cap",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 247.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Omnacaotil 5MG",
+    "category": "Tablets",
+    "stock": 5.0,
+    "mrp": 7.23,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Omnacortil 10MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 13.66,
+    "rate": 0.0,
+    "company": "MACLEODS"
+  },
+  {
+    "name": "Omnacortil 20 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 27.32,
+    "rate": 0.0,
+    "company": "MACLEODS"
+  },
+  {
+    "name": "Omnacortil 30MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 81.05,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Omnacortil 40MG",
+    "category": "Tablets",
+    "stock": 5.0,
+    "mrp": 36.39,
+    "rate": 0.0,
+    "company": "MACLEODS"
+  },
+  {
+    "name": "Omni Gel 10GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 65.3,
+    "rate": 0.0,
+    "company": "INTAS"
+  },
+  {
+    "name": "Omni Spray 78.6gm 78.6gm",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 263.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Omnigel 20GM 20GM",
+    "category": "Ointments",
+    "stock": 3.0,
+    "mrp": 114.5,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Omnigel Spray 20GM 20GM",
+    "category": "Ointments",
+    "stock": 3.0,
+    "mrp": 110.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ondem-md 4",
+    "category": "Tablets",
+    "stock": 6.0,
+    "mrp": 58.51,
+    "rate": 0.0,
+    "company": "ALKEM"
+  },
+  {
+    "name": "Oral B Brush",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 150.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ors Apple Orange Drink",
+    "category": "Others",
+    "stock": 10.0,
+    "mrp": 31.5,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Ors Sasta Powder 1 Box",
+    "category": "Powders",
+    "stock": 1.0,
+    "mrp": 1250.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Otrivin Ped",
+    "category": "Tablets",
+    "stock": 2.0,
+    "mrp": 44.73,
+    "rate": 0.0,
+    "company": "NOVARTIS"
+  },
+  {
+    "name": "Otrivin Adult 10ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 120.79,
+    "rate": 0.0,
+    "company": "NOVARTIS"
+  },
+  {
+    "name": "Pan 40 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.9,
+    "mrp": 175.31,
+    "rate": 0.0,
+    "company": "ALKEM"
+  },
+  {
+    "name": "Pan D Cap",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 254.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Pantop 40 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.0,
+    "mrp": 159.37,
+    "rate": 0.0,
+    "company": "ARISTO"
+  },
+  {
+    "name": "Pantop D Cap",
+    "category": "Tablets & Capsules",
+    "stock": 1.4,
+    "mrp": 182.81,
+    "rate": 0.0,
+    "company": "ARISTO"
+  },
+  {
+    "name": "Pantop Dsr Cap",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 226.4,
+    "rate": 0.0,
+    "company": "ARISTO"
+  },
+  {
+    "name": "Pantop Iv",
+    "category": "Injections",
+    "stock": 5.0,
+    "mrp": 57.48,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Paracip 500 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 58.0,
+    "mrp": 10.3,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Pet Safa Churna Small1*1",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 65.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Pilex Forte Oint 30G",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 135.94,
+    "rate": 0.0,
+    "company": "HIMALAYA DRUGS"
+  },
+  {
+    "name": "Pilex Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 250.0,
+    "rate": 0.0,
+    "company": "HIMALAYA DRUGS"
+  },
+  {
+    "name": "Prega News",
+    "category": "Others",
+    "stock": 5.0,
+    "mrp": 60.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Protinex Original 200GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 391.53,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Protinex Tasty Choc. 250GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 347.03,
+    "rate": 0.0,
+    "company": "SYSTOPIC"
+  },
+  {
+    "name": "Pudin Hara Caps",
+    "category": "Tablets & Capsules",
+    "stock": 7.0,
+    "mrp": 35.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Pudin Hara Liquid 10ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 30.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Quadiderm Big 10GM",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 166.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Quadiderm Small 5GM",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 89.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "R.b.tone Syp 200ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 204.84,
+    "rate": 0.0,
+    "company": "MEDLEY"
+  },
+  {
+    "name": "Rantac 150 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 50.75,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Refresh Tears E/d 10ML",
+    "category": "Drops",
+    "stock": 1.0,
+    "mrp": 140.0,
+    "rate": 0.0,
+    "company": "ALLERGAN"
+  },
+  {
+    "name": "Revital Men Strip",
+    "category": "Capsules",
+    "stock": 3.0,
+    "mrp": 120.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Revital Woman",
+    "category": "Tablets",
+    "stock": 1.0,
+    "mrp": 400.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Rexcof Dx Syp 100ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 104.06,
+    "rate": 0.0,
+    "company": "CIPLA"
+  },
+  {
+    "name": "Rinifol Cap",
+    "category": "Tablets & Capsules",
+    "stock": 5.0,
+    "mrp": 98.0,
+    "rate": 0.0,
+    "company": "ELAN PHARMA"
+  },
+  {
+    "name": "Roghan Badam Shirin",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 132.0,
+    "rate": 0.0,
+    "company": "HAMDARD"
+  },
+  {
+    "name": "Roghan Badam Shirin",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 254.0,
+    "rate": 197.24,
+    "company": "HAMDARD"
+  },
+  {
+    "name": "Roseday 20 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 416.44,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Rosuvas 10 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 345.94,
+    "rate": 0.0,
+    "company": "RANBAXY"
+  },
+  {
+    "name": "Rosuvas 20 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 469.0,
+    "rate": 0.0,
+    "company": "RANBAXY"
+  },
+  {
+    "name": "Safi Syp 100ML 100ML",
+    "category": "Syrups",
+    "stock": 1.0,
+    "mrp": 64.28,
+    "rate": 0.0,
+    "company": "HAMDARD"
+  },
+  {
+    "name": "Safi Syp 200ML 200ML",
+    "category": "Syrups",
+    "stock": 1.0,
+    "mrp": 112.5,
+    "rate": 0.0,
+    "company": "HAMDARD"
+  },
+  {
+    "name": "Saridon Tab",
+    "category": "Tablets & Capsules",
+    "stock": 26.7,
+    "mrp": 55.0,
+    "rate": 0.0,
+    "company": "NICHOLAS PIRAMAL"
+  },
+  {
+    "name": "Savlon Liquid",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 29.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Savlon Lotion 50ML",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 27.19,
+    "rate": 0.0,
+    "company": "JOHNSON & JOHNSON"
+  },
+  {
+    "name": "Savlon Soap 75MG",
+    "category": "Others",
+    "stock": 5.0,
+    "mrp": 32.0,
+    "rate": 0.0,
+    "company": "COSMETICS ITEMS"
+  },
+  {
+    "name": "Sensodyne Fresh Mint 80GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 124.58,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Septilin Syp 200ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 225.0,
+    "rate": 0.0,
+    "company": "HIMALAYA DRUGS"
+  },
+  {
+    "name": "Septilin Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 195.01,
+    "rate": 0.0,
+    "company": "HIMALAYA DRUGS"
+  },
+  {
+    "name": "Septran Ds Tab",
+    "category": "Tablets & Capsules",
+    "stock": 6.0,
+    "mrp": 26.21,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Shelcal 500 Mg Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 148.0,
+    "rate": 0.0,
+    "company": "ELDER"
+  },
+  {
+    "name": "Silica Nano Shot 4/5ml",
+    "category": "Drops",
+    "stock": 8.0,
+    "mrp": 58.75,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Silverex Cream 10GM",
+    "category": "Ointments",
+    "stock": 3.0,
+    "mrp": 123.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Sinarest Syp 75ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 151.44,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Sinarest Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 123.64,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Sitopladi-d Churan 60GM",
+    "category": "Others",
+    "stock": 4.0,
+    "mrp": 170.0,
+    "rate": 0.0,
+    "company": "DABUR"
+  },
+  {
+    "name": "Soframycin Ointment 20GM",
+    "category": "Ointments",
+    "stock": 3.0,
+    "mrp": 56.74,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Solvin Cold Drop",
+    "category": "Drops",
+    "stock": 5.0,
+    "mrp": 88.5,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Solvin Cold Syp 60ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 88.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Sompraz 40 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 180.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Sompraz D 40 Cap",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 262.5,
+    "rate": 0.0,
+    "company": "SUN"
+  },
+  {
+    "name": "Stayfree Secure",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 37.0,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Stayfree Secure Xl Wings 20S",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 83.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Sterferol Sachet",
+    "category": "Others",
+    "stock": 20.0,
+    "mrp": 35.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Sterflam-p",
+    "category": "Tablets",
+    "stock": 10.0,
+    "mrp": 45.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Strepsils Jar",
+    "category": "Others",
+    "stock": 0.44,
+    "mrp": 420.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Sumo Tab",
+    "category": "Tablets & Capsules",
+    "stock": 52.0,
+    "mrp": 11.18,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Sunsilk Black Shine 180ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 158.0,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "T-98 125mg/5ml Syp 60ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 23.69,
+    "rate": 0.0,
+    "company": "ARVIND PHARMA"
+  },
+  {
+    "name": "T-98 Drops",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 33.99,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "T-minic Drop 15ML",
+    "category": "Drops",
+    "stock": 2.0,
+    "mrp": 105.68,
+    "rate": 0.0,
+    "company": "NOVARTIS"
+  },
+  {
+    "name": "T-minic Syp 60ML",
+    "category": "Syrups",
+    "stock": 1.0,
+    "mrp": 124.55,
+    "rate": 0.0,
+    "company": "NOVARTIS"
+  },
+  {
+    "name": "Taxim O 200 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.0,
+    "mrp": 111.39,
+    "rate": 0.0,
+    "company": "ALKEM"
+  },
+  {
+    "name": "Taxim-o Syp 30ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 55.57,
+    "rate": 0.0,
+    "company": "ALKEM"
+  },
+  {
+    "name": "Telma 20 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 129.59,
+    "rate": 0.0,
+    "company": "GLENMARK"
+  },
+  {
+    "name": "Telma H",
+    "category": "Tablets",
+    "stock": 2.0,
+    "mrp": 376.5,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Telmikind 40 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 12.0,
+    "mrp": 41.25,
+    "rate": 0.0,
+    "company": "INTAS"
+  },
+  {
+    "name": "Telmikind Ct 40 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 104.05,
+    "rate": 0.0,
+    "company": "AKUMENTIS HEALTHCARE LTD.(9792373888JAYE"
+  },
+  {
+    "name": "Telmikind H Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 93.0,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Telvas 40 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 100.9,
+    "rate": 0.0,
+    "company": "ARISTO"
+  },
+  {
+    "name": "Threptin Bis 275GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 453.5,
+    "rate": 0.0,
+    "company": "RAPTAKOS"
+  },
+  {
+    "name": "Threptin Lite Biscuits 275GM",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 478.0,
+    "rate": 459.0,
+    "company": ""
+  },
+  {
+    "name": "Thyronorm 100MG",
+    "category": "Tablets",
+    "stock": 3.0,
+    "mrp": 168.82,
+    "rate": 0.0,
+    "company": "BRIOCIA PHARMA(I) PVT LTD"
+  },
+  {
+    "name": "Thyronorm 12.5 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 189.72,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Thyronorm 125MG",
+    "category": "Tablets",
+    "stock": 2.0,
+    "mrp": 216.63,
+    "rate": 0.0,
+    "company": "BRIOCIA PHARMA(I) PVT LTD"
+  },
+  {
+    "name": "Thyronorm 150 Mcg",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 217.91,
+    "rate": 0.0,
+    "company": "ABBOTT LABS INDIA PVT. LTD."
+  },
+  {
+    "name": "Thyronorm 25MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.0,
+    "mrp": 185.4,
+    "rate": 0.0,
+    "company": "BRIOCIA PHARMA(I) PVT LTD"
+  },
+  {
+    "name": "Thyronorm 37.5mg",
+    "category": "Tablets",
+    "stock": 2.0,
+    "mrp": 200.38,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Thyronorm 50MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 132.02,
+    "rate": 0.0,
+    "company": "BRIOCIA PHARMA(I) PVT LTD"
+  },
+  {
+    "name": "Thyronorm 62.5 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 206.37,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Thyronorm 75",
+    "category": "Tablets",
+    "stock": 2.0,
+    "mrp": 183.97,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Tixylix Syp 60ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 127.64,
+    "rate": 0.0,
+    "company": "M&B (NICHOLAS)"
+  },
+  {
+    "name": "Tramadol Inj 1",
+    "category": "Injections",
+    "stock": 3.0,
+    "mrp": 100.44,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Trenaxa 500MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 198.03,
+    "rate": 0.0,
+    "company": "MACLEODS"
+  },
+  {
+    "name": "Trenaxa Mf Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 549.0,
+    "rate": 0.0,
+    "company": "MACLEODS"
+  },
+  {
+    "name": "Ultracet Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 295.69,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Unienzyme Syp 200ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 159.05,
+    "rate": 0.0,
+    "company": "UNICHEM"
+  },
+  {
+    "name": "Unwanted 72",
+    "category": "Tablets",
+    "stock": 5.0,
+    "mrp": 75.0,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "V Wash 100ML",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 200.0,
+    "rate": 0.0,
+    "company": "GLENMARK"
+  },
+  {
+    "name": "V Wash 20ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 50.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Vaseline",
+    "category": "Others",
+    "stock": 42.0,
+    "mrp": 5.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Vasograin Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 198.19,
+    "rate": 0.0,
+    "company": "CADILA"
+  },
+  {
+    "name": "Vatika Shampoo .9ml",
+    "category": "Others",
+    "stock": 59.0,
+    "mrp": 1.0,
+    "rate": 0.0,
+    "company": "COSMETICS ITEMS"
+  },
+  {
+    "name": "Veet Cream Pink 25GM",
+    "category": "Ointments",
+    "stock": 12.0,
+    "mrp": 109.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Vicks 10GM 10GM",
+    "category": "Others",
+    "stock": 14.0,
+    "mrp": 45.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Vicks 25 Gm 25GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 102.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Vicks 25GM 25GM",
+    "category": "Tablets",
+    "stock": 1.0,
+    "mrp": 102.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Vicks 5 Gm 5GM",
+    "category": "Others",
+    "stock": 13.0,
+    "mrp": 23.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Vicks 50GM 50GM",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 199.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Vicks Action 500TAB",
+    "category": "Tablets & Capsules",
+    "stock": 4.4,
+    "mrp": 64.0,
+    "rate": 0.0,
+    "company": "PROCTER & GAMBLE"
+  },
+  {
+    "name": "Vicks Inhaller 0.5ml",
+    "category": "Others",
+    "stock": 4.0,
+    "mrp": 64.0,
+    "rate": 0.0,
+    "company": "PROCTER & GAMBLE"
+  },
+  {
+    "name": "Vicks Jar 120+10",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 230.0,
+    "rate": 0.0,
+    "company": "PROCTER & GAMBLE"
+  },
+  {
+    "name": "Volini Spray 15ML",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 83.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Volini Spray 40ML",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 187.0,
+    "rate": 0.0,
+    "company": "RANBAXY CROSSLAND"
+  },
+  {
+    "name": "Volinigel 10GM 10GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 54.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Volinigel 20GM 20GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 103.13,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Vomikind-md 4 Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.0,
+    "mrp": 51.32,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Voveran D Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.9,
+    "mrp": 22.38,
+    "rate": 0.0,
+    "company": "NOVARTIS/CIBA"
+  },
+  {
+    "name": "Voveran Inj",
+    "category": "Injections",
+    "stock": 10.0,
+    "mrp": 39.0,
+    "rate": 0.0,
+    "company": "NOVARTIS/CIBA"
+  },
+  {
+    "name": "Voveran Injection",
+    "category": "Injections",
+    "stock": 10.0,
+    "mrp": 39.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Whisper Choice Wings 7S",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 37.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Whisper Choice Xl6",
+    "category": "Others",
+    "stock": 2.0,
+    "mrp": 45.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Whisper Ultra Xln 7s*60 7s*60",
+    "category": "Others",
+    "stock": 3.0,
+    "mrp": 95.0,
+    "rate": 0.0,
+    "company": "GENERAL"
+  },
+  {
+    "name": "Wysolone 10MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 8.0,
+    "mrp": 19.02,
+    "rate": 0.0,
+    "company": "WYETH LEDERLE"
+  },
+  {
+    "name": "Wysolone 5MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 8.0,
+    "mrp": 11.54,
+    "rate": 0.0,
+    "company": "WYETH LEDERLE"
+  },
+  {
+    "name": "Zandu Balm 8ML 8ML",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 43.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Zandu Balm Ultra 8GM",
+    "category": "Ointments",
+    "stock": 2.0,
+    "mrp": 48.0,
+    "rate": 0.0,
+    "company": "INTAS"
+  },
+  {
+    "name": "Zandu Kesari 1KG",
+    "category": "Others",
+    "stock": 1.0,
+    "mrp": 816.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Zandu Nityam",
+    "category": "Tablets",
+    "stock": 2.0,
+    "mrp": 42.0,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Zandu Pancharishta 450ML",
+    "category": "Syrups",
+    "stock": 1.0,
+    "mrp": 150.0,
+    "rate": 0.0,
+    "company": "ZANDU"
+  },
+  {
+    "name": "Zenflox 200MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 90.75,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Zenflox 400MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 2.0,
+    "mrp": 154.69,
+    "rate": 0.0,
+    "company": "MANKIND"
+  },
+  {
+    "name": "Zentel Susp. 10ML",
+    "category": "Syrups",
+    "stock": 3.0,
+    "mrp": 19.11,
+    "rate": 0.0,
+    "company": "GSK"
+  },
+  {
+    "name": "Zentel Tab",
+    "category": "Tablets & Capsules",
+    "stock": 1.0,
+    "mrp": 92.5,
+    "rate": 0.0,
+    "company": ""
+  },
+  {
+    "name": "Zerodol P Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.6,
+    "mrp": 81.0,
+    "rate": 0.0,
+    "company": "IPCA"
+  },
+  {
+    "name": "Zerodol Sp Tab",
+    "category": "Tablets & Capsules",
+    "stock": 4.0,
+    "mrp": 149.0,
+    "rate": 0.0,
+    "company": "IPCA"
+  },
+  {
+    "name": "Zifi 100 Syp 30ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 81.65,
+    "rate": 0.0,
+    "company": "FDC"
+  },
+  {
+    "name": "Zifi 200MG Tab",
+    "category": "Tablets & Capsules",
+    "stock": 3.8,
+    "mrp": 111.43,
+    "rate": 0.0,
+    "company": "FDC"
+  },
+  {
+    "name": "Zifi 50 Syp 30ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 55.7,
+    "rate": 0.0,
+    "company": "FDC"
+  },
+  {
+    "name": "Zincovit Syp 200ML",
+    "category": "Syrups",
+    "stock": 2.0,
+    "mrp": 160.0,
+    "rate": 0.0,
+    "company": "APEX LAB"
+  }
+]

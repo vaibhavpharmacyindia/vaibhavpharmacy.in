@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+
+  <g transform="translate(100, 22)">
+
+    <!-- Back triangle (lighter green) -->
+    <path d="M 100 55 C 103 45 108 40 114 40 C 118 40 122 44 124 50 L 180 288 C 182 296 178 302 170 302 L 14 302 C 6 302 2 296 4 288 Z" fill="#4E9883"/>
+
+    <!-- Front triangle (darker green) -->
+    <path d="M 70 100 C 73 92 78 88 84 88 C 89 88 93 92 95 100 L 162 308 C 164 316 160 322 152 322 L -2 322 C -10 322 -14 316 -12 308 Z" fill="#014930"/>
+
+    <!-- Medicine bottle -->
+    <g transform="translate(66, -8)">
+      <!-- Cap top -->
+      <rect x="26" y="2" width="22" height="8" rx="4" fill="#4E9883"/>
+      <!-- Cap body -->
+      <rect x="21" y="10" width="32" height="18" rx="4" fill="#4E9883"/>
+      <!-- Neck -->
+      <rect x="30" y="28" width="14" height="22" rx="3" fill="#4E9883"/>
+      <!-- Body -->
+      <path d="M 18 56 C 18 48 23 44 30 44 L 44 44 C 51 44 56 48 56 56 L 56 124 C 56 132 51 136 44 136 L 30 136 C 23 136 18 132 18 124 Z" fill="#4E9883"/>
+      <!-- Cross on body -->
+      <rect x="33" y="68" width="8" height="34" rx="2" fill="#014930"/>
+      <rect x="24" y="80" width="26" height="10" rx="2" fill="#014930"/>
+    </g>
+  </g>
+
+</svg>

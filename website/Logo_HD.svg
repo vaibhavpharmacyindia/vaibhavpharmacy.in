@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" fill="none">
+
+  <!-- === V-SHAPED ICON WITH MEDICINE BOTTLE === -->
+  <g transform="translate(42, 48)">
+
+    <!-- Back triangle (lighter green) - shifted right to form the V -->
+    <path d="M 100 55 C 103 45 108 40 114 40 C 118 40 122 44 124 50 L 172 264 C 174 272 170 278 163 278 L 18 278 C 11 278 7 272 9 264 Z" fill="#4E9883"/>
+
+    <!-- Front triangle (darker green) - forms the front of the V -->
+    <path d="M 72 98 C 75 90 80 86 86 86 C 91 86 95 90 97 98 L 155 278 C 157 286 153 292 146 292 L 2 292 C -5 292 -9 286 -7 278 Z" fill="#014930"/>
+
+    <!-- Medicine bottle (lighter green, positioned at the top of the V) -->
+    <g transform="translate(68, -8)">
+      <!-- Cap top -->
+      <rect x="26" y="2" width="20" height="7" rx="3" fill="#4E9883"/>
+      <!-- Cap body -->
+      <rect x="22" y="9" width="28" height="16" rx="3" fill="#4E9883"/>
+      <!-- Neck -->
+      <rect x="30" y="25" width="12" height="20" rx="2" fill="#4E9883"/>
+      <!-- Body -->
+      <path d="M 20 50 C 20 44 24 40 30 40 L 42 40 C 48 40 52 44 52 50 L 52 110 C 52 116 48 120 42 120 L 30 120 C 24 120 20 116 20 110 Z" fill="#4E9883"/>
+      <!-- Cross mark on body -->
+      <rect x="32" y="62" width="8" height="30" rx="2" fill="#014930"/>
+      <rect x="24" y="73" width="24" height="8" rx="2" fill="#014930"/>
+    </g>
+  </g>
+
+  <!-- === TEXT === -->
+  <!-- VAIBHAV -->
+  <text x="290" y="215" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="120" font-weight="800" fill="#014930" letter-spacing="3">VAIBHAV</text>
+
+  <!-- PHARMACY -->
+  <text x="298" y="278" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="500" fill="#014930" letter-spacing="20">PHARMACY</text>
+
+</svg>

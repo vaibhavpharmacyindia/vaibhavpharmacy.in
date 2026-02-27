@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Pharmacy | सही दवा, सही दाम</title>
+    <meta name="description"
+        content="Vaibhav Pharmacy - Sahi Dava, Sahi Daam. Your trusted neighborhood pharmacy in Vrindavan Yojna, Lucknow. Free home delivery within 2 KM.">
+    <meta name="keywords"
+        content="pharmacy, medical shop, medicines, Lucknow, Vrindavan Yojna, home delivery, Vaibhav Pharmacy">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M1GK1K60EQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        // Replace G-YOUR_MEASUREMENT_ID with your actual Google Analytics ID
+        gtag('config', 'G-M1GK1K60EQ');
+    </script>
+
+    <style>
+        :root {
+            --primary: #1B5E20;
+            --primary-light: #2E7D32;
+            --primary-lighter: #4CAF50;
+            --primary-bg: #E8F5E9;
+            --primary-bg-light: #F1F8E9;
+            --accent: #FF6F00;
+            --accent-light: #FFA726;
+            --white: #ffffff;
+            --gray-50: #FAFAFA;
+            --gray-100: #F5F5F5;
+            --gray-200: #EEEEEE;
+            --gray-300: #E0E0E0;
+            --gray-400: #BDBDBD;
+            --gray-500: #9E9E9E;
+            --gray-600: #757575;
+            --gray-700: #616161;
+            --gray-800: #424242;
+            --gray-900: #212121;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+            --radius: 12px;
+            --radius-lg: 20px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--gray-800);
+            background: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .hindi {
+            font-family: 'Noto Sans Devanagari', 'Inter', sans-serif;
+        }
+
+        /* ===== NAVBAR ===== */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+        }
+
+        .navbar.scrolled {
+            box-shadow: var(--shadow);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 90px;
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--primary);
+        }
+
+        .nav-logo svg {
+            height: 44px;
+            width: 44px;
+        }
+
+        .nav-logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .nav-logo-title {
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: var(--primary);
+            line-height: 1.2;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .nav-logo-tagline {
+            font-size: 11px;
+            color: var(--gray-500);
+            font-weight: 500;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--gray-600);
+            font-weight: 500;
+            font-size: 14px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary);
+            background: var(--primary-bg);
+        }
+
+        .nav-cta {
+            background: var(--primary) !important;
+            color: var(--white) !important;
+            padding: 10px 20px !important;
+            border-radius: 10px !important;
+            font-weight: 600 !important;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .nav-cta:hover {
+            background: var(--primary-light) !important;
+            color: var(--white) !important;
+            transform: translateY(-1px);
+        }
+
+        .nav-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--gray-700);
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        /* ===== HERO SECTION ===== */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, var(--primary-bg) 0%, var(--white) 50%, var(--primary-bg-light) 100%);
+            padding: 100px 24px 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(76, 175, 80, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255, 111, 0, 0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content {
+            max-width: 560px;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--white);
+            border: 1px solid var(--primary-lighter);
+            color: var(--primary);
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .hero-badge .pulse {
+            width: 8px;
+            height: 8px;
+            background: var(--primary-lighter);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        .hero-badge .pulse.closed {
+            background: #ef4444;
+            /* red */
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: scale(1.5);
+            }
+        }
+
+        .hero h1 {
+            font-size: 52px;
+            font-weight: 800;
+            line-height: 1.1;
+            color: var(--gray-900);
+            margin-bottom: 8px;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .hero h1 span {
+            color: var(--primary);
+        }
+
+        .hero-tagline {
+            font-size: 22px;
+            color: var(--primary-light);
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hero-tagline-hindi {
+            font-size: 20px;
+            color: var(--gray-500);
+            margin-bottom: 24px;
+        }
+
+        .hero p {
+            font-size: 17px;
+            color: var(--gray-600);
+            line-height: 1.7;
+            margin-bottom: 32px;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 28px;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: var(--white);
+            box-shadow: 0 4px 14px rgba(27, 94, 32, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-light);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(27, 94, 32, 0.35);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+            color: var(--white);
+            box-shadow: 0 4px 14px rgba(37, 211, 102, 0.3);
+        }
+
+        .btn-whatsapp:hover {
+            background: #20BD5A;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+        }
+
+        .btn-outline {
+            background: var(--white);
+            color: var(--primary);
+            border: 2px solid var(--primary-lighter);
+        }
+
+        .btn-outline:hover {
+            background: var(--primary-bg);
+            transform: translateY(-2px);
+        }
+
+        .hero-visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            box-shadow: var(--shadow-lg);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+            position: relative;
+        }
+
+        .hero-logo-container {
+            width: 160px;
+            height: 160px;
+            margin: 0 auto 24px;
+            background: linear-gradient(135deg, var(--primary-bg) 0%, var(--white) 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 32px rgba(27, 94, 32, 0.12);
+        }
+
+        .hero-logo-container svg {
+            width: 100px;
+            height: 100px;
+        }
+
+        .hero-card h3 {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .hero-card p {
+            font-size: 14px;
+            color: var(--gray-500);
+            margin-bottom: 24px;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .hero-stat {
+            background: var(--primary-bg);
+            border-radius: var(--radius);
+            padding: 16px;
+        }
+
+        .hero-stat .icon {
+            font-size: 20px;
+            color: var(--primary-lighter);
+            margin-bottom: 6px;
+        }
+
+        .hero-stat .value {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .hero-stat .label {
+            font-size: 11px;
+            color: var(--gray-500);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* ===== FEATURES BAR ===== */
+        .features-bar {
+            background: var(--white);
+            padding: 30px 24px;
+            border-top: 1px solid var(--gray-200);
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .features-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 16px;
+            border-radius: var(--radius);
+            transition: all 0.3s ease;
+        }
+
+        .feature-item:hover {
+            background: var(--primary-bg);
+        }
+
+        .feature-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-bg);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            color: var(--primary);
+            flex-shrink: 0;
+        }
+
+        .feature-item:hover .feature-icon {
+            background: var(--white);
+        }
+
+        .feature-text h4 {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--gray-800);
+        }
+
+        .feature-text p {
+            font-size: 12px;
+            color: var(--gray-500);
+        }
+
+        /* ===== SECTION COMMON ===== */
+        .section {
+            padding: 80px 24px;
+        }
+
+        .section-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .section-label {
+            display: inline-block;
+            background: var(--primary-bg);
+            color: var(--primary);
+            font-size: 13px;
+            font-weight: 600;
+            padding: 4px 14px;
+            border-radius: 50px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .section-header h2 {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 12px;
+        }
+
+        .section-header p {
+            font-size: 16px;
+            color: var(--gray-500);
+            max-width: 540px;
+            margin: 0 auto;
+        }
+
+        /* ===== PRODUCTS SECTION ===== */
+        #products {
+            background: var(--gray-50);
+        }
+
+        .products-toolbar {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 280px;
+            position: relative;
+        }
+
+        .search-box i {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray-400);
+            font-size: 16px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 14px 16px 14px 46px;
+            border: 2px solid var(--gray-200);
+            border-radius: var(--radius);
+            font-size: 15px;
+            font-family: 'Inter', sans-serif;
+            transition: all 0.2s ease;
+            background: var(--white);
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: var(--primary-lighter);
+            box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.1);
+        }
+
+        .filter-chips {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .chip {
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 500;
+            border: 1.5px solid var(--gray-300);
+            background: var(--white);
+            color: var(--gray-600);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .chip:hover {
+            border-color: var(--primary-lighter);
+            color: var(--primary);
+        }
+
+        .chip.active {
+            background: var(--primary);
+            color: var(--white);
+            border-color: var(--primary);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 16px;
+        }
+
+        .product-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 16px;
+            border: 1px solid var(--gray-200);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-lighter);
+        }
+
+        .product-category {
+            display: inline-block;
+            background: var(--primary-bg);
+            color: var(--primary);
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 50px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            align-self: flex-start;
+        }
+
+
+        .product-name {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--gray-800);
+            margin-bottom: 4px;
+        }
+
+        .product-details {
+            font-size: 12px;
+            color: var(--gray-500);
+            margin-bottom: 12px;
+            flex-grow: 1;
+        }
+
+        .product-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 12px;
+            border-top: 1px solid var(--gray-100);
+        }
+
+        .product-price {
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--primary);
+        }
+
+        .product-price .mrp {
+            font-size: 13px;
+            color: var(--gray-400);
+            text-decoration: line-through;
+            font-weight: 500;
+            margin-left: 6px;
+        }
+
+        .product-stock {
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 50px;
+        }
+
+        .stock-in {
+            background: #E8F5E9;
+            color: #2E7D32;
+        }
+
+        .stock-out {
+            background: #FFEBEE;
+            color: #C62828;
+        }
+
+        .product-order-btn {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 16px;
+            padding: 12px 16px;
+            background: #25D366;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            justify-content: center;
+            width: 100%;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .product-order-btn:hover {
+            background: #20BD5A;
+            transform: translateY(-1px);
+        }
+
+        .products-loading {
+            text-align: center;
+            padding: 60px;
+            color: var(--gray-500);
+        }
+
+        .products-loading i {
+            font-size: 40px;
+            color: var(--primary-lighter);
+            margin-bottom: 16px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .products-empty {
+            text-align: center;
+            padding: 60px;
+            color: var(--gray-500);
+        }
+
+        .products-empty i {
+            font-size: 48px;
+            color: var(--gray-300);
+            margin-bottom: 16px;
+        }
+
+        .products-count {
+            font-size: 14px;
+            color: var(--gray-500);
+            margin-bottom: 20px;
+        }
+
+        /* ===== ABOUT SECTION ===== */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-content h3 {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 16px;
+        }
+
+        .about-content p {
+            font-size: 16px;
+            color: var(--gray-600);
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+
+        .about-features {
+            display: grid;
+            gap: 16px;
+            margin-top: 32px;
+        }
+
+        .about-feature {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+        }
+
+        .about-feature-icon {
+            width: 44px;
+            height: 44px;
+            background: var(--primary-bg);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-size: 18px;
+            flex-shrink: 0;
+        }
+
+        .about-feature h4 {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-bottom: 2px;
+        }
+
+        .about-feature p {
+            font-size: 13px;
+            color: var(--gray-500);
+            margin-bottom: 0;
+        }
+
+        .about-visual {
+            background: linear-gradient(135deg, var(--primary-bg) 0%, var(--primary-bg-light) 100%);
+            border-radius: var(--radius-lg);
+            padding: 48px;
+            text-align: center;
+        }
+
+        .about-visual .pharmacy-icon {
+            font-size: 80px;
+            color: var(--primary);
+            margin-bottom: 24px;
+        }
+
+        .about-hours {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .about-hours h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .hours-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            font-size: 14px;
+        }
+
+        .hours-row .day {
+            color: var(--gray-600);
+        }
+
+        .hours-row .time {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .open-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: #E8F5E9;
+            color: #2E7D32;
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-top: 12px;
+        }
+
+        .open-badge.closed {
+            background: #FFEBEE;
+            color: #C62828;
+        }
+
+        .open-badge .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: currentColor;
+            animation: pulse 2s infinite;
+        }
+
+        /* ===== CONTACT SECTION ===== */
+        #contact {
+            background: var(--gray-50);
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .contact-cards {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .contact-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 24px;
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            border: 1px solid var(--gray-200);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+            border-color: var(--primary-lighter);
+        }
+
+        .contact-card-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .contact-card-icon.whatsapp {
+            background: #E8F5E9;
+            color: #25D366;
+        }
+
+        .contact-card-icon.phone {
+            background: #E3F2FD;
+            color: #1976D2;
+        }
+
+        .contact-card-icon.location {
+            background: #FFF3E0;
+            color: #E65100;
+        }
+
+        .contact-card-icon.instagram {
+            background: #FCE4EC;
+            color: #E91E63;
+        }
+
+        .contact-card-icon.hours {
+            background: #F3E5F5;
+            color: #7B1FA2;
+        }
+
+        .contact-card h4 {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--gray-800);
+            margin-bottom: 2px;
+        }
+
+        .contact-card p {
+            font-size: 13px;
+            color: var(--gray-500);
+        }
+
+        .contact-card .contact-action {
+            font-size: 13px;
+            color: var(--primary);
+            font-weight: 600;
+            margin-top: 4px;
+        }
+
+        .contact-map {
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            min-height: 400px;
+        }
+
+        .contact-map iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            border: none;
+        }
+
+        /* ===== DELIVERY BANNER ===== */
+        .delivery-banner {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            padding: 60px 24px;
+            text-align: center;
+            color: var(--white);
+        }
+
+        .delivery-banner h2 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .delivery-banner p {
+            font-size: 17px;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 32px;
+        }
+
+        .delivery-actions {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-white {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        .btn-white:hover {
+            background: var(--gray-100);
+            transform: translateY(-2px);
+        }
+
+        .btn-outline-white {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.4);
+        }
+
+        .btn-outline-white:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--gray-900);
+            color: var(--gray-400);
+            padding: 60px 24px 30px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 48px;
+        }
+
+        .footer-brand svg {
+            height: 40px;
+            width: 40px;
+            margin-bottom: 16px;
+        }
+
+        .footer-brand p {
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 16px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+        }
+
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            background: var(--gray-800);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray-400);
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        .footer-social a:hover {
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .footer-col h4 {
+            color: var(--white);
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col li {
+            margin-bottom: 10px;
+        }
+
+        .footer-col a {
+            color: var(--gray-400);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s ease;
+        }
+
+        .footer-col a:hover {
+            color: var(--white);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--gray-800);
+            padding-top: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 13px;
+        }
+
+        .footer-bottom .heart {
+            color: #EF5350;
+        }
+
+        /* ===== FLOATING WHATSAPP ===== */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 12px;
+        }
+
+        .whatsapp-tooltip {
+            background: var(--white);
+            color: var(--gray-700);
+            padding: 10px 18px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 500;
+            box-shadow: var(--shadow-md);
+            white-space: nowrap;
+            animation: fadeSlideUp 0.5s ease forwards;
+            animation-delay: 2s;
+            opacity: 0;
+        }
+
+        @keyframes fadeSlideUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+        }
+
+        .whatsapp-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #25D366;
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            animation: bounceIn 0.6s ease;
+        }
+
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(37, 211, 102, 0.5);
+        }
+
+        @keyframes bounceIn {
+            0% {
+                transform: scale(0);
+            }
+
+            60% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 968px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-content {
+                max-width: 100%;
+            }
+
+            .hero-actions {
+                justify-content: center;
+            }
+
+            .hero-visual {
+                margin-top: 20px;
+            }
+
+            .features-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 72px;
+                left: 0;
+                right: 0;
+                background: var(--white);
+                flex-direction: column;
+                padding: 16px;
+                border-bottom: 1px solid var(--gray-200);
+                box-shadow: var(--shadow);
+            }
+
+            .nav-links.open {
+                display: flex;
+            }
+
+            .nav-toggle {
+                display: block;
+            }
+
+            .hero {
+                min-height: auto;
+                padding: 100px 20px 60px;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero-tagline {
+                font-size: 18px;
+            }
+
+            .features-container {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 60px 20px;
+            }
+
+            .section-header h2 {
+                font-size: 28px;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+
+            .delivery-banner h2 {
+                font-size: 24px;
+            }
+
+            .hero-card {
+                padding: 28px;
+            }
+        }
+
+        /* ===== PAGE TRANSITION ===== */
+        .page-section {
+            animation: fadeIn 0.4s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="icon_vp.png" alt="Vaibhav Pharmacy Logo"
+                    style="height: 72px; width: auto; object-fit: contain;">
+                <span class="nav-logo-text">
+                    <span class="nav-logo-title">VAIBHAV PHARMACY</span>
+                    <span class="nav-logo-tagline">Sahi Dava, Sahi Daam</span>
+                </span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active" onclick="navigateTo('home')">Home</a></li>
+                <li><a href="#products" onclick="navigateTo('products')">Products</a></li>
+                <li><a href="#about" onclick="navigateTo('about')">About</a></li>
+                <li><a href="#contact" onclick="navigateTo('contact')">Contact</a></li>
+                <li><a href="javascript:void(0)" onclick="focusSearch()"
+                        style="font-weight: 600; color: var(--primary);">Order Now</a></li>
+                <li><a href="https://wa.me/917897526668?text=Hi%20Vaibhav%20Pharmacy!%20I%20would%20like%20to%20place%20an%20order."
+                        class="nav-cta" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" onclick="toggleNav()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HOME SECTION -->
+    <section class="hero page-section" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="pulse"></span>
+                    Open Now &middot; Open 9 AM - 9 PM
+                </div>
+                <h1>Aapki Family Ka<br><span>Health Partner</span></h1>
+                <p class="hero-tagline">Pariwar ki Sehat, Hamari Zimmedari</p>
+                <p class="hero-tagline-hindi hindi">परिवार की सेहत, हमारी ज़िम्मेदारी</p>
+                <p>Quality medicines at honest prices with free home delivery within 2 KM. Built with ❤️ in Lucknow, for
+                    Lucknow.</p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/917897526668?text=Hi%20Vaibhav%20Pharmacy!%20I%20would%20like%20to%20place%20an%20order."
+                        class="btn btn-whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Order on WhatsApp
+                    </a>
+                    <a href="tel:+917897526668" class="btn btn-outline">
+                        <i class="fas fa-phone-alt"></i> Call Us
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="hero-logo-container"
+                        style="background: transparent; box-shadow: none; width: 240px; height: 240px;">
+                        <img src="icon_vp.png" alt="Vaibhav Pharmacy Logo"
+                            style="width: 200px; height: auto; object-fit: contain;">
+                    </div>
+                    <h3>Vaibhav Pharmacy</h3>
+                    <p>Vrindavan Yojna, Lucknow</p>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <div class="icon"><i class="fas fa-truck"></i></div>
+                            <div class="value">FREE</div>
+                            <div class="label">Delivery 2KM</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="icon"><i class="fas fa-clock"></i></div>
+                            <div class="value">12 hrs</div>
+                            <div class="label">Daily Open</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="icon"><i class="fas fa-pills"></i></div>
+                            <div class="value" id="totalProducts">1000+</div>
+                            <div class="label">Medicines</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="icon"><i class="fas fa-heart"></i></div>
+                            <div class="value">Trusted</div>
+                            <div class="label">Since Day 1</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES BAR -->
+    <div class="features-bar">
+        <div class="features-container">
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-truck"></i></div>
+                <div class="feature-text">
+                    <h4>Free Home Delivery</h4>
+                    <p>Within 2 KM radius</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-tag"></i></div>
+                <div class="feature-text">
+                    <h4>Best Prices</h4>
+                    <p>Sahi Daam, always</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                <div class="feature-text">
+                    <h4>Genuine Medicines</h4>
+                    <p>100% authentic products</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon"><i class="fab fa-whatsapp"></i></div>
+                <div class="feature-text">
+                    <h4>WhatsApp Ordering</h4>
+                    <p>Quick & convenient</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="section page-section" id="products">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Our Products</span>
+                <h2>Medicines & Health Products</h2>
+                <p>Browse our inventory and order via WhatsApp or call us directly</p>
+            </div>
+            <div class="products-toolbar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Search medicines, brands, categories..."
+                        oninput="filterProducts()">
+                </div>
+                <div class="filter-chips" id="filterChips">
+                    <button class="chip active" onclick="setCategory('all')">All</button>
+                </div>
+            </div>
+            <div class="products-count" id="productsCount"></div>
+            <div class="products-grid" id="productsGrid">
+                <div class="products-loading" id="productsLoading">
+                    <i class="fas fa-spinner"></i>
+                    <p>Loading inventory...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section page-section" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">About Us</span>
+                <h2>Built with ❤️ in Lucknow</h2>
+                <p>For Lucknow, from Lucknow</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Your Health, Our Priority</h3>
+                    <p>Vaibhav Pharmacy is your trusted neighbourhood medical store in Vrindavan Yojna, Lucknow. We
+                        believe everyone deserves access to genuine, affordable medicines - that's our promise of
+                        <strong>Sahi Dava, Sahi Daam</strong>.
+                    </p>
+                    <p>Whether you need prescription medicines, OTC products, or health essentials, we're here to serve
+                        you with care and a smile. Just drop a WhatsApp message or give us a call!</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="fas fa-prescription-bottle-alt"></i></div>
+                            <div>
+                                <h4>Wide Medicine Range</h4>
+                                <p>Prescription medicines, OTC drugs, and healthcare products</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="fas fa-motorcycle"></i></div>
+                            <div>
+                                <h4>Free Home Delivery</h4>
+                                <p>Complimentary delivery within 2 KM of our store</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="fas fa-handshake"></i></div>
+                            <div>
+                                <h4>Personal Touch</h4>
+                                <p>We know our customers by name - you're family here</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="fas fa-certificate"></i></div>
+                            <div>
+                                <h4>Genuine Products</h4>
+                                <p>Only authentic, licensed medicines from trusted distributors</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="pharmacy-icon"><i class="fas fa-clinic-medical"></i></div>
+                    <div class="about-hours">
+                        <h4><i class="far fa-clock"></i> Store Hours</h4>
+                        <div class="hours-row">
+                            <span class="day">Monday - Sunday</span>
+                            <span class="time">9 AM - 9 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span class="day">Holidays</span>
+                            <span class="time">Open (may vary)</span>
+                        </div>
+                        <div id="openStatus"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DELIVERY BANNER -->
+    <div class="delivery-banner">
+        <h2>🛵 Free Home Delivery Within 2 KM</h2>
+        <p>Send us your prescription or medicine list on WhatsApp and we'll deliver it right to your doorstep -
+            absolutely free!</p>
+        <div class="delivery-actions">
+            <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20delivered%20to%20my%20home.%20Here%20is%20my%20prescription:"
+                class="btn btn-white">
+                <i class="fab fa-whatsapp"></i> Send Prescription
+            </a>
+            <a href="tel:+917897526668" class="btn btn-outline-white">
+                <i class="fas fa-phone-alt"></i> Call +91 7897526668
+            </a>
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <section class="section page-section" id="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Get in Touch</span>
+                <h2>Contact Us</h2>
+                <p>We're always happy to help you with your health needs</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-cards">
+                    <a href="https://wa.me/917897526668?text=Hi%20Vaibhav%20Pharmacy!" class="contact-card"
+                        target="_blank">
+                        <div class="contact-card-icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <h4>WhatsApp Order</h4>
+                            <p>+91 78975 26680</p>
+                            <div class="contact-action">Send a message →</div>
+                        </div>
+                    </a>
+                    <a href="tel:+917897526668" class="contact-card">
+                        <div class="contact-card-icon phone"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+91 78975 26668</p>
+                            <div class="contact-action">Call now →</div>
+                        </div>
+                    </a>
+                    <a href="https://share.google/n0NikLUKXulAIIDVl" class="contact-card" target="_blank">
+                        <div class="contact-card-icon location"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>Shop No. 2, Surat Residency, Sector 11, Vrindavan Yojna, Lucknow, UP 226029</p>
+                            <div class="contact-action">Get directions →</div>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/vaibhav.pharmacy/" class="contact-card" target="_blank">
+                        <div class="contact-card-icon instagram"><i class="fab fa-instagram"></i></div>
+                        <div>
+                            <h4>Follow on Instagram</h4>
+                            <p>@vaibhav.pharmacy</p>
+                            <div class="contact-action">Follow us →</div>
+                        </div>
+                    </a>
+                    <div class="contact-card">
+                        <div class="contact-card-icon hours"><i class="far fa-clock"></i></div>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Open every day: 9 AM - 9 PM</p>
+                            <div id="openStatus2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.5!2d80.946!3d26.816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd0!2sVrindavan%20Colony%2C%20Lucknow!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="48" fill="#2E7D32" />
+                        <circle cx="50" cy="50" r="44" fill="#388E3C" />
+                        <rect x="46" y="22" width="8" height="56" rx="4" fill="white" opacity="0.3" />
+                        <rect x="22" y="46" width="56" height="8" rx="4" fill="white" opacity="0.3" />
+                        <text x="50" y="42" text-anchor="middle" font-family="Inter, sans-serif" font-size="22"
+                            font-weight="800" fill="white">V</text>
+                        <text x="50" y="68" text-anchor="middle" font-family="Inter, sans-serif" font-size="22"
+                            font-weight="800" fill="white">P</text>
+                    </svg>
+                    <p>Vaibhav Pharmacy - Sahi Dava, Sahi Daam. Your trusted neighbourhood pharmacy in Vrindavan Yojna,
+                        Lucknow.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/vaibhav.pharmacy/" target="_blank" title="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/917897526668" target="_blank" title="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                        <a href="tel:+917897526668" title="Call"><i class="fas fa-phone-alt"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#products">Medicines</a></li>
+                        <li><a href="#home">Home Delivery</a></li>
+                        <li><a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20delivered."
+                                target="_blank">WhatsApp Order</a></li>
+                        <li><a href="tel:+917897526668">Phone Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+917897526668">+91 78975 26668</a></li>
+                        <li><a href="https://wa.me/917897526668">+91 78975 26680</a></li>
+                        <li><a href="https://share.google/n0NikLUKXulAIIDVl" target="_blank">Get Directions</a></li>
+                        <li><a href="https://www.instagram.com/vaibhav.pharmacy/" target="_blank">@vaibhav.pharmacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 Vaibhav Pharmacy. All rights reserved.</span>
+                <span>Built with <span class="heart">❤️</span> in Lucknow, for Lucknow, from Lucknow.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP -->
+    <div class="whatsapp-float">
+        <div class="whatsapp-tooltip">Need medicines? Chat with us! 💊</div>
+        <a href="https://wa.me/917897526668?text=Hi%20Vaibhav%20Pharmacy!%20I%20need%20some%20medicines."
+            class="whatsapp-btn" target="_blank" title="Order on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <script>
+        // ===== INVENTORY CONFIGURATION =====
+        const SHEET_ID = '14BqG9IcLFGij3v5TIqZJMX23VJpej77RwktS34ymilk';
+        const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:json`;
+        const LOCAL_JSON = 'inventory.json';
+
+        let allProducts = [];
+        let categories = new Set();
+        let currentCategory = 'all';
+        const PRODUCTS_PER_PAGE = 24;
+        let currentPage = 1;
+
+        // Unit type to readable category mapping
+        const UNIT_CATEGORY_MAP = {
+            'TAB': 'Tablets & Capsules', 'TAB.': 'Tablets & Capsules', 'TABS': 'Tablets & Capsules',
+            'CAP': 'Tablets & Capsules', 'CAPS': 'Tablets & Capsules',
+            'SYP': 'Syrups', 'SYPS': 'Syrups', 'SYRP': 'Syrups',
+            'INJ': 'Injections',
+            'OINT': 'Gels, Oils & Ointments', 'CREAM': 'Gels, Oils & Ointments',
+            'OIL': 'Gels, Oils & Ointments',
+            'GEL': 'Gels, Oils & Ointments',
+            'DROP': 'Drops', 'DROPS': 'Drops',
+            'POW': 'Powders', 'POWDER': 'Powders',
+            'PCS': 'Others', 'PSC': 'Others'
+        };
+
+        function categorizeUnit(unit) {
+            if (!unit) return 'Others';
+            const u = unit.toString().toUpperCase().trim();
+            return UNIT_CATEGORY_MAP[u] || 'Others';
+        }
+
+        // ===== FETCH INVENTORY: Load local JSON data =====
+        async function fetchInventory() {
+            const grid = document.getElementById('productsGrid');
+
+            try {
+                const response = await fetch(LOCAL_JSON);
+                allProducts = await response.json();
+                console.log(`Loaded ${allProducts.length} products from local inventory`);
+                initProducts();
+
+            } catch (error) {
+                console.error('Error fetching inventory:', error);
+                grid.innerHTML = `
+                    <div class="products-empty" style="grid-column: 1/-1;">
+                        <i class="fas fa-exclamation-circle" style="color: #ef4444;"></i>
+                        <p>Unable to load inventory right now.</p>
+                        <p style="font-size:13px; margin-top:8px;">Please contact us directly to check availability & order.</p>
+                        <div style="display:flex;gap:12px;justify-content:center;margin-top:20px;flex-wrap:wrap;">
+                            <a href="https://wa.me/917897526668?text=Hi!%20I%20want%20to%20check%20medicine%20availability." class="btn btn-whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Ask on WhatsApp
+                            </a>
+                            <a href="tel:+917897526668" class="btn btn-outline">
+                                <i class="fas fa-phone-alt"></i> Call Us
+                            </a>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        function initProducts() {
+            // Build categories
+            categories = new Set();
+            allProducts.forEach(p => {
+                if (p.category) categories.add(p.category);
+            });
+
+            buildFilterChips();
+            filterProducts();
+
+            // Update hero stat
+            const totalEl = document.getElementById('totalProducts');
+            if (totalEl) totalEl.textContent = allProducts.length + '+';
+        }
+
+        function buildFilterChips() {
+            const container = document.getElementById('filterChips');
+
+            // Compute counts and sort descending
+            const categoryCounts = [...categories].map(cat => ({
+                name: cat,
+                count: allProducts.filter(p => p.category === cat).length
+            })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+
+            container.innerHTML = `<button class="chip active" onclick="setCategory('all', this)">All (${allProducts.length})</button>`;
+            categoryCounts.forEach(c => {
+                container.innerHTML += `<button class="chip" onclick="setCategory('${c.name}', this)">${c.name} (${c.count})</button>`;
+            });
+        }
+
+        function setCategory(cat, el) {
+            currentCategory = cat;
+            currentPage = 1;
+            document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+            if (el) el.classList.add('active');
+            filterProducts();
+        }
+
+        function filterProducts() {
+            const query = document.getElementById('searchInput').value.toLowerCase().trim();
+            let filtered = allProducts;
+
+            if (currentCategory !== 'all') {
+                filtered = filtered.filter(p => p.category === currentCategory);
+            }
+
+            if (query) {
+                filtered = filtered.filter(p => {
+                    return p.name.toLowerCase().includes(query) ||
+                        (p.company && p.company.toLowerCase().includes(query)) ||
+                        (p.category && p.category.toLowerCase().includes(query));
+                });
+            }
+
+            renderProducts(filtered);
+        }
+
+        function renderProducts(products) {
+            const grid = document.getElementById('productsGrid');
+            const countEl = document.getElementById('productsCount');
+
+            if (products.length === 0) {
+                grid.innerHTML = `
+                <div class="products-empty" style="grid-column: 1/-1;">
+                    <i class="fas fa-search"></i>
+                    <p>No products found matching "<strong>${query}</strong>".</p>
+                    <p style="font-size:14px; margin-top:12px;">Let us check our stock manually for you:</p>
+                    <a href="https://wa.me/917897526668?text=Hi!%20I%20am%20searching%20for%20%22${encodeURIComponent(query)}%22.%20Do%20you%20have%20it%20in%20stock?" target="_blank" class="btn btn-whatsapp" style="margin-top: 12px; display: inline-flex;">
+                        <i class="fab fa-whatsapp"></i> Send search to us on WhatsApp
+                    </a>
+                </div>`;
+                countEl.textContent = '0 products found';
+                return;
+            }
+
+            const totalPages = Math.ceil(products.length / PRODUCTS_PER_PAGE);
+            if (currentPage > totalPages) currentPage = totalPages;
+            const start = (currentPage - 1) * PRODUCTS_PER_PAGE;
+            const pageProducts = products.slice(start, start + PRODUCTS_PER_PAGE);
+
+            countEl.textContent = `Showing ${start + 1}-${Math.min(start + PRODUCTS_PER_PAGE, products.length)} of ${products.length} products`;
+
+            let html = pageProducts.map(p => {
+                const isInStock = p.stock > 0;
+                const price = p.mrp || 0;
+                const rate = p.rate || 0;
+                let priceDisplay = '';
+                let finalPriceText = '';
+
+                if (price > 0) {
+                    // Calculate Margin
+                    // If rate is 0, we assume margin is unknown but let's give the 5% discount by default 
+                    // unless rate is explicitly set and margin is <= 10%
+                    const marginPercentage = (rate > 0) ? ((price - rate) / price) * 100 : 100;
+
+                    let finalPrice = price;
+
+                    // Apply 5% discount only if margin > 10%
+                    if (marginPercentage > 10) {
+                        finalPrice = Math.round(price * 0.95);
+                        priceDisplay = `₹${finalPrice} <span class="mrp">₹${Math.round(price)}</span>`;
+                        finalPriceText = ` (MRP ₹${finalPrice})`;
+                    } else {
+                        // No discount
+                        finalPrice = Math.round(price);
+                        priceDisplay = `₹${finalPrice}`;
+                        finalPriceText = ` (MRP ₹${finalPrice})`;
+                    }
+                }
+
+                const whatsappText = encodeURIComponent(`Hi! I would like to order:\n${p.name}${finalPriceText}\n\nPlease confirm availability and price.`);
+
+                return `
+                <div class="product-card">
+                    <span class="product-category">${p.category || 'General'}</span>
+                    <div class="product-name">${p.name}</div>
+                    <div class="product-details">${p.company || 'Vaibhav Pharmacy'}</div>
+                    <div class="product-footer">
+                        <span class="product-price">${priceDisplay}</span>
+                        <span class="product-stock ${isInStock ? 'stock-in' : 'stock-out'}">
+                            ${isInStock ? '● In Stock' : '○ Out of Stock'}
+                        </span>
+                    </div>
+                    <a href="https://wa.me/917897526668?text=${whatsappText}" target="_blank" class="product-order-btn">
+                        <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                    </a>
+                </div>`;
+            }).join('');
+
+            // Pagination
+            if (totalPages > 1) {
+                html += `<div style="grid-column:1/-1;display:flex;justify-content:center;gap:8px;padding:20px 0;flex-wrap:wrap;">`;
+                if (currentPage > 1) {
+                    html += `<button class="chip" onclick="changePage(${currentPage - 1})">← Previous</button>`;
+                }
+                for (let i = 1; i <= totalPages; i++) {
+                    if (i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
+                        html += `<button class="chip ${i === currentPage ? 'active' : ''}" onclick="changePage(${i})">${i}</button>`;
+                    } else if (i === currentPage - 2 || i === currentPage + 2) {
+                        html += `<span style="padding:8px 4px;color:var(--gray-400);">...</span>`;
+                    }
+                }
+                if (currentPage < totalPages) {
+                    html += `<button class="chip" onclick="changePage(${currentPage + 1})">Next →</button>`;
+                }
+                html += `</div>`;
+            }
+
+            grid.innerHTML = html;
+        }
+
+        function changePage(page) {
+            currentPage = page;
+            filterProducts();
+            document.getElementById('products').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        // ===== NAVBAR =====
+        function toggleNav() {
+            document.getElementById('navLinks').classList.toggle('open');
+        }
+
+        function navigateTo(section) {
+            document.getElementById('navLinks').classList.remove('open');
+            document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+            document.querySelector(`.nav-links a[href="#${section}"]`)?.classList.add('active');
+        }
+
+        function focusSearch() {
+            navigateTo('products');
+            const productsSection = document.getElementById('products');
+            productsSection.scrollIntoView({ behavior: 'smooth' });
+
+            setTimeout(() => {
+                const searchInput = document.getElementById('searchInput');
+                if (searchInput) {
+                    searchInput.focus();
+                    searchInput.style.transition = 'box-shadow 0.3s ease';
+                    searchInput.style.boxShadow = '0 0 0 4px rgba(76,175,80,0.3)';
+                    setTimeout(() => {
+                        searchInput.style.boxShadow = '';
+                    }, 1500);
+                }
+            }, 500);
+        }
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            navbar.classList.toggle('scrolled', window.scrollY > 10);
+
+            const sections = ['home', 'products', 'about', 'contact'];
+            for (const sec of [...sections].reverse()) {
+                const el = document.getElementById(sec);
+                if (el && window.scrollY >= el.offsetTop - 100) {
+                    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
+                    document.querySelector(`.nav-links a[href="#${sec}"]`)?.classList.add('active');
+                    break;
+                }
+            }
+        });
+
+        // ===== OPEN/CLOSED STATUS =====
+        function updateOpenStatus() {
+            const now = new Date();
+            // Convert to IST (UTC+5:30)
+            const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+            const ist = new Date(utc + (5.5 * 3600000));
+            const hours = ist.getHours();
+            const minutes = ist.getMinutes();
+            const isOpen = hours >= 9 && hours < 21;
+
+            const currentTime = ist.toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit', hour12: true });
+
+            const badge = `<div class="open-badge ${isOpen ? '' : 'closed'}">
+            <span class="dot"></span>
+            ${isOpen ? 'Open Now' : 'Currently Closed'} &middot; ${isOpen ? 'Closes at 9 PM' : 'Opens at 9 AM'}
+        </div>`;
+
+            const el1 = document.getElementById('openStatus');
+            const el2 = document.getElementById('openStatus2');
+            if (el1) el1.innerHTML = badge;
+            if (el2) el2.innerHTML = badge;
+
+            // Update hero badge
+            const heroBadge = document.querySelector('.hero-badge');
+            if (heroBadge) {
+                heroBadge.innerHTML = `<span class="pulse ${isOpen ? '' : 'closed'}"></span> ${isOpen ? 'Open Now' : 'Closed'} &middot; Open 9 AM - 9 PM`;
+            }
+        }
+
+        // ===== INIT =====
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchInventory();
+            updateOpenStatus();
+            setInterval(updateOpenStatus, 60000);
+        });
+
+        // Close mobile nav when clicking outside
+        document.addEventListener('click', (e) => {
+            const nav = document.getElementById('navLinks');
+            const toggle = document.getElementById('navToggle');
+            if (!nav.contains(e.target) && !toggle.contains(e.target)) {
+                nav.classList.remove('open');
+            }
+        });
+
+        // Debounce search for performance
+        let searchTimeout;
+        document.getElementById('searchInput')?.addEventListener('input', () => {
+            clearTimeout(searchTimeout);
+            currentPage = 1;
+            searchTimeout = setTimeout(filterProducts, 200);
+        });
+
+        // Google Analytics Event Tracking for WhatsApp Clicks
+        document.addEventListener('click', function (e) {
+            const link = e.target.closest('a');
+            if (!link) return;
+
+            const href = link.getAttribute('href');
+            if (href && href.includes('wa.me')) {
+                if (typeof gtag === 'function') {
+                    let label = link.textContent.trim() || 'WhatsApp Button';
+                    if (link.classList.contains('product-order-btn')) {
+                        const card = link.closest('.product-card');
+                        if (card) {
+                            const nameEl = card.querySelector('.product-name');
+                            if (nameEl) label = 'Order: ' + nameEl.textContent.trim();
+                        }
+                    }
+
+                    gtag('event', 'whatsapp_click', {
+                        'event_category': 'engagement',
+                        'event_label': label
+                    });
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>
