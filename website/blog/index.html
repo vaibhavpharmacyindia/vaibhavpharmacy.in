@@ -7,22 +7,38 @@
     <title>Sehat Diary by Vaibhav Pharmacy | Health Tips in Lucknow</title>
     <meta name="description"
         content="Read the latest health tips, seasonal advice, and medicine guides from Vaibhav Pharmacy in Vrindavan Yojna, Lucknow.">
+    <link rel="canonical" href="https://vaibhavpharmacy.in/blog/">
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="../vp_logo_new.png">
     <style>
         :root {
             --primary: #1B5E20;
             --primary-light: #2E7D32;
+            --primary-lighter: #4CAF50;
             --primary-bg: #E8F5E9;
+            --primary-bg-light: #F1F8E9;
+            --accent: #FF6F00;
+            --accent-light: #FFA726;
             --white: #ffffff;
+            --gray-50: #FAFAFA;
             --gray-100: #F5F5F5;
+            --gray-200: #EEEEEE;
             --gray-300: #E0E0E0;
+            --gray-400: #BDBDBD;
             --gray-500: #9E9E9E;
+            --gray-600: #757575;
             --gray-700: #616161;
             --gray-800: #424242;
+            --gray-900: #212121;
+            --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
             --radius: 12px;
+            --radius-lg: 16px;
         }
 
         * {
@@ -34,181 +50,708 @@
         body {
             font-family: 'Inter', sans-serif;
             color: var(--gray-800);
-            background: var(--gray-100);
+            background: var(--gray-50);
             line-height: 1.6;
         }
 
+        /* ===== NAVBAR ===== */
         .navbar {
             background: var(--white);
-            padding: 20px 24px;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-            text-align: center;
+            padding: 0 24px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-sm);
+            border-bottom: 1px solid var(--gray-200);
+            position: sticky;
+            top: 0;
+            z-index: 100;
         }
 
-        .navbar a {
+        .nav-inner {
+            max-width: 1100px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .nav-brand {
             text-decoration: none;
             color: var(--primary);
             font-family: 'Outfit', sans-serif;
             font-weight: 700;
-            font-size: 24px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
-        .container {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 24px;
+        .nav-brand img {
+            height: 32px;
+            width: auto;
         }
 
-        .header {
+        .nav-back {
+            text-decoration: none;
+            color: var(--gray-600);
+            font-size: 14px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 16px;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .nav-back:hover {
+            color: var(--primary);
+            background: var(--primary-bg);
+        }
+
+        /* ===== PAGE HEADER ===== */
+        .page-header {
+            background: linear-gradient(135deg, var(--primary-bg) 0%, var(--white) 60%, var(--primary-bg-light) 100%);
+            padding: 56px 24px 48px;
             text-align: center;
-            margin-bottom: 40px;
+            position: relative;
+            overflow: hidden;
         }
 
-        .header h1 {
-            font-family: 'Outfit', sans-serif;
-            font-size: 36px;
-            color: var(--gray-800);
+        .page-header::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 300px;
+            height: 300px;
+            background: radial-gradient(circle, rgba(76, 175, 80, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .page-header-icon {
+            font-size: 40px;
             margin-bottom: 12px;
         }
 
-        .header p {
+        .page-header h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 40px;
+            font-weight: 800;
+            color: var(--gray-900);
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        .page-header h1 span {
+            color: var(--primary);
+        }
+
+        .page-header p {
+            color: var(--gray-600);
+            font-size: 16px;
+            max-width: 480px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        /* ===== MAIN CONTENT ===== */
+        .main-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+        }
+
+        /* ===== FEATURED CARD ===== */
+        .featured-card {
+            background: var(--white);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--gray-200);
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 40px;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .featured-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-3px);
+            border-color: var(--primary-lighter);
+        }
+
+        .featured-visual {
+            background: linear-gradient(135deg, #1B5E20 0%, #43A047 50%, #66BB6A 100%);
+            padding: 48px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 280px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .featured-visual::before {
+            content: '';
+            position: absolute;
+            top: -40%;
+            right: -30%;
+            width: 250px;
+            height: 250px;
+            background: rgba(255, 255, 255, 0.06);
+            border-radius: 50%;
+        }
+
+        .featured-visual::after {
+            content: '';
+            position: absolute;
+            bottom: -20%;
+            left: -20%;
+            width: 180px;
+            height: 180px;
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 50%;
+        }
+
+        .featured-visual-icon {
+            font-size: 64px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 16px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .featured-visual-label {
+            color: rgba(255, 255, 255, 0.75);
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .featured-content {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .featured-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: linear-gradient(135deg, var(--accent), #FF8F00);
+            color: var(--white);
+            font-size: 11px;
+            font-weight: 700;
+            padding: 4px 14px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 16px;
+            align-self: flex-start;
+        }
+
+        .featured-content h2 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--gray-900);
+            line-height: 1.3;
+            margin-bottom: 12px;
+        }
+
+        .featured-content p {
+            color: var(--gray-600);
+            font-size: 15px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .featured-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            font-size: 13px;
             color: var(--gray-500);
         }
 
+        .featured-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .read-more-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 14px;
+            margin-top: 4px;
+            transition: gap 0.2s ease;
+        }
+
+        .featured-card:hover .read-more-link {
+            gap: 10px;
+        }
+
+        /* ===== SECTION TITLE ===== */
+        .section-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+
+        .section-title h3 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--gray-900);
+        }
+
+        .section-title .count {
+            font-size: 13px;
+            color: var(--gray-500);
+            font-weight: 500;
+        }
+
+        /* ===== BLOG CARDS GRID ===== */
         .blog-grid {
             display: grid;
+            grid-template-columns: repeat(2, 1fr);
             gap: 24px;
         }
 
         .blog-card {
             background: var(--white);
-            border-radius: var(--radius);
-            padding: 24px;
-            border: 1px solid var(--gray-300);
-            transition: transform 0.2s ease;
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--gray-200);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
         }
 
         .blog-card:hover {
             transform: translateY(-4px);
-            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            box-shadow: var(--shadow-md);
+            border-color: var(--primary-lighter);
         }
 
-        .blog-category {
-            display: inline-block;
-            background: var(--primary-bg);
-            color: var(--primary);
+        .card-visual {
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card-visual-icon {
+            font-size: 48px;
+            color: rgba(255, 255, 255, 0.85);
+            position: relative;
+            z-index: 1;
+        }
+
+        .card-visual.health {
+            background: linear-gradient(135deg, #1565C0 0%, #42A5F5 100%);
+        }
+
+        .card-visual.first-aid {
+            background: linear-gradient(135deg, #C62828 0%, #EF5350 100%);
+        }
+
+        .card-visual.services {
+            background: linear-gradient(135deg, #1B5E20 0%, #66BB6A 100%);
+        }
+
+        .card-visual.home-health {
+            background: linear-gradient(135deg, #E65100 0%, #FFA726 100%);
+        }
+
+        .card-visual::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            right: -20%;
+            width: 150px;
+            height: 150px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 50%;
+        }
+
+        .card-body {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .card-category {
+            display: inline-flex;
+            align-items: center;
             font-size: 11px;
-            font-weight: 600;
+            font-weight: 700;
             padding: 4px 12px;
             border-radius: 50px;
             text-transform: uppercase;
+            letter-spacing: 0.8px;
             margin-bottom: 12px;
+            align-self: flex-start;
         }
 
-        .blog-title {
-            font-size: 20px;
-            font-weight: 700;
-            margin-bottom: 8px;
+        .card-category.health {
+            background: #E3F2FD;
+            color: #1565C0;
         }
 
-        .blog-title a {
-            color: var(--gray-800);
-            text-decoration: none;
+        .card-category.first-aid {
+            background: #FFEBEE;
+            color: #C62828;
         }
 
-        .blog-title a:hover {
+        .card-category.services {
+            background: var(--primary-bg);
             color: var(--primary);
         }
 
-        .blog-excerpt {
-            color: var(--gray-700);
-            font-size: 14px;
-            margin-bottom: 16px;
+        .card-category.home-health {
+            background: #FFF3E0;
+            color: #E65100;
         }
 
-        .blog-meta {
-            font-size: 12px;
-            color: var(--gray-500);
+        .card-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--gray-900);
+            line-height: 1.35;
+            margin-bottom: 8px;
+        }
+
+        .blog-card:hover .card-title {
+            color: var(--primary);
+        }
+
+        .card-excerpt {
+            color: var(--gray-600);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            flex-grow: 1;
+        }
+
+        .card-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 16px;
+            border-top: 1px solid var(--gray-100);
+        }
+
+        .card-meta {
             display: flex;
             align-items: center;
             gap: 12px;
+            font-size: 12px;
+            color: var(--gray-500);
         }
 
-        .back-link {
-            display: inline-block;
-            margin-bottom: 24px;
+        .card-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .card-read-more {
+            color: var(--primary);
+            font-size: 13px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: gap 0.2s ease;
+        }
+
+        .blog-card:hover .card-read-more {
+            gap: 8px;
+        }
+
+        /* ===== FOOTER ===== */
+        .blog-footer {
+            margin-top: 60px;
+            padding: 32px 0;
+            border-top: 1px solid var(--gray-200);
+            text-align: center;
+        }
+
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--primary);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .footer-brand img {
+            height: 28px;
+            width: auto;
+        }
+
+        .blog-footer p {
+            color: var(--gray-500);
+            font-size: 13px;
+        }
+
+        .blog-footer p a {
             color: var(--primary);
             text-decoration: none;
             font-weight: 600;
         }
 
-        .back-link:hover {
+        .blog-footer p a:hover {
             text-decoration: underline;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            .page-header {
+                padding: 40px 20px 36px;
+            }
+
+            .page-header h1 {
+                font-size: 30px;
+            }
+
+            .page-header p {
+                font-size: 14px;
+            }
+
+            .main-content {
+                padding: 24px 16px 40px;
+            }
+
+            .featured-card {
+                grid-template-columns: 1fr;
+                margin-bottom: 32px;
+            }
+
+            .featured-visual {
+                min-height: 180px;
+                padding: 32px 24px;
+            }
+
+            .featured-visual-icon {
+                font-size: 48px;
+            }
+
+            .featured-content {
+                padding: 24px;
+            }
+
+            .featured-content h2 {
+                font-size: 20px;
+            }
+
+            .blog-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .card-visual {
+                height: 130px;
+            }
+
+            .section-title {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
         }
     </style>
 </head>
 
 <body>
+    <!-- NAVBAR -->
     <nav class="navbar">
-        <a href="/"><img src="../vp_newlogo.svg" alt="Vaibhav Pharmacy Logo"
-                style="height: 32px; width: auto; vertical-align: middle; margin-right: 12px;"> VAIBHAV PHARMACY</a>
+        <div class="nav-inner">
+            <a href="/" class="nav-brand">
+                <img src="../vp_newlogo.svg" alt="Vaibhav Pharmacy Logo">
+                VAIBHAV PHARMACY
+            </a>
+            <a href="/" class="nav-back">
+                <i class="fas fa-arrow-left"></i> Back to Main Site
+            </a>
+        </div>
     </nav>
 
-    <div class="container">
-        <a href="/" class="back-link">&larr; Back to Main Site</a>
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+        <div class="page-header-icon">📖</div>
+        <h1>Sehat <span>Diary</span></h1>
+        <p>Lucknow walo ke liye expert health advice, wellness tips, aur local health alerts.</p>
+    </div>
 
-        <div class="header">
-            <h1>Sehat Diary</h1>
-            <p>Lucknow walo ke liye expert advice, wellness tips, aur local health alerts.</p>
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <!-- FEATURED ARTICLE -->
+        <a href="post-holi-skin-care-tips-hindi.html" class="featured-card">
+            <div class="featured-visual"
+                style="background: linear-gradient(135deg, #E65100 0%, #FF8F00 50%, #FFB74D 100%);">
+                <i class="fas fa-sun featured-visual-icon"></i>
+                <div class="featured-visual-label">Featured Article</div>
+            </div>
+            <div class="featured-content">
+                <span class="featured-badge"><i class="fas fa-fire"></i> New</span>
+                <h2>Holi Ke Baad Skin Ka Haal Kharab? Yeh 7 Tips Apnao, Glow Wapas Lao</h2>
+                <p>Holi khatam, masti khatam. Ab jo bacha hai woh hai pakka rang aur dry skin. Yeh 7 simple tips se apni
+                    skin aur baalon ko recover karein.</p>
+                <div class="featured-meta">
+                    <span><i class="far fa-calendar"></i> March 5, 2026</span>
+                    <span><i class="far fa-clock"></i> 6 min read</span>
+                </div>
+                <span class="read-more-link">Read Article <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </a>
+
+        <!-- ALL ARTICLES -->
+        <div class="section-title">
+            <h3>All Articles</h3>
+            <span class="count">5 articles</span>
         </div>
 
         <div class="blog-grid">
-            <article class="blog-card">
-                <span class="blog-category">First Aid</span>
-                <h2 class="blog-title"><a href="first-aid-kit.html">Lucknow Households ke liye Zaroori At-Home First Aid
-                        Kit Checklist</a></h2>
-                <p class="blog-excerpt">Chhoti-moti injuries aur achanak aayi beemariyon ke liye pehle se taiyar rahein.
-                    Jaaniye aapke medicine cabinet mein kya-kya hona chahiye.</p>
-                <div class="blog-meta">
-                    <span><i class="far fa-calendar"></i> Feb 15, 2026</span>
-                    <span><i class="far fa-clock"></i> 3 min read</span>
+            <!-- Card: Holi -->
+            <a href="post-holi-skin-care-tips-hindi.html" class="blog-card">
+                <div class="card-visual" style="background: linear-gradient(135deg, #E65100 0%, #FFA726 100%);">
+                    <i class="fas fa-sun card-visual-icon"></i>
                 </div>
-            </article>
+                <div class="card-body">
+                    <span class="card-category" style="background: #FFF3E0; color: #E65100;">Seasonal Care</span>
+                    <h2 class="card-title">Holi Ke Baad Skin Ka Haal Kharab? Yeh 7 Tips Apnao, Glow Wapas Lao</h2>
+                    <p class="card-excerpt">Holi khatam, masti khatam. Pakka rang aur dry skin? Simple ghar pe available
+                        cheezein use karke skin recover karein.</p>
+                    <div class="card-footer">
+                        <div class="card-meta">
+                            <span><i class="far fa-calendar"></i> March 5, 2026</span>
+                            <span><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                        <span class="card-read-more">Read <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </a>
 
-            <article class="blog-card">
-                <span class="blog-category">Seasonal Health</span>
-                <h2 class="blog-title"><a href="combating-flu.html">Lucknow mein Flu Season se Kaise Bachein: Preventive
-                        Tips aur Zaroori Supplements</a></h2>
-                <p class="blog-excerpt">UP mein badalte mausam ke saath viral fever aam baat hai. Jaaniye apni immunity
-                    kaise badhayein aue apni family ko kaise surakshit rakhein.</p>
-                <div class="blog-meta">
-                    <span><i class="far fa-calendar"></i> Feb 10, 2026</span>
-                    <span><i class="far fa-clock"></i> 4 min read</span>
+            <!-- Card 1 -->
+            <a href="medicine-home-delivery-vrindavan-yojna-lucknow.html" class="blog-card">
+                <div class="card-visual services">
+                    <i class="fas fa-truck-medical card-visual-icon"></i>
                 </div>
-            </article>
-            <article class="blog-card">
-                <span class="blog-category">Services</span>
-                <h2 class="blog-title"><a href="medicine-home-delivery-vrindavan-yojna-lucknow.html">How to Get
-                        Medicines Delivered to Your Doorstep in Vrindavan Yojna, Lucknow</a></h2>
-                <p class="blog-excerpt">Running out of medicines is stressful. If you live in Vrindavan Yojna, there's a
-                    simpler way to get your medicines with free home delivery.</p>
-                <div class="blog-meta">
-                    <span><i class="far fa-calendar"></i> Feb 20, 2026</span>
-                    <span><i class="far fa-clock"></i> 4 min read</span>
+                <div class="card-body">
+                    <span class="card-category services">Services</span>
+                    <h2 class="card-title">How to Get Medicines Delivered to Your Doorstep in Vrindavan Yojna,
+                        Lucknow</h2>
+                    <p class="card-excerpt">Running out of medicines is stressful. If you live in Vrindavan Yojna,
+                        there's a simpler way to get your medicines with free home delivery.</p>
+                    <div class="card-footer">
+                        <div class="card-meta">
+                            <span><i class="far fa-calendar"></i> Feb 20, 2026</span>
+                            <span><i class="far fa-clock"></i> 4 min read</span>
+                        </div>
+                        <span class="card-read-more">Read <i class="fas fa-arrow-right"></i></span>
+                    </div>
                 </div>
-            </article>
+            </a>
 
-            <article class="blog-card">
-                <span class="blog-category">Home Health</span>
-                <h2 class="blog-title"><a href="essential-medicines-home-kit-lucknow.html">10 Medicines You Should
-                        Always Keep at Home: A Lucknow Family's Essential Medicine Kit</a></h2>
-                <p class="blog-excerpt">Having a well-organized home medicine kit can be the difference between handling
-                    a minor health issue at home and a panicked trip to the store.</p>
-                <div class="blog-meta">
-                    <span><i class="far fa-calendar"></i> Feb 22, 2026</span>
-                    <span><i class="far fa-clock"></i> 5 min read</span>
+            <!-- Card 2 -->
+            <a href="first-aid-kit.html" class="blog-card">
+                <div class="card-visual first-aid">
+                    <i class="fas fa-briefcase-medical card-visual-icon"></i>
                 </div>
-            </article>
+                <div class="card-body">
+                    <span class="card-category first-aid">First Aid</span>
+                    <h2 class="card-title">Lucknow Households ke liye Zaroori At-Home First Aid Kit Checklist</h2>
+                    <p class="card-excerpt">Chhoti-moti injuries aur achanak aayi beemariyon ke liye pehle se taiyar
+                        rahein. Jaaniye aapke medicine cabinet mein kya-kya hona chahiye.</p>
+                    <div class="card-footer">
+                        <div class="card-meta">
+                            <span><i class="far fa-calendar"></i> Feb 15, 2026</span>
+                            <span><i class="far fa-clock"></i> 3 min read</span>
+                        </div>
+                        <span class="card-read-more">Read <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 3 -->
+            <a href="combating-flu.html" class="blog-card">
+                <div class="card-visual health">
+                    <i class="fas fa-shield-virus card-visual-icon"></i>
+                </div>
+                <div class="card-body">
+                    <span class="card-category health">Seasonal Health</span>
+                    <h2 class="card-title">Lucknow mein Flu Season se Kaise Bachein: Preventive Tips aur Zaroori
+                        Supplements</h2>
+                    <p class="card-excerpt">UP mein badalte mausam ke saath viral fever aam baat hai. Jaaniye apni
+                        immunity kaise badhayein aur apni family ko kaise surakshit rakhein.</p>
+                    <div class="card-footer">
+                        <div class="card-meta">
+                            <span><i class="far fa-calendar"></i> Feb 10, 2026</span>
+                            <span><i class="far fa-clock"></i> 4 min read</span>
+                        </div>
+                        <span class="card-read-more">Read <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </a>
+
+            <!-- Card 4 -->
+            <a href="essential-medicines-home-kit-lucknow.html" class="blog-card">
+                <div class="card-visual home-health">
+                    <i class="fas fa-house-medical card-visual-icon"></i>
+                </div>
+                <div class="card-body">
+                    <span class="card-category home-health">Home Health</span>
+                    <h2 class="card-title">10 Medicines You Should Always Keep at Home: A Lucknow Family's Essential
+                        Medicine Kit</h2>
+                    <p class="card-excerpt">Having a well-organized home medicine kit can be the difference between
+                        handling a minor health issue at home and a panicked trip to the store.</p>
+                    <div class="card-footer">
+                        <div class="card-meta">
+                            <span><i class="far fa-calendar"></i> Feb 22, 2026</span>
+                            <span><i class="far fa-clock"></i> 5 min read</span>
+                        </div>
+                        <span class="card-read-more">Read <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="blog-footer">
+            <a href="/" class="footer-brand">
+                <img src="../vp_newlogo.svg" alt="Vaibhav Pharmacy">
+                VAIBHAV PHARMACY
+            </a>
+            <p>Sahi Dava, Sahi Daam · <a href="/">vaibhavpharmacy.in</a></p>
         </div>
     </div>
 </body>

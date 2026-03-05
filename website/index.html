@@ -1502,6 +1502,199 @@
                 opacity: 0;
             }
         }
+
+        /* ===== SEHAT DIARY PREVIEW ===== */
+        .diary-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-bottom: 40px;
+        }
+
+        .diary-card {
+            background: var(--white);
+            border-radius: 16px;
+            border: 1px solid var(--gray-200);
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .diary-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 28px -8px rgba(0, 0, 0, 0.12);
+            border-color: var(--primary-lighter);
+        }
+
+        .diary-card-visual {
+            height: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .diary-card-visual::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            right: -20%;
+            width: 120px;
+            height: 120px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 50%;
+        }
+
+        .diary-card-visual i {
+            font-size: 44px;
+            color: rgba(255, 255, 255, 0.85);
+            position: relative;
+            z-index: 1;
+        }
+
+        .diary-card-visual.v-services {
+            background: linear-gradient(135deg, #1B5E20 0%, #66BB6A 100%);
+        }
+
+        .diary-card-visual.v-first-aid {
+            background: linear-gradient(135deg, #C62828 0%, #EF5350 100%);
+        }
+
+        .diary-card-visual.v-health {
+            background: linear-gradient(135deg, #1565C0 0%, #42A5F5 100%);
+        }
+
+        .diary-card-body {
+            padding: 22px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .diary-chip {
+            display: inline-flex;
+            align-items: center;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 3px 11px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 0.7px;
+            margin-bottom: 10px;
+            align-self: flex-start;
+        }
+
+        .diary-chip.c-services {
+            background: var(--primary-bg);
+            color: var(--primary);
+        }
+
+        .diary-chip.c-first-aid {
+            background: #FFEBEE;
+            color: #C62828;
+        }
+
+        .diary-chip.c-health {
+            background: #E3F2FD;
+            color: #1565C0;
+        }
+
+        .diary-card-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--gray-900);
+            line-height: 1.35;
+            margin-bottom: 8px;
+        }
+
+        .diary-card:hover .diary-card-title {
+            color: var(--primary);
+        }
+
+        .diary-card-excerpt {
+            color: var(--gray-600);
+            font-size: 13px;
+            line-height: 1.6;
+            margin-bottom: 14px;
+            flex-grow: 1;
+        }
+
+        .diary-card-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 14px;
+            border-top: 1px solid var(--gray-100);
+        }
+
+        .diary-card-meta {
+            font-size: 11px;
+            color: var(--gray-500);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .diary-card-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .diary-card-arrow {
+            color: var(--primary);
+            font-size: 13px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            transition: gap 0.2s ease;
+        }
+
+        .diary-card:hover .diary-card-arrow {
+            gap: 8px;
+        }
+
+        .diary-cta {
+            text-align: center;
+        }
+
+        .diary-cta a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 13px 32px;
+            background: var(--white);
+            color: var(--primary);
+            border: 2px solid var(--primary-lighter);
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .diary-cta a:hover {
+            background: var(--primary-bg);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 14px rgba(27, 94, 32, 0.15);
+        }
+
+        @media (max-width: 768px) {
+            .diary-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .diary-card-visual {
+                height: 110px;
+            }
+        }
     </style>
     <!-- Schema Markup for Local Pharmacy -->
     <script type="application/ld+json">
@@ -2112,6 +2305,82 @@
                         <div id="openStatus"></div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEHAT DIARY PREVIEW -->
+    <section class="section page-section" id="sehat-diary" style="background: var(--white);">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">📖 Sehat Diary</span>
+                <h2>Health Tips & Guides</h2>
+                <p>Lucknow walo ke liye expert health advice, wellness tips, aur zaroori health alerts</p>
+            </div>
+            <div class="diary-grid">
+                <!-- Card 1: Holi Skin Care (NEW) -->
+                <a href="blog/post-holi-skin-care-tips-hindi.html" class="diary-card">
+                    <div class="diary-card-visual"
+                        style="background: linear-gradient(135deg, #E65100 0%, #FFA726 100%);">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="diary-card-body">
+                        <span class="diary-chip" style="background: #FFF3E0; color: #E65100;">Seasonal Care</span>
+                        <h3 class="diary-card-title">Holi Ke Baad Skin Ka Haal Kharab? Yeh 7 Tips Apnao</h3>
+                        <p class="diary-card-excerpt">Pakka rang aur dry skin? Simple ghar pe available cheezein use
+                            karke skin recover karein.</p>
+                        <div class="diary-card-footer">
+                            <div class="diary-card-meta">
+                                <span><i class="far fa-calendar"></i> Mar 5</span>
+                                <span><i class="far fa-clock"></i> 6 min</span>
+                            </div>
+                            <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+                <!-- Card 2: First Aid -->
+                <a href="blog/first-aid-kit.html" class="diary-card">
+                    <div class="diary-card-visual v-first-aid">
+                        <i class="fas fa-briefcase-medical"></i>
+                    </div>
+                    <div class="diary-card-body">
+                        <span class="diary-chip c-first-aid">First Aid</span>
+                        <h3 class="diary-card-title">Lucknow Households ke liye Zaroori At-Home First Aid Kit Checklist
+                        </h3>
+                        <p class="diary-card-excerpt">Chhoti-moti injuries aur achanak aayi beemariyon ke liye pehle se
+                            taiyar rahein.</p>
+                        <div class="diary-card-footer">
+                            <div class="diary-card-meta">
+                                <span><i class="far fa-calendar"></i> Feb 15</span>
+                                <span><i class="far fa-clock"></i> 3 min</span>
+                            </div>
+                            <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+                <!-- Card 3: Seasonal Health -->
+                <a href="blog/combating-flu.html" class="diary-card">
+                    <div class="diary-card-visual v-health">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <div class="diary-card-body">
+                        <span class="diary-chip c-health">Seasonal Health</span>
+                        <h3 class="diary-card-title">Flu Season se Kaise Bachein: Preventive Tips aur Zaroori
+                            Supplements</h3>
+                        <p class="diary-card-excerpt">UP mein badalte mausam ke saath viral fever aam baat hai. Apni
+                            immunity kaise badhayein.</p>
+                        <div class="diary-card-footer">
+                            <div class="diary-card-meta">
+                                <span><i class="far fa-calendar"></i> Feb 10</span>
+                                <span><i class="far fa-clock"></i> 4 min</span>
+                            </div>
+                            <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="diary-cta">
+                <a href="blog/index.html">Sab Padhein <i class="fas fa-arrow-right"></i></a>
             </div>
         </div>
     </section>

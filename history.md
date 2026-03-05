@@ -1,5 +1,88 @@
 # Vaibhav Pharmacy - Development History
 
+## 2026-03-05: Holi Blog Post + Sehat Diary Redesign
+
+### What was done
+
+#### Holi Blog Post
+- Created new blog post: `post-holi-skin-care-tips-hindi.html` — "Holi Ke Baad Skin Care Tips"
+- Converted from existing markdown draft (`post-holi-skin-care-blog.md`)
+- Full Hinglish content: 7 post-Holi skin care tips with pro-tip callouts, warning boxes, do/don't checklist, product CTA
+- SEO: title tags, meta description, OG tags, Article schema markup
+- Made it the **featured article** on blog index page
+- Added as **first card** in homepage Sehat Diary preview section
+- Added to `sitemap.xml` with priority 0.7
+
+#### Sehat Diary Section Redesign (Groww Blog-inspired)
+- **Blog Index** (`blog/index.html`): Complete overhaul from plain list to modern layout
+  - Featured hero card (2-column, gradient visual, "Latest" badge)
+  - 2-column card grid with color-coded category visuals (green/red/blue/orange)
+  - Category chips, hover lift + shadow animations, "Read →" arrows
+  - Sticky navbar with back button, gradient page header
+  - Responsive: single-column on mobile
+- **Homepage Preview** (`index.html`): New `#sehat-diary` section between About and FAQ
+  - 3-column card grid with gradient visuals and category chips
+  - "Sab Padhein →" CTA button linking to full blog
+  - ~180 lines of new CSS added to `<style>` block
+  - Responsive: stacks to single column on mobile
+
+### Files modified
+| File | Changes |
+|------|---------|
+| `website/blog/post-holi-skin-care-tips-hindi.html` | NEW — Holi skin care blog post, full HTML |
+| `website/blog/index.html` | Redesigned layout + Holi as featured article (5 cards total) |
+| `website/index.html` | Added Sehat Diary preview section + Holi card as first card |
+| `website/sitemap.xml` | Added Holi blog URL, updated lastmod dates |
+
+### Git commits
+```
+11ad263 Add Holi skin care blog post + Sehat Diary redesign (Groww-inspired)
+```
+
+---
+
+
+## 2026-03-02: Top Contact Bar + Bug Fixes + Competitive Analysis
+
+### What was done
+
+#### Top Contact Bar
+- Added a fixed green contact bar above the navbar with:
+  - 📍 Location link (Google Maps): Sector 11, Vrindavan Yojna, Lucknow
+  - 📞 Phone (tap-to-call): +91 78975 26668
+  - 🕐 Store hours: Open Daily 9 AM - 9 PM
+  - 💬 WhatsApp Order button (green pill badge)
+- Responsive: on mobile (≤768px) hours hide, bar compacts to ~30px
+- Navbar shifted down 36px; hero padding and scroll-padding adjusted accordingly
+- CSS: 83 lines of new styles (`.top-bar`, `.top-bar-container`, `.top-bar-item`, `.top-bar-wa`, etc.)
+
+#### Logo SVG White Box Fix
+- Cropped SVG viewBox from `0 0 256 256` to `17 3 220 250` to tightly fit the logo shape
+- Eliminated visible white rectangular background on dark sections (footer, blog navbars)
+
+#### Bug Fix: Broken Google Maps Link
+- Replaced dead short URL `maps.app.goo.gl/p2wXoYqPJBeLFvZR6` with working `maps.app.goo.gl/GVFxJSBftsMgv7vJA` in the top bar
+
+#### Competitive Analysis
+- Analyzed competitor site bharatpharmacyindia.com
+- Created `competition_learnings.md` documenting: feature comparison, strengths/weaknesses, actionable improvement items
+
+### Files modified
+| File | Changes |
+|------|---------|
+| `website/index.html` | Top contact bar HTML + CSS, logo SVG fix, maps link fix |
+| `website/vp_newlogo.svg` | Cropped viewBox to remove white padding |
+| `competition_learnings.md` | NEW - competitive analysis document |
+
+### Git commits
+```
+3a3b870 Fix broken Google Maps link in top contact bar
+9c37f5f Add top contact bar with location, phone, hours, WhatsApp + competition analysis doc
+13f44c8 Update logo to vp_newlogo.svg, fix white box by cropping SVG viewBox, update OG/Twitter meta images
+```
+
+---
+
 ## 2026-03-02: New Logo Update (vp_newlogo)
 
 ### What was done
@@ -136,7 +219,9 @@ vaibhavpharmacy/
 │       ├── combating-flu.html
 │       ├── first-aid-kit.html
 │       ├── essential-medicines-home-kit-lucknow.html
-│       └── medicine-home-delivery-vrindavan-yojna-lucknow.html
+│       ├── medicine-home-delivery-vrindavan-yojna-lucknow.html
+│       ├── post-holi-skin-care-tips-hindi.html
+│       └── post-holi-skin-care-blog.md
 ├── vaibhav pharmacy.svg     # Source SVG logo (original)
 ├── .gitignore
 └── history.md               # This file
