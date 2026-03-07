@@ -24,7 +24,7 @@
 
 ### Git commits
 ```
-(pending)
+18f5430 Add Women's Day blog post + update Sehat Diary, sitemap
 ```
 
 ---
