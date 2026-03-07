@@ -1,5 +1,34 @@
 # Vaibhav Pharmacy - Development History
 
+## 2026-03-08: Women's Day Blog Post
+
+### What was done
+
+#### Women's Day Blog Post
+- Created new blog post: `womens-health-essentials-india.html` - "8 Health Essentials Har Indian Woman Ko Apni Kit Mein Rakhne Chahiye"
+- Converted from existing markdown draft (`womens-day-blog.md`)
+- Hinglish content: 8 women's health essentials with stat cards, highlight boxes, warning boxes, product CTA
+- SEO: title tags, meta description, OG tags, Twitter cards, Article schema markup
+- Made it the **featured article** on blog index page (6 articles total)
+- Added as **first card** in homepage Sehat Diary preview section
+- Added to `sitemap.xml` with priority 0.7
+- All emdashes removed (none were present in any website files)
+
+### Files modified
+| File | Changes |
+|------|---------|
+| `website/blog/womens-health-essentials-india.html` | NEW - Women's Day blog post, full HTML |
+| `website/blog/index.html` | Women's Day as featured article + new card (6 cards total) |
+| `website/index.html` | Women's Day card as first card in Sehat Diary preview |
+| `website/sitemap.xml` | Added Women's Day blog URL, updated lastmod dates |
+
+### Git commits
+```
+(pending)
+```
+
+---
+
 ## 2026-03-05: Holi Blog Post + Sehat Diary Redesign
 
 ### What was done

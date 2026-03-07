@@ -192,7 +192,8 @@
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-            transition: all 0.3s ease;
+            transition: box-shadow 0.3s ease;
+            will-change: transform;
         }
 
         .navbar.scrolled {
@@ -1832,6 +1833,46 @@
             "@type": "Answer",
             "text": "Vaibhav Pharmacy delivers free of charge within a 2-kilometer radius of our store in Sector 11, Vrindavan Yojna, Lucknow. This covers Sector 6 to Sector 14 of Vrindavan Yojna, parts of Jankipuram Extension, and nearby Sitapur Road areas."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Immunity kaise badhayein? Best supplements for immunity in India",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Immunity badhane ke liye Vitamin C (amla, santara), Zinc, aur Vitamin D supplements lein. Roz 7-8 ghante neend lein, 3-4 litre paani piyen, aur seasonal fruits khayein. Haldi wala doodh raat ko pina immunity ke liye bahut achha hai. Supplements ke liye Vaibhav Pharmacy se genuine products milte hain - WhatsApp karein +91 7897526668."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Vitamin D ki kami ke lakshan kya hain? Vitamin D deficiency symptoms in Hindi",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vitamin D ki kami ke lakshan hain: haddiyon aur joints mein dard, thakaan, muscles mein kamzori, baar baar bimaar padna, aur mood swings. India mein lagbhag 70-80% logon mein Vitamin D ki kami hoti hai. Roz subah 15-20 minute dhoop mein baithen aur doctor ki salah se Vitamin D3 supplement lein. Blood test se level check karwa sakte hain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lucknow ki garmi mein dehydration se kaise bachein?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lucknow mein May-June mein temperature 45°C tak jaata hai. Dehydration se bachne ke liye: roz 4-5 litre paani piyen, ORS packets ghar mein rakhein, nariyal paani aur nimbu paani piyen, direct dhoop se bachein (11 AM - 4 PM), aur halka cotton kapda pehnen. Agar chakkar aaye, muh sukhe, ya peshab ka rang dark ho toh turant ORS piyen aur doctor se milein."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Sugar control kaise karein? Diabetes management tips in Hindi",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Diabetes manage karne ke liye: samay pe dawa lein (kabhi skip mat karein), roz 30 minute walk karein, meetha aur maida kam khayein, portion control rakhein, aur har 3 mahine HbA1c test karwayein. Glucometer ghar pe rakhein aur regularly sugar check karein. Vaibhav Pharmacy mein glucometers, test strips, aur diabetes ki saari dawayein available hain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Bachhon ko baar baar sardi-khansi kyun hoti hai? Kids immunity tips",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chhote bachhon ka immune system develop ho raha hota hai, isliye unhe saal mein 6-8 baar sardi-khansi hona normal hai. Immunity ke liye: bachhon ko seasonal fruits khilayein, haldi wala doodh dein, haath dhone ki aadat dalein, aur vaccination schedule follow karein. Agar bukhar 3 din se zyada rahe, saans lene mein taklif ho, ya khana-peena band ho jaaye toh turant doctor ko dikhayein."
+          }
         }
       ]
     }
@@ -1899,7 +1940,7 @@
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#home" class="nav-logo">
-                <img src="vp_newlogo.svg" alt="Vaibhav Pharmacy - Best Pharmacy Near Me in Lucknow Logo"
+                <img src="vp_newlogo.svg" alt="Vaibhav Pharmacy - Trusted Pharmacy in Vrindavan Yojna, Lucknow Logo"
                     style="height: 40px; width: auto; object-fit: contain;">
                 <span class="nav-logo-text">
                     <span class="nav-logo-title">VAIBHAV PHARMACY</span>
@@ -1931,15 +1972,15 @@
                     <span class="pulse"></span>
                     Open Now &middot; 9 AM - 9 PM
                 </div>
-                <h1>Lucknow's Trusted<br><span id="dynamic-text">Pharmacy Near Me</span><span
-                        class="type-cursor">|</span>
+                <h1>Lucknow's Trusted<br><span id="dynamic-text">Medical Store</span><span class="type-cursor">|</span>
                 </h1>
-                <p class="hero-tagline">Best Medical Store Near Me - Vrindavan Yojna mein Free 2KM Home Delivery</p>
+                <p class="hero-tagline">Vrindavan Yojna ki Pharmacy - Genuine Medicines + Free 2KM Home Delivery</p>
                 <p class="hero-tagline-hindi hindi">Aapki Family ka Health Partner - परिवार की सेहत, हमारी ज़िम्मेदारी
                 </p>
-                <p>Looking for a <strong>pharmacy near me</strong> in Lucknow? Vaibhav Pharmacy is your trusted
-                    neighbourhood <strong>medical store near me</strong> in Vrindavan Yojna. Quality medicines at honest
-                    prices with free home delivery within 2 KM. Built with ❤️ in Lucknow, for Lucknow.</p>
+                <p>Vaibhav Pharmacy aapki <strong>trusted neighbourhood pharmacy in Vrindavan Yojna, Lucknow</strong>
+                    hai.
+                    Genuine medicines at honest prices, <strong>free home delivery within 2 KM</strong>, aur WhatsApp pe
+                    instant ordering. Built with ❤️ in Lucknow, for Lucknow.</p>
                 <div class="hero-actions">
                     <a href="https://wa.me/917897526668?text=Hi%20Vaibhav%20Pharmacy!%20I%20would%20like%20to%20place%20an%20order."
                         class="btn btn-whatsapp" target="_blank">
@@ -1954,7 +1995,8 @@
                 <div class="hero-card">
                     <div class="hero-logo-container"
                         style="background: transparent; box-shadow: none; width: 240px; height: 240px;">
-                        <img src="vp_newlogo.svg" alt="Vaibhav Pharmacy - Medical Store Near Me in Lucknow Logo"
+                        <img src="vp_newlogo.svg"
+                            alt="Vaibhav Pharmacy - Trusted Medical Store in Vrindavan Yojna, Lucknow"
                             style="width: 140px; height: auto; object-fit: contain;">
                     </div>
                     <h3>Vaibhav Pharmacy</h3>
@@ -2245,7 +2287,7 @@
             </div>
             <div class="about-grid">
                 <div class="about-content">
-                    <h3>Aapki Nearest Pharmacy - Best Medical Store Near Me in Lucknow</h3>
+                    <h3>Vrindavan Yojna ki Apni Pharmacy - Lucknow ka Trusted Medical Store</h3>
                     <p>Vaibhav Pharmacy aapka trusted neighbourhood medical store hai Vrindavan Yojna, Lucknow mein. Hum
                         maante hain ki sabko asli aur affordable medicines milni chahiye - yahi humara promise hai
                         <strong>Sahi Dava, Sahi Daam</strong>.
@@ -2318,7 +2360,28 @@
                 <p>Lucknow walo ke liye expert health advice, wellness tips, aur zaroori health alerts</p>
             </div>
             <div class="diary-grid">
-                <!-- Card 1: Holi Skin Care (NEW) -->
+                <!-- Card 1: Women's Day (NEW) -->
+                <a href="blog/womens-health-essentials-india.html" class="diary-card">
+                    <div class="diary-card-visual"
+                        style="background: linear-gradient(135deg, #AD1457 0%, #F48FB1 100%);">
+                        <i class="fas fa-venus"></i>
+                    </div>
+                    <div class="diary-card-body">
+                        <span class="diary-chip" style="background: #FCE4EC; color: #AD1457;">Women's Health</span>
+                        <h3 class="diary-card-title">8 Health Essentials Har Indian Woman Ko Apni Kit Mein Rakhne
+                            Chahiye</h3>
+                        <p class="diary-card-excerpt">This Women's Day, apni health ko pehle rakho. 8 essential products
+                            jo har woman ke paas hone chahiye.</p>
+                        <div class="diary-card-footer">
+                            <div class="diary-card-meta">
+                                <span><i class="far fa-calendar"></i> Mar 8</span>
+                                <span><i class="far fa-clock"></i> 7 min</span>
+                            </div>
+                            <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </a>
+                <!-- Card 2: Holi Skin Care -->
                 <a href="blog/post-holi-skin-care-tips-hindi.html" class="diary-card">
                     <div class="diary-card-visual"
                         style="background: linear-gradient(135deg, #E65100 0%, #FFA726 100%);">
@@ -2338,7 +2401,7 @@
                         </div>
                     </div>
                 </a>
-                <!-- Card 2: First Aid -->
+                <!-- Card 3: First Aid -->
                 <a href="blog/first-aid-kit.html" class="diary-card">
                     <div class="diary-card-visual v-first-aid">
                         <i class="fas fa-briefcase-medical"></i>
@@ -2358,26 +2421,6 @@
                         </div>
                     </div>
                 </a>
-                <!-- Card 3: Seasonal Health -->
-                <a href="blog/combating-flu.html" class="diary-card">
-                    <div class="diary-card-visual v-health">
-                        <i class="fas fa-shield-virus"></i>
-                    </div>
-                    <div class="diary-card-body">
-                        <span class="diary-chip c-health">Seasonal Health</span>
-                        <h3 class="diary-card-title">Flu Season se Kaise Bachein: Preventive Tips aur Zaroori
-                            Supplements</h3>
-                        <p class="diary-card-excerpt">UP mein badalte mausam ke saath viral fever aam baat hai. Apni
-                            immunity kaise badhayein.</p>
-                        <div class="diary-card-footer">
-                            <div class="diary-card-meta">
-                                <span><i class="far fa-calendar"></i> Feb 10</span>
-                                <span><i class="far fa-clock"></i> 4 min</span>
-                            </div>
-                            <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
-                        </div>
-                    </div>
-                </a>
             </div>
             <div class="diary-cta">
                 <a href="blog/index.html">Sab Padhein <i class="fas fa-arrow-right"></i></a>
@@ -2389,7 +2432,7 @@
     <section class="section page-section" id="faq-section" style="background: var(--white);">
         <div class="section-container">
             <div class="section-header">
-                <span class="section-label">Pharmacy Near Me - FAQ</span>
+                <span class="section-label">Health & Pharmacy FAQ</span>
                 <h2>Aksar Poochhe Jaane Wale Sawaal</h2>
                 <p>Frequently asked questions about our pharmacy, medical store, and delivery services in Lucknow</p>
             </div>
@@ -2398,7 +2441,7 @@
                     style="border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;">
                     <button class="faq-question" onclick="toggleFaq(this)"
                         style="width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--gray-800); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', sans-serif; transition: background 0.2s;">
-                        <span>🏥 Where is the nearest pharmacy near me in Vrindavan Yojna, Lucknow?</span>
+                        <span>🏥 Vrindavan Yojna mein sabse kareeb pharmacy kahan hai?</span>
                         <i class="fas fa-chevron-down" style="color: var(--primary); transition: transform 0.3s;"></i>
                     </button>
                     <div class="faq-answer"
@@ -2416,7 +2459,7 @@
                     style="border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;">
                     <button class="faq-question" onclick="toggleFaq(this)"
                         style="width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--gray-800); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', sans-serif; transition: background 0.2s;">
-                        <span>🚚 Which medical store near me delivers medicines at home in Lucknow?</span>
+                        <span>🚚 Lucknow mein kaunsa medical store ghar pe medicines deliver karta hai?</span>
                         <i class="fas fa-chevron-down" style="color: var(--primary); transition: transform 0.3s;"></i>
                     </button>
                     <div class="faq-answer"
@@ -2433,7 +2476,7 @@
                     style="border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;">
                     <button class="faq-question" onclick="toggleFaq(this)"
                         style="width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--gray-800); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', sans-serif; transition: background 0.2s;">
-                        <span>📱 How do I order medicines on WhatsApp near me?</span>
+                        <span>📱 WhatsApp pe medicines kaise order karein?</span>
                         <i class="fas fa-chevron-down" style="color: var(--primary); transition: transform 0.3s;"></i>
                     </button>
                     <div class="faq-answer"
@@ -2468,7 +2511,7 @@
                     style="border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;">
                     <button class="faq-question" onclick="toggleFaq(this)"
                         style="width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--gray-800); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', sans-serif; transition: background 0.2s;">
-                        <span>⭐ What are the best medical stores near me in Lucknow?</span>
+                        <span>⭐ Lucknow mein sabse achhi medical store kaunsi hai?</span>
                         <i class="fas fa-chevron-down" style="color: var(--primary); transition: transform 0.3s;"></i>
                     </button>
                     <div class="faq-answer"
@@ -2529,6 +2572,106 @@
                             Sector 11, Vrindavan Yojna, Lucknow. This covers <strong>Sector 6 to Sector 14</strong> of
                             Vrindavan Yojna, parts of <strong>Jankipuram Extension</strong>, and nearby <strong>Sitapur
                                 Road areas</strong>.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- WELLNESS FAQs -->
+                <div style="margin-top: 32px; margin-bottom: 20px;">
+                    <span
+                        style="display: inline-block; background: #E3F2FD; color: #1565C0; font-size: 12px; font-weight: 700; padding: 4px 14px; border-radius: 50px; text-transform: uppercase; letter-spacing: 1px;">💪
+                        Wellness & Health Tips</span>
+                </div>
+
+                <div class="faq-item"
+                    style="border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFaq(this)"
+                        style="width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--gray-800); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', sans-serif; transition: background 0.2s;">
+                        <span>💪 Immunity kaise badhayein? Best supplements for immunity</span>
+                        <i class="fas fa-chevron-down" style="color: var(--primary); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer"
+                        style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; background: var(--gray-50);">
+                        <p style="padding: 0 24px 20px; font-size: 14px; color: var(--gray-600); line-height: 1.7;">
+                            Immunity badhane ke liye <strong>Vitamin C</strong> (amla, santara), <strong>Zinc</strong>,
+                            aur <strong>Vitamin D</strong> supplements lein. Roz 7-8 ghante neend lein, 3-4 litre paani
+                            piyen, aur seasonal fruits khayein. <strong>Haldi wala doodh</strong> raat ko pina immunity
+                            ke liye bahut achha hai. Supplements ke liye Vaibhav Pharmacy se genuine products milte hain
+                            - <a href="https://wa.me/917897526668?text=Hi!%20Immunity%20supplements%20chahiye."
+                                style="color: var(--primary); font-weight: 600;">WhatsApp karein</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item"
+                    style="border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFaq(this)"
+                        style="width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--gray-800); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', sans-serif; transition: background 0.2s;">
+                        <span>☀️ Vitamin D ki kami ke lakshan kya hain?</span>
+                        <i class="fas fa-chevron-down" style="color: var(--primary); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer"
+                        style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; background: var(--gray-50);">
+                        <p style="padding: 0 24px 20px; font-size: 14px; color: var(--gray-600); line-height: 1.7;">
+                            Vitamin D ki kami ke lakshan: <strong>haddiyon mein dard</strong>, thakaan, muscles mein
+                            kamzori, baar baar bimaar padna, aur mood swings. India mein lagbhag <strong>70-80% logon
+                                mein Vitamin D ki kami</strong> hoti hai. Roz subah <strong>15-20 minute dhoop</strong>
+                            mein baithen aur doctor ki salah se Vitamin D3 supplement lein. Blood test se level check
+                            karwa sakte hain.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item"
+                    style="border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFaq(this)"
+                        style="width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--gray-800); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', sans-serif; transition: background 0.2s;">
+                        <span>🌡️ Lucknow ki garmi mein dehydration se kaise bachein?</span>
+                        <i class="fas fa-chevron-down" style="color: var(--primary); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer"
+                        style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; background: var(--gray-50);">
+                        <p style="padding: 0 24px 20px; font-size: 14px; color: var(--gray-600); line-height: 1.7;">
+                            Lucknow mein May-June mein temperature <strong>45°C tak</strong> jaata hai. Dehydration se
+                            bachne ke liye: roz <strong>4-5 litre paani</strong> piyen, <strong>ORS packets</strong>
+                            ghar mein rakhein, nariyal paani aur nimbu paani piyen, direct dhoop se bachein (11 AM - 4
+                            PM), aur halka cotton kapda pehnen. Agar chakkar aaye, muh sukhe, ya peshab ka rang dark ho
+                            toh turant ORS piyen aur doctor se milein.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item"
+                    style="border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFaq(this)"
+                        style="width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--gray-800); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', sans-serif; transition: background 0.2s;">
+                        <span>🩸 Sugar control kaise karein? Diabetes management tips</span>
+                        <i class="fas fa-chevron-down" style="color: var(--primary); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer"
+                        style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; background: var(--gray-50);">
+                        <p style="padding: 0 24px 20px; font-size: 14px; color: var(--gray-600); line-height: 1.7;">
+                            Diabetes manage karne ke liye: <strong>samay pe dawa lein</strong> (kabhi skip mat karein),
+                            roz <strong>30 minute walk</strong> karein, meetha aur maida kam khayein, portion control
+                            rakhein, aur har 3 mahine <strong>HbA1c test</strong> karwayein. Glucometer ghar pe rakhein
+                            aur regularly sugar check karein. Vaibhav Pharmacy mein <strong>glucometers, test strips,
+                                aur diabetes ki saari dawayein</strong> available hain.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-item"
+                    style="border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;">
+                    <button class="faq-question" onclick="toggleFaq(this)"
+                        style="width: 100%; padding: 20px 24px; background: var(--white); border: none; text-align: left; font-size: 15px; font-weight: 600; color: var(--gray-800); cursor: pointer; display: flex; justify-content: space-between; align-items: center; font-family: 'Inter', sans-serif; transition: background 0.2s;">
+                        <span>👶 Bachhon ko baar baar sardi-khansi kyun hoti hai?</span>
+                        <i class="fas fa-chevron-down" style="color: var(--primary); transition: transform 0.3s;"></i>
+                    </button>
+                    <div class="faq-answer"
+                        style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease; background: var(--gray-50);">
+                        <p style="padding: 0 24px 20px; font-size: 14px; color: var(--gray-600); line-height: 1.7;">
+                            Chhote bachhon ka immune system develop ho raha hota hai, isliye unhe saal mein <strong>6-8
+                                baar sardi-khansi hona normal</strong> hai. Immunity ke liye: bachhon ko
+                            <strong>seasonal fruits</strong> khilayein, haldi wala doodh dein, <strong>haath dhone ki
+                                aadat</strong> dalein, aur <strong>vaccination schedule follow</strong> karein. Agar
+                            bukhar 3 din se zyada rahe, saans lene mein taklif ho, ya khana-peena band ho jaaye toh
+                            turant doctor ko dikhayein.
                         </p>
                     </div>
                 </div>
@@ -2683,14 +2826,14 @@
             <div style="border-top: 1px solid var(--gray-800); padding-top: 24px; margin-bottom: 24px;">
                 <h4
                     style="color: var(--gray-400); font-size: 12px; font-weight: 600; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 1px;">
-                    Pharmacy Near Me - Areas We Serve</h4>
+                    Areas We Serve in Lucknow</h4>
                 <p style="font-size: 12px; color: var(--gray-500); line-height: 1.8;">
-                    Pharmacy near me in Vrindavan Yojna · Medical store near me in Lucknow · Chemist near me Sector 11 ·
+                    Pharmacy in Vrindavan Yojna · Medical store Vrindavan Yojna, Lucknow · Chemist Sector 11 Lucknow ·
                     Medicine delivery Sector 6 · Pharmacy Sector 7 Vrindavan Yojna · Medical store Sector 8 · Dawai ki
-                    dukan Sector 9 · Pharmacy near Sector 10 Lucknow · Chemist shop Sector 12 · Medical shop Sector 13 ·
-                    Pharmacy Sector 14 Vrindavan Yojna · Medicine store near Jankipuram Extension · Pharmacy near
-                    Sitapur Road Lucknow · Medical store near Surat Residency · Best pharmacy Vrindavan Colony Lucknow ·
-                    Chemist near Gomti Nagar Extension · Medicine home delivery Lucknow
+                    dukan Sector 9 · Pharmacy Sector 10 Lucknow · Chemist shop Sector 12 · Medical shop Sector 13 ·
+                    Pharmacy Sector 14 Vrindavan Yojna · Medicine store Jankipuram Extension · Pharmacy Sitapur Road
+                    Lucknow · Medical store Surat Residency · Pharmacy Vrindavan Colony Lucknow · Chemist Gomti Nagar
+                    Extension · Medicine home delivery Lucknow
                 </p>
             </div>
             <!-- Google Reviews CTA -->
@@ -3007,21 +3150,29 @@
             }, 500);
         }
 
-        // Navbar scroll effect
+        // Navbar scroll effect (throttled with rAF)
+        const navLinksAll = document.querySelectorAll('.nav-links a');
+        const sectionIds = ['home', 'products', 'about', 'contact'];
+        let scrollTicking = false;
         window.addEventListener('scroll', () => {
-            const navbar = document.getElementById('navbar');
-            navbar.classList.toggle('scrolled', window.scrollY > 10);
+            if (!scrollTicking) {
+                requestAnimationFrame(() => {
+                    const navbar = document.getElementById('navbar');
+                    navbar.classList.toggle('scrolled', window.scrollY > 10);
 
-            const sections = ['home', 'products', 'about', 'contact'];
-            for (const sec of [...sections].reverse()) {
-                const el = document.getElementById(sec);
-                if (el && window.scrollY >= el.offsetTop - 100) {
-                    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
-                    document.querySelector(`.nav-links a[href="#${sec}"]`)?.classList.add('active');
-                    break;
-                }
+                    for (const sec of [...sectionIds].reverse()) {
+                        const el = document.getElementById(sec);
+                        if (el && window.scrollY >= el.offsetTop - 100) {
+                            navLinksAll.forEach(a => a.classList.remove('active'));
+                            document.querySelector(`.nav-links a[href="#${sec}"]`)?.classList.add('active');
+                            break;
+                        }
+                    }
+                    scrollTicking = false;
+                });
+                scrollTicking = true;
             }
-        });
+        }, { passive: true });
 
         // ===== OPEN/CLOSED STATUS =====
         function updateOpenStatus() {
@@ -3103,7 +3254,7 @@
         // Dynamic Header Typing Effect
         const dynamicText = document.getElementById('dynamic-text');
         if (dynamicText) {
-            const words = ["Pharmacy Near Me", "Medical Store", "Chemists", "Health Partner", "Dawai Ki Dukan"];
+            const words = ["Medical Store", "Pharmacy", "Health Partner", "Dawai Ki Dukan", "Chemist"];
             let wordIndex = 0;
             let charIndex = words[0].length;
             let isDeleting = true; // Start by deleting because the initial word is already present
