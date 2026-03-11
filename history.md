@@ -15,7 +15,7 @@
 ## 💻 2. Tech Stack & Architecture
 - **Frontend Core:** Pure Vanilla HTML5, CSS3, and JavaScript. 
 - **Frameworks:** **NONE**. Do *not* suggest or use React, Vue, Angular, Node.js, Bootstrap, or TailwindCSS.
-- **Hosting:** Static site hosted via GitHub Pages. There is no traditional backend server or database.
+- **Hosting:** Static site hosted via **Vercel** (connected to GitHub repository). There is no traditional backend server or database.
 - **Styling:** Custom Vanilla CSS. Styling is largely handled via CSS variables (e.g., `var(--primary)`, `var(--secondary)`) defined at the top of the stylesheet.
 - **Brand Colors:** Primary Green (`#1B5E20`), Accent Orange (`#FF6F00`).
 
@@ -40,8 +40,8 @@
 ### **Phase 3: Deep SEO, Analytics, and Content (March 11, 2026)**
 - **Analytics:** Centralized custom JS event tracking for WhatsApp, phone, maps, and blog clicks.
 - **SEO/GEO:** Injected aggressive long-tail keywords into meta tags and JSON-LD schemas. Added a structured FAQ list specifically targeted at AI Overviews ("Top Chemists in Vrindavan Yojna"). Renamed "cheapest pharmacy" to "cheapest medicines".
-- **Content:** Added secondary phone number (`+91 9621758381`) across the UI. Published "Mosquito Prevention" blog post (`mosquito-prevention-tips-lucknow.html`).
-- **Assets:** Replaced static SVG logos with a dynamic animated logo (`vp_newlogo_animated.svg`).
+- **UI:** Reordered homepage sections for better flow (Products → Sehat Diary → VP Family). Added secondary phone number (`+91 9621758381`) across the UI. Replaced static SVG logos with a dynamic animated logo (`vp_newlogo_animated.svg`).
+- **Content:** Published "Mosquito Prevention" blog post (`mosquito-prevention-tips-lucknow.html`).
 
 ### **Phase 2: Redesign, Local SEO, and "Near Me" Anchors (March 2 - March 8, 2026)**
 - **UI:** Added a sticky green top contact bar containing location, hours, phone, and WhatsApp buttons. Redesigned the `blog/index.html` into a modern 2-column card layout with gradient visuals.
