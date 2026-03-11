@@ -1,5 +1,24 @@
 # Vaibhav Pharmacy - Development History
 
+## 2026-03-11: Google Analytics Custom Event Tracking
+
+### What was done
+Expanded the Google Analytics JavaScript event listener to track high-intent custom conversions across the website dynamically.
+- `whatsapp_click`: Captures clicks on any `wa.me` links, tracking the specific product name or button text as the label.
+- `call_click`: Captures clicks on any `tel:` links, tracking the specific phone number dialed.
+- `directions_click`: Captures clicks on Google Maps links.
+- `blog_click`: Captures clicks leading to the Sehat Diary blog pages.
+
+This dynamic implementation ensures that any future contact buttons added to the website will automatically be tracked without requiring new code.
+
+### Files modified
+- `website/index.html`
+
+### Latest Git Commit
+[f6dbc61] - Analytics: Expand GA Custom Event tracking to include phone calls and map directions
+
+
+
 ## 2026-03-11: Added +91 Prefix to Secondary Phone Number
 
 ### What was done

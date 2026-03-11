@@ -3550,6 +3550,14 @@
                     'event_label': 'Get Directions'
                 });
             }
+            // 4. Sehat Diary (Blog) Clicks
+            else if (href.includes('blog/')) {
+                let label = link.textContent.trim() || 'Blog Link';
+                gtag('event', 'blog_click', {
+                    'event_category': 'engagement',
+                    'event_label': label
+                });
+            }
         });
 
         // Dynamic Header Typing Effect
