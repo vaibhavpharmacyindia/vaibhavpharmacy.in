@@ -1,5 +1,23 @@
 # Vaibhav Pharmacy - Development History
 
+## 2026-03-11: Competitive Intelligence Implementation
+
+### What was done
+Implemented 6 key learnings from the global pharmacy competitive intelligence report (US, China, Europe, 2025-2026) to enhance the website without heavy investment.
+- **Delivery Messaging:** Updated all "Free Home Delivery 2KM" messaging to "30 Min Free Delivery" globally (hero, features bar, how-it-works, delivery banner).
+- **Health Services Section:** Added a new section highlighting free BP check, sugar testing, pharmacist consultation, and dawai reminder service, positioning the pharmacy as a micro-primary care hub.
+- **VP Family Loyalty Program:** Added a new WhatsApp-based loyalty program section highlighting benefits like har 5th order pe discount, monthly reminders, free checkups, and health tips.
+- **Pricing Transparency:** Upgraded the "Sahi Daam" feature to "Sahi Daam, Koi Chhupi Fees nahi" to build trust based on cost-plus models.
+- **New GEO FAQs:** Added 3 new FAQs specifically for the new health services, dawai reminder, and transparent pricing.
+- **Schema Updates:** Updated the Pharmacy schema to include new service offers (BP check, sugar testing, consultation, reminders) and added the 3 new FAQ entries to the FAQPage schema.
+
+### Files modified
+- `website/index.html`
+
+### Latest Git Commit
+[cf3c7fd] - Fix em dashes in mosquito prevention blog post
+
+
 ## 2026-03-11: Mosquito Prevention Blog Post + Instagram Carousel
 
 ### What was done

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Women's Health: Prioritise Yourself This International Women's Day | Vaibhav Pharmacy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: #2d3436;
+    line-height: 1.8;
+    background: #fafaf8;
+  }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, #1a5c3a 0%, #2d8659 40%, #6bb58e 100%);
+    color: white;
+    padding: 60px 20px 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 500px;
+    height: 500px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 50%;
+  }
+  .hero-logo {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    background: white;
+    padding: 8px;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.18);
+    color: #d4f5e2;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.25;
+    max-width: 700px;
+    margin: 0 auto 16px;
+  }
+  .hero p {
+    font-size: 17px;
+    opacity: 0.9;
+    max-width: 560px;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+
+  /* Container */
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* Article body */
+  .article-body {
+    padding: 50px 0 60px;
+  }
+  .article-body p {
+    font-size: 16.5px;
+    margin-bottom: 22px;
+    color: #3d3d3d;
+  }
+  .article-body h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #1a5c3a;
+    margin: 44px 0 16px;
+    font-weight: 600;
+  }
+  .article-body h3 {
+    font-size: 20px;
+    color: #2d8659;
+    margin: 32px 0 12px;
+    font-weight: 600;
+  }
+
+  /* Highlight box */
+  .highlight-box {
+    background: linear-gradient(135deg, #e8f5ee, #d4f0e0);
+    border-left: 4px solid #2d8659;
+    padding: 24px 28px;
+    border-radius: 0 12px 12px 0;
+    margin: 30px 0;
+    font-size: 15.5px;
+  }
+  .highlight-box strong {
+    color: #1a5c3a;
+  }
+
+  /* Stat cards */
+  .stat-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 30px 0;
+  }
+  .stat-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 14px;
+    padding: 24px 16px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  }
+  .stat-card .number {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a5c3a;
+    display: block;
+  }
+  .stat-card .label {
+    font-size: 13px;
+    color: #777;
+    margin-top: 6px;
+    display: block;
+    line-height: 1.4;
+  }
+
+  /* Tip cards */
+  .tip-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin: 28px 0;
+  }
+  .tip-card {
+    background: white;
+    border-radius: 14px;
+    padding: 24px;
+    border: 1px solid #e8e8e8;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  }
+  .tip-card .icon {
+    font-size: 28px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .tip-card h4 {
+    font-size: 16px;
+    color: #1a5c3a;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  .tip-card p {
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+    color: #666 !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Checklist */
+  .checklist {
+    background: #f7faf8;
+    border-radius: 14px;
+    padding: 28px;
+    margin: 28px 0;
+    border: 1px solid #d4e8dc;
+  }
+  .checklist h4 {
+    font-size: 18px;
+    color: #1a5c3a;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  .checklist-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 8px 0;
+    font-size: 15px;
+    color: #444;
+  }
+  .checklist-item .check {
+    color: #2d8659;
+    font-weight: bold;
+    font-size: 16px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  /* CTA */
+  .cta-section {
+    background: linear-gradient(135deg, #1a5c3a, #2d8659);
+    color: white;
+    border-radius: 16px;
+    padding: 40px 36px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  .cta-section h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: white;
+    margin: 0 0 12px;
+  }
+  .cta-section p {
+    color: rgba(255,255,255,0.88) !important;
+    font-size: 15px !important;
+    margin-bottom: 20px !important;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: white;
+    color: #1a5c3a;
+    font-weight: 600;
+    padding: 12px 32px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: transform 0.2s;
+  }
+  .cta-btn:hover { transform: translateY(-2px); }
+
+  /* Footer */
+  .blog-footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #999;
+    font-size: 13px;
+    border-top: 1px solid #eee;
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .hero h1 { font-size: 28px; }
+    .stat-row { grid-template-columns: 1fr; }
+    .tip-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <img src="logo.png" alt="Vaibhav Pharmacy" class="hero-logo">
+  <div class="hero-badge">International Women's Day 2026</div>
+  <h1>Her Health Matters: A Complete Guide to Women's Wellness</h1>
+  <p>This Women's Day, Vaibhav Pharmacy celebrates every woman's journey towards better health with practical advice you can act on today.</p>
+</section>
+
+<article class="container article-body">
+
+  <p>Every year on March 8, the world celebrates International Women's Day — a moment to honour the strength, resilience, and achievements of women everywhere. But amid the celebrations, there's a quieter conversation that deserves just as much attention: women's health.</p>
+
+  <p>Women are often the primary caregivers in families, yet they frequently put their own health last. At Vaibhav Pharmacy, we believe that caring for yourself isn't selfish — it's essential. This blog is our small effort to bring important health topics to the forefront and encourage every woman to take charge of her well-being.</p>
+
+  <div class="stat-row">
+    <div class="stat-card">
+      <span class="number">1 in 3</span>
+      <span class="label">Women in India are anaemic</span>
+    </div>
+    <div class="stat-card">
+      <span class="number">70%</span>
+      <span class="label">Skip routine health check-ups</span>
+    </div>
+    <div class="stat-card">
+      <span class="number">50%+</span>
+      <span class="label">Experience calcium deficiency after 30</span>
+    </div>
+  </div>
+
+  <h2>Nutrition: The Foundation of Good Health</h2>
+
+  <p>Women's nutritional needs change throughout life — from puberty and menstruation to pregnancy, breastfeeding, and menopause. Iron deficiency is one of the most common yet overlooked issues, affecting energy levels, immunity, and overall quality of life.</p>
+
+  <div class="tip-grid">
+    <div class="tip-card">
+      <span class="icon">🥬</span>
+      <h4>Iron-Rich Foods</h4>
+      <p>Include spinach, lentils (dal), jaggery (gud), and pomegranate in your daily diet. Pair with vitamin C sources like lemon for better absorption.</p>
+    </div>
+    <div class="tip-card">
+      <span class="icon">🦴</span>
+      <h4>Calcium &amp; Vitamin D</h4>
+      <p>Women over 30 should prioritise milk, curd, ragi, and sesame seeds. Morning sunlight for 15-20 minutes helps with vitamin D synthesis.</p>
+    </div>
+    <div class="tip-card">
+      <span class="icon">💊</span>
+      <h4>Folic Acid</h4>
+      <p>Essential during reproductive years, not just pregnancy. It supports cell growth, heart health, and helps prevent neural tube defects.</p>
+    </div>
+    <div class="tip-card">
+      <span class="icon">💧</span>
+      <h4>Hydration</h4>
+      <p>Aim for 8-10 glasses of water daily. Dehydration can worsen fatigue, headaches, and urinary tract infections — all common in women.</p>
+    </div>
+  </div>
+
+  <h2>Reproductive &amp; Hormonal Health</h2>
+
+  <p>Hormonal health affects nearly every aspect of a woman's life — mood, energy, skin, weight, and fertility. Yet many women hesitate to discuss reproductive health openly. Understanding your body is the first step toward empowerment.</p>
+
+  <h3>Menstrual Health</h3>
+  <p>Irregular, painful, or very heavy periods are not "normal" and deserve medical attention. Track your cycle using a simple diary or app. If you notice patterns of severe pain, excessive bleeding, or missed periods, consult a gynaecologist. Conditions like PCOS (Polycystic Ovary Syndrome) and endometriosis are increasingly common and highly manageable when detected early.</p>
+
+  <h3>PCOS Awareness</h3>
+  <p>PCOS affects an estimated 1 in 5 Indian women of reproductive age. Symptoms include irregular periods, weight gain, acne, and excess hair growth. Lifestyle changes — balanced diet, regular exercise, and stress management — form the cornerstone of managing PCOS alongside medical treatment.</p>
+
+  <div class="highlight-box">
+    <strong>Did you know?</strong> Early detection and lifestyle modifications can significantly improve outcomes for PCOS. Simple blood tests and an ultrasound can help diagnose the condition. Speak to your doctor if you notice any symptoms.
+  </div>
+
+  <h2>Mental Health: Breaking the Silence</h2>
+
+  <p>Women are twice as likely as men to experience anxiety and depression, yet mental health remains stigmatised in many communities. Hormonal fluctuations during menstruation, post-partum, and menopause can intensify emotional challenges. It's important to recognise that seeking help is a sign of strength, not weakness.</p>
+
+  <p>Simple daily practices can make a significant difference: spending time outdoors, maintaining social connections, setting boundaries, practising deep breathing, and getting 7-8 hours of quality sleep. If feelings of sadness, anxiety, or overwhelm persist for more than two weeks, please reach out to a mental health professional.</p>
+
+  <h2>Preventive Screenings: Don't Wait for Symptoms</h2>
+
+  <p>Prevention is always better than cure. Many serious conditions, including breast cancer and cervical cancer, are highly treatable when caught early. Yet a large number of women skip routine screenings either due to lack of awareness or because they feel healthy.</p>
+
+  <div class="checklist">
+    <h4>Essential Health Screenings for Women</h4>
+    <div class="checklist-item"><span class="check">✓</span> <span><strong>Blood pressure &amp; blood sugar</strong> — Annually after age 20</span></div>
+    <div class="checklist-item"><span class="check">✓</span> <span><strong>Complete blood count (CBC)</strong> — Check haemoglobin and iron levels yearly</span></div>
+    <div class="checklist-item"><span class="check">✓</span> <span><strong>Thyroid panel</strong> — Every 2-3 years, especially if fatigued or gaining weight</span></div>
+    <div class="checklist-item"><span class="check">✓</span> <span><strong>Breast self-examination</strong> — Monthly at home; clinical exam annually after 25</span></div>
+    <div class="checklist-item"><span class="check">✓</span> <span><strong>Pap smear</strong> — Every 3 years starting at age 21 for cervical cancer screening</span></div>
+    <div class="checklist-item"><span class="check">✓</span> <span><strong>Bone density scan</strong> — Recommended after age 40, especially post-menopause</span></div>
+    <div class="checklist-item"><span class="check">✓</span> <span><strong>Vitamin D &amp; B12 levels</strong> — Annually, as deficiency is very common in Indian women</span></div>
+  </div>
+
+  <h2>Bone &amp; Joint Health</h2>
+
+  <p>Osteoporosis affects women disproportionately — especially after menopause when oestrogen levels drop, accelerating bone loss. Building strong bones early and maintaining them throughout life is crucial. Weight-bearing exercises like walking, climbing stairs, and simple strength training go a long way. Don't ignore persistent joint pain or stiffness; early evaluation can prevent long-term mobility issues.</p>
+
+  <h2>Skin &amp; Hair Care from Within</h2>
+
+  <p>Healthy skin and hair are often reflections of internal health. Nutritional deficiencies — particularly iron, biotin, zinc, and omega-3 fatty acids — commonly manifest as dull skin, hair fall, and brittle nails. Before spending on expensive treatments, ensure your body is getting the basics right: a balanced diet, adequate water intake, proper sleep, and sun protection.</p>
+
+  <h2>Small Steps, Big Impact</h2>
+
+  <p>You don't need to overhaul your entire lifestyle overnight. Small, consistent changes add up over time. Here are a few habits that can make a meaningful difference:</p>
+
+  <div class="tip-grid">
+    <div class="tip-card">
+      <span class="icon">🚶‍♀️</span>
+      <h4>Move Daily</h4>
+      <p>Even a 30-minute walk counts. Regular movement improves heart health, mood, bone density, and hormonal balance.</p>
+    </div>
+    <div class="tip-card">
+      <span class="icon">🥗</span>
+      <h4>Eat the Rainbow</h4>
+      <p>Include colourful fruits and vegetables in every meal. Each colour provides different antioxidants and nutrients your body needs.</p>
+    </div>
+    <div class="tip-card">
+      <span class="icon">😴</span>
+      <h4>Prioritise Sleep</h4>
+      <p>Poor sleep disrupts hormones, weakens immunity, and affects mental health. Maintain a consistent sleep schedule and aim for 7-8 hours.</p>
+    </div>
+    <div class="tip-card">
+      <span class="icon">📋</span>
+      <h4>Schedule Check-ups</h4>
+      <p>Don't wait for symptoms. An annual health check-up is an investment in your future self. Put it on your calendar today.</p>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    <h3>Your Health Journey Starts Here</h3>
+    <p>Vaibhav Pharmacy is here to support you at every step — from supplements and medicines to expert advice. Walk in or call us for a free consultation on women's health essentials.</p>
+    <a href="#" class="cta-btn">Visit Vaibhav Pharmacy</a>
+  </div>
+
+  <p style="text-align:center; color:#888; font-size:14px; margin-top:20px;">Happy International Women's Day from the entire team at Vaibhav Pharmacy. Here's to a healthier, stronger you. 💚</p>
+
+</article>
+
+<footer class="blog-footer">
+  <p>&copy; 2026 Vaibhav Pharmacy. All rights reserved.</p>
+  <p style="margin-top:6px;">This article is for informational purposes only and does not replace professional medical advice.</p>
+</footer>
+
+</body>
+</html>

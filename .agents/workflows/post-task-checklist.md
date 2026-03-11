@@ -20,11 +20,7 @@ After completing any task on the Vaibhav Pharmacy website, always follow these s
 - Commit with descriptive message
 - Push: `git push origin main`
 
-## 4. Use actual Vaibhav Pharmacy logo
-- When generating images (carousels, social media), always use the actual VP logo from `website/vp_newlogo2.webp`
-- Pass it as an ImagePath to the generate_image tool
-
-## 5. Content standards
+## 4. Content standards
 - All content in **Hinglish** (unless specified otherwise)
 - Optimized for **SEO** (meta tags, schema, keywords) and **GEO** (FAQ schema for AI search)
 - Local references to **Lucknow, Vrindavan Yojna, Sector 11**
