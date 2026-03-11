@@ -1,5 +1,57 @@
 # Vaibhav Pharmacy - Development History
 
+## 2026-03-11: SEO Keyword Optimization (Targeted & Expanded)
+
+### What was done
+Aggressively optimized the website to rank for high-value long-tail keywords.
+
+#### Phase 1: Exact-Match Keywords (Commit e4179e7)
+Targeted 4 specific user-requested keywords:
+- `medical store in vrindavan yojna lucknow`
+- `best medical store in lucknow`
+- `best pharmacy in lucknow`
+- `cheapest pharmacy in vrindavan yojna`
+**Actions:**
+- Injected into `<title>` and `<meta description>` tags.
+- Updated H1 ("The Best Medical Store") and H2 ("The Best Medical Store in Lucknow & Vrindavan Yojna").
+- Added "Cheapest pharmacy in Vrindavan Yojna" to the *Sahi Daam* feature block.
+- Updated Pharmacy and FAQ JSON-LD schemas with exact phrasing.
+
+#### Phase 2: Expanded Keyword Coverage (Latest Commit)
+Added 5 additional high-intent keywords to broaden local search capture:
+- `medicine home delivery in lucknow`
+- `online medicine delivery in lucknow`
+- `discount medical store in vrindavan yojna`
+- `genuine medicine store in lucknow`
+- `chemist near me vrindavan yojna`
+**Actions:**
+- Appended to `<meta keywords>`.
+- Added "Discount Medical Store" and "Genuine Medicine Store" to the Pharmacy Schema `alternateName`.
+- Mentioned online delivery and discount store in the Pharmacy Schema `description`.
+
+### Files modified
+- `website/index.html`
+
+### Latest Git Commit
+Wait for next commit
+
+
+
+## 2026-03-11: Added Secondary Calling Number
+
+### What was done
+- Added `+91 96217 58381` as a secondary calling number across all visible elements.
+- This includes the Top Bar, Hero Section "Call Us" CTA, FAQ Location Details, Delivery Banner, Contact Info Cards, and the Footer.
+- The primary WhatsApp and ordering number remains `7897526668`.
+
+### Files modified
+- `website/index.html`
+
+### Latest Git Commit
+[e4c05f3] - Add secondary calling number 9621758381
+
+
+
 ## 2026-03-11: Website Content Updates (Reviews, Delivery, Trust)
 
 ### What was done
