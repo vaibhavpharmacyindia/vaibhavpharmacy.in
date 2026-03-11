@@ -15,7 +15,7 @@ Implemented 6 key learnings from the global pharmacy competitive intelligence re
 - `website/index.html`
 
 ### Latest Git Commit
-[7b7df4a] - Implement global pharmacy competitive intelligence learnings on index.html
+[157de1f] - Revert 30-min delivery promise to Home Delivery Available
 
 
 ## 2026-03-11: Mosquito Prevention Blog Post + Instagram Carousel
