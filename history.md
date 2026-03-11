@@ -4,7 +4,7 @@
 
 ### What was done
 - **Analytics:** Implemented custom JS event tracking for `whatsapp_click`, `call_click`, `directions_click`, and `blog_click` (commits `f6dbc61`, `e15c256`).
-- **UI Updates:** Added `+91` prefix to secondary phone (9621758381), reverted Hero text to "Lucknow's Trusted", and made Customer Reviews scrollable.
+- **UI Updates:** Added `+91` prefix to secondary phone, renamed "cheapest pharmacy" to "cheapest medicines", reverted Hero text, and made reviews scrollable.
 - **Branding:** Replaced static logos with `vp_newlogo_animated.svg` in Navbar, Hero, and Footer.
 - **GEO (AI Overviews):** Added structured FAQ list for "Top Chemists in Vrindavan Yojna" to capture AI search traffic.
 - **SEO Optimization:** Injected target keywords ("best medical store", "cheapest pharmacy", "online medicine delivery") into meta tags, headings, and Pharmacy/FAQ schema.
@@ -18,6 +18,8 @@
 - `website/sitemap.xml`
 
 ### Latest Git Commits
+- `c5d2514` - UI: Rename 'cheapest pharmacy' to 'cheapest medicines' per user feedback
+- `67039eb` - docs: Optimize history.md to remove verbose redundancy
 - `e15c256` - Analytics: Add Sehat Diary blog tracking
 - `f6dbc61` - Analytics: Expand GA Custom Event tracking
 - `df45847` - docs: Update history.md with +91 prefix commit hash
