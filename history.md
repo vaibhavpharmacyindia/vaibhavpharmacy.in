@@ -42,6 +42,7 @@
 - **SEO/GEO:** Injected aggressive long-tail keywords into meta tags and JSON-LD schemas. Added a structured FAQ list specifically targeted at AI Overviews ("Top Chemists in Vrindavan Yojna"). Renamed "cheapest pharmacy" to "cheapest medicines".
 - **UI:** Reordered homepage sections for better flow (Products → Sehat Diary → VP Family). Added secondary phone number (`+91 9621758381`) across the UI. Replaced static SVG logos with a dynamic animated logo (`vp_newlogo_animated.svg`).
 - **Content:** Published "Mosquito Prevention" blog post (`mosquito-prevention-tips-lucknow.html`).
+- **Security:** Added a `vercel.json` file configuring strict HTTP security headers (X-Frame-Options, X-Content-Type-Options, Strict-Transport-Security, X-XSS-Protection) to harden the static site.
 
 ### **Phase 2: Redesign, Local SEO, and "Near Me" Anchors (March 2 - March 8, 2026)**
 - **UI:** Added a sticky green top contact bar containing location, hours, phone, and WhatsApp buttons. Redesigned the `blog/index.html` into a modern 2-column card layout with gradient visuals.
