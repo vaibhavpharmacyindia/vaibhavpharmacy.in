@@ -3516,28 +3516,39 @@
             searchTimeout = setTimeout(filterProducts, 200);
         });
 
-        // Google Analytics Event Tracking for WhatsApp Clicks
+        // Google Analytics Event Tracking for Conversions
         document.addEventListener('click', function (e) {
             const link = e.target.closest('a');
-            if (!link) return;
+            if (!link || typeof gtag !== 'function') return;
 
-            const href = link.getAttribute('href');
-            if (href && href.includes('wa.me')) {
-                if (typeof gtag === 'function') {
-                    let label = link.textContent.trim() || 'WhatsApp Button';
-                    if (link.classList.contains('product-order-btn')) {
-                        const card = link.closest('.product-card');
-                        if (card) {
-                            const nameEl = card.querySelector('.product-name');
-                            if (nameEl) label = 'Order: ' + nameEl.textContent.trim();
-                        }
-                    }
-
-                    gtag('event', 'whatsapp_click', {
-                        'event_category': 'engagement',
-                        'event_label': label
-                    });
+            const href = link.getAttribute('href') || '';
+            
+            // 1. WhatsApp Clicks
+            if (href.includes('wa.me')) {
+                let label = link.textContent.trim() || 'WhatsApp Button';
+                if (link.classList.contains('product-order-btn')) {
+                    const card = link.closest('.product-card');
+                    const nameEl = card ? card.querySelector('.product-name') : null;
+                    if (nameEl) label = 'Order: ' + nameEl.textContent.trim();
                 }
+                gtag('event', 'whatsapp_click', {
+                    'event_category': 'engagement',
+                    'event_label': label
+                });
+            }
+            // 2. Phone Call Clicks
+            else if (href.startsWith('tel:')) {
+                gtag('event', 'call_click', {
+                    'event_category': 'engagement',
+                    'event_label': href.replace('tel:', '')
+                });
+            }
+            // 3. Direction (Maps) Clicks
+            else if (href.includes('maps.app.goo.gl')) {
+                gtag('event', 'directions_click', {
+                    'event_category': 'engagement',
+                    'event_label': 'Get Directions'
+                });
             }
         });
 
