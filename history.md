@@ -1,5 +1,18 @@
 # Vaibhav Pharmacy - Development History
 
+## 2026-03-11: Added +91 Prefix to Secondary Phone Number
+
+### What was done
+Added the `+91` prefix to the secondary phone number (9621758381) in the CTA and Footer sections for consistency.
+
+### Files modified
+- `website/index.html`
+
+### Latest Git Commit
+Wait for next commit
+
+
+
 ## 2026-03-11: AI Overview (GEO) & Animated Logo Updates
 
 ### What was done
