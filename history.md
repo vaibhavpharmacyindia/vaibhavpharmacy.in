@@ -1,5 +1,40 @@
 # Vaibhav Pharmacy - Development History
 
+## 2026-03-11: Mosquito Prevention Blog Post + Instagram Carousel
+
+### What was done
+
+#### Mosquito Prevention Blog Post
+- Created new blog post: `mosquito-prevention-tips-lucknow.html` - "Machhar Se Bachav Ke 7 Tarike: Dengue, Malaria Aur Chikungunya Se Family Ko Safe Rakhein"
+- Hinglish content: 7 mosquito prevention tips with pro-tip callouts, warning boxes, danger boxes, do/don't checklist, anti-mosquito kit list, product CTA
+- SEO: title tags, meta description, keywords, canonical URL, OG tags, Article schema markup
+- GEO: FAQ schema with 3 Q&As targeting "machhar se bachav", "dengue symptoms", "mosquito repellent Vrindavan Yojna"
+- Made it the **featured article** on blog index page (7 articles total)
+- Added as **first card** in homepage Sehat Diary preview section
+- Added to `sitemap.xml` with priority 0.7
+- All emdashes removed (replaced with hyphens)
+
+#### Instagram Carousel
+- Generated 9 vibrant Instagram carousel slides (1080x1080px) with Vaibhav Pharmacy logo
+- Slides: Cover, Tip 1-7 (stagnant water, repellent, mosquito net, full-sleeve clothes, cleanliness, anti-mosquito kit, danger signs), CTA
+- Minimal text, vibrant color gradients, flat illustration/infographic style
+
+### Files modified
+| File | Changes |
+|------|---------|
+| `website/blog/mosquito-prevention-tips-lucknow.html` | NEW - Mosquito prevention blog post, full HTML |
+| `website/blog/index.html` | Mosquito blog as featured article + new card (7 cards total) |
+| `website/index.html` | Mosquito blog card as first card in Sehat Diary preview |
+| `website/sitemap.xml` | Added mosquito blog URL, updated lastmod dates |
+
+### Git commits
+```
+484aa7a Add mosquito prevention blog post - Hinglish, SEO/GEO optimized
+cf3c7fd Remove em dashes from mosquito prevention blog post
+```
+
+---
+
 ## 2026-03-08: Women's Day Blog Post
 
 ### What was done
@@ -16,7 +51,7 @@
 
 ### Files modified
 | File | Changes |
-|------|---------|
+|------|---------
 | `website/blog/womens-health-essentials-india.html` | NEW - Women's Day blog post, full HTML |
 | `website/blog/index.html` | Women's Day as featured article + new card (6 cards total) |
 | `website/index.html` | Women's Day card as first card in Sehat Diary preview |
@@ -235,7 +270,7 @@
 ```
 vaibhavpharmacy/
 ├── website/
-│   ├── index.html          # Main site (2738 lines)
+│   ├── index.html          # Main site
 │   ├── sitemap.xml          # Sitemap
 │   ├── robots.txt           # Crawler rules + AI engines
 │   ├── vp_newlogo.svg       # SVG logo (all visible logos)
@@ -245,12 +280,15 @@ vaibhavpharmacy/
 │   ├── inventory.json       # Product data (loaded via Google Sheets)
 │   └── blog/
 │       ├── index.html
+│       ├── mosquito-prevention-tips-lucknow.html
+│       ├── womens-health-essentials-india.html
+│       ├── post-holi-skin-care-tips-hindi.html
 │       ├── combating-flu.html
 │       ├── first-aid-kit.html
 │       ├── essential-medicines-home-kit-lucknow.html
 │       ├── medicine-home-delivery-vrindavan-yojna-lucknow.html
-│       ├── post-holi-skin-care-tips-hindi.html
-│       └── post-holi-skin-care-blog.md
+│       ├── post-holi-skin-care-blog.md
+│       └── womens-day-blog.md
 ├── vaibhav pharmacy.svg     # Source SVG logo (original)
 ├── .gitignore
 └── history.md               # This file
