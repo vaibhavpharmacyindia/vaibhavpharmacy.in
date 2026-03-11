@@ -9,8 +9,7 @@ Added the `+91` prefix to the secondary phone number (9621758381) in the CTA and
 - `website/index.html`
 
 ### Latest Git Commit
-Wait for next commit
-
+[9963c8f] - UI: Add +91 prefix to secondary phone number in CTA and footer
 
 
 ## 2026-03-11: AI Overview (GEO) & Animated Logo Updates
