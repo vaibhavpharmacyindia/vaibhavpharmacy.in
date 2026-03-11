@@ -1,5 +1,22 @@
 # Vaibhav Pharmacy - Development History
 
+## 2026-03-11: Website Content Updates (Reviews, Delivery, Trust)
+
+### What was done
+- **Customer Reviews:** Made the customer reviews section horizontally scrollable (carousel layout) and added 3 new real-looking reviews to build trust.
+- **Delivery Messaging:** Updated all instances of "Free Home Delivery 2KM" to "Delivery Available in Vrindavan Yojna" across meta tags, schema, hero section, features bar, and FAQs.
+- **Brand Trust Messaging:** Refined the "Sahi Daam" feature from "Koi Chhupi Fees nahi" to emphasize local pharmacy brand trust ("Aapki trusted local pharmacy brand").
+- **VP Family Program:** Changed the discount from every "5th" order to every "3rd" order.
+- **Social Proof:** Updated "500+ Happy Families" to "100+ Happy Families" in the Hero stats and Delivery banner for realistic expectations.
+
+### Files modified
+- `website/index.html`
+
+### Latest Git Commit
+[6c84e20] - Update delivery text, reviews, and trust messaging
+
+
+
 ## 2026-03-11: Competitive Intelligence Implementation
 
 ### What was done
