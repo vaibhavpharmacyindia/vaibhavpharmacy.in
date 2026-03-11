@@ -1,5 +1,25 @@
 # Vaibhav Pharmacy - Development History
 
+## 2026-03-11: AI Overview (GEO) & Animated Logo Updates
+
+### What was done
+#### 1. Generative Engine Optimization (AI Overviews)
+- Added a new structured HTML list to the FAQ section: *"Vrindavan Yojna, Lucknow ke pramukh chemist kaunse hain?"*
+- Included Vaibhav Pharmacy at the top of the list with a 4.8 rating and Free Delivery to encourage Google's AI to pull our semantic block for "Top 10" style listicle searches.
+- Mirrored this exact FAQ in the backend JSON-LD schema.
+
+#### 2. Animated Logo Update
+- Swapped the static `vp_newlogo.svg` for the dynamic `vp_newlogo_animated.svg` across all 3 visible website areas (Navbar, Hero Section, Footer).
+
+### Files modified
+- `website/index.html`
+
+### Latest Git Commit
+[2413120] - UI/SEO: Add animated logo and AI Overview targeted FAQ list
+[8bfdcad] - UI: Revert Hero H1 text to Lucknow's Trusted
+
+
+
 ## 2026-03-11: SEO Keyword Optimization (Targeted & Expanded)
 
 ### What was done
@@ -33,7 +53,7 @@ Added 5 additional high-intent keywords to broaden local search capture:
 - `website/index.html`
 
 ### Latest Git Commit
-Wait for next commit
+[f171990] - SEO: Expand keyword targeting for online delivery and discounts
 
 
 
