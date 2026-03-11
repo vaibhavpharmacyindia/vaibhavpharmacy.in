@@ -4,7 +4,7 @@
 
 ### What was done
 Implemented 6 key learnings from the global pharmacy competitive intelligence report (US, China, Europe, 2025-2026) to enhance the website without heavy investment.
-- **Delivery Messaging:** Updated all "Free Home Delivery 2KM" messaging to "30 Min Free Delivery" globally (hero, features bar, how-it-works, delivery banner).
+- **Delivery Messaging:** Updated all "Free Home Delivery 2KM" messaging to "30 Min Free Delivery" globally (hero, features bar, how-it-works, delivery banner). *Update: Reverted 30-min promise to "Home Delivery Available" per user request.*
 - **Health Services Section:** Added a new section highlighting free BP check, sugar testing, pharmacist consultation, and dawai reminder service, positioning the pharmacy as a micro-primary care hub.
 - **VP Family Loyalty Program:** Added a new WhatsApp-based loyalty program section highlighting benefits like har 5th order pe discount, monthly reminders, free checkups, and health tips.
 - **Pricing Transparency:** Upgraded the "Sahi Daam" feature to "Sahi Daam, Koi Chhupi Fees nahi" to build trust based on cost-plus models.
@@ -15,7 +15,7 @@ Implemented 6 key learnings from the global pharmacy competitive intelligence re
 - `website/index.html`
 
 ### Latest Git Commit
-[cf3c7fd] - Fix em dashes in mosquito prevention blog post
+[7b7df4a] - Implement global pharmacy competitive intelligence learnings on index.html
 
 
 ## 2026-03-11: Mosquito Prevention Blog Post + Instagram Carousel
