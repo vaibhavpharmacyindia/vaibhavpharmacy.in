@@ -37,6 +37,9 @@
 ## 📅 5. Recent Development Log
 *A condensed chronological log of recent development phases.*
 
+### **UI Updates (March 17, 2026)**
+- Changed "consultation" to "help" under the "Dawai Pe Salah" section in `index.html`.
+
 ### **Phase 3: Deep SEO, Analytics, and Content (March 11, 2026)**
 - **Analytics:** Centralized custom JS event tracking for WhatsApp, phone, maps, and blog clicks.
 - **SEO/GEO:** Injected aggressive long-tail keywords into meta tags and JSON-LD schemas. Added a structured FAQ list specifically targeted at AI Overviews ("Top Chemists in Vrindavan Yojna"). Renamed "cheapest pharmacy" to "cheapest medicines".
