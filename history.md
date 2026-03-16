@@ -37,6 +37,12 @@
 ## 📅 5. Recent Development Log
 *A condensed chronological log of recent development phases.*
 
+### **Content Updates (March 17, 2026)**
+- Published new blog post "Lucknow ki Garmi aur Loo Se Bachaav" (`lucknow-summer-heatstroke-prevention.html`) focusing on heatstroke prevention, promoting ORS and electrolytes.
+- Updated `blog/index.html` to feature the new post and increased article count to 8.
+- Updated `index.html` "Sehat Diary" preview block on the homepage to include the new post as the first card, pushing others down.
+- Updated `sitemap.xml` with the new blog URL and refreshed `lastmod` dates.
+
 ### **UI Updates (March 17, 2026)**
 - Changed "consultation" to "help" under the "Dawai Pe Salah" section in `index.html`.
 
