@@ -47,6 +47,7 @@
 - Added "Summer Health Essentials" product card (ORS, Glucon-D, Electral, sunscreen) in the products section.
 - Added Article schema to 3 blog posts missing it (`combating-flu.html`, `first-aid-kit.html`, `lucknow-summer-heatstroke-prevention.html`).
 - Refreshed all `sitemap.xml` lastmod dates to trigger Google re-crawling.
+- Restored 3 missing blog cards to the "Sehat Diary" grid (Mosquito, Holi, First Aid) to re-enable horizontal scrolling functionality on the homepage.
 
 | File | Change |
 |------|--------|
