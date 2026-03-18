@@ -1515,8 +1515,10 @@
             border: 1px solid var(--primary-lighter);
             overflow: hidden;
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 200px 1fr;
             transition: all 0.3s ease;
+            max-width: 700px;
+            margin: 0 auto;
             text-decoration: none;
             color: inherit;
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
@@ -1529,7 +1531,7 @@
         }
 
         .diary-featured-visual {
-            padding: 40px;
+            padding: 24px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1549,13 +1551,13 @@
         }
 
         .diary-featured-icon {
-            font-size: 80px;
+            font-size: 48px;
             color: rgba(255, 255, 255, 0.95);
             z-index: 1;
         }
 
         .diary-featured-body {
-            padding: 40px;
+            padding: 20px 24px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -1563,11 +1565,11 @@
 
         .diary-featured-title {
             font-family: 'Outfit', sans-serif;
-            font-size: 24px;
+            font-size: 18px;
             font-weight: 700;
             color: var(--gray-900);
             line-height: 1.35;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
             transition: color 0.2s ease;
         }
 
@@ -1577,24 +1579,25 @@
 
         .diary-featured-excerpt {
             color: var(--gray-600);
-            font-size: 15px;
-            line-height: 1.6;
-            margin-bottom: 24px;
+            font-size: 13px;
+            line-height: 1.5;
+            margin-bottom: 16px;
         }
 
         @media (max-width: 768px) {
             .diary-featured-card {
                 grid-template-columns: 1fr;
+                max-width: 100%;
             }
             .diary-featured-visual {
-                padding: 32px;
-                min-height: 200px;
+                padding: 24px;
+                min-height: 140px;
             }
             .diary-featured-body {
-                padding: 24px;
+                padding: 16px 20px;
             }
             .diary-featured-title {
-                font-size: 20px;
+                font-size: 16px;
             }
         }
 
