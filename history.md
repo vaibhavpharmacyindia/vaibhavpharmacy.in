@@ -31,11 +31,25 @@
   - `call_click` (Links starting with `tel:`)
   - `directions_click` (Links containing `maps.app.goo.gl`)
   - `blog_click` (Links pointing to the `blog/` directory)
+  - `medicine_search` (Hero search queries with results - demand intelligence)
+  - `medicine_not_found` (Hero search queries with no results - stock gap signal)
+  - `medicine_search_whatsapp` (WhatsApp clicks from hero search - hot leads)
 
 ---
 
 ## 📅 5. Recent Development Log
 *A condensed chronological log of recent development phases.*
+
+### **Demand Capture: Hero Medicine Search (March 18, 2026)**
+- Added a prominent medicine search bar in the hero section of `index.html` with autocomplete from `inventory.json`.
+- Search fires 3 new GA events for demand capture: `medicine_search`, `medicine_not_found`, `medicine_search_whatsapp`.
+- "Not found" state shows WhatsApp CTA so visitors can still inquire about medicines not in inventory.
+- Fixed `fetchInventory()` not being called on page load (was defined but never invoked in `DOMContentLoaded`).
+- Mobile responsive - works on all screen sizes.
+
+| File | Change |
+|------|--------|
+| `website/index.html` | Added hero search CSS (~210 lines), HTML (search bar + dropdown), JS (autocomplete + GA tracking) |
 
 ### **Content Updates (March 17, 2026)**
 - Published new blog post "Lucknow ki Garmi aur Loo Se Bachaav" (`lucknow-summer-heatstroke-prevention.html`) focusing on heatstroke prevention, promoting ORS and electrolytes.

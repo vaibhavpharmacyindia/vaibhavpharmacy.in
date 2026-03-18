@@ -1696,6 +1696,213 @@
                 height: 110px;
             }
         }
+
+        /* ===== HERO SEARCH BAR ===== */
+        .hero-search {
+            position: relative;
+            max-width: 520px;
+            margin-bottom: 28px;
+        }
+
+        .hero-search-input-wrap {
+            position: relative;
+        }
+
+        .hero-search-input-wrap i {
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--gray-400);
+            font-size: 18px;
+            pointer-events: none;
+            transition: color 0.2s;
+        }
+
+        .hero-search-input {
+            width: 100%;
+            padding: 16px 18px 16px 50px;
+            border: 2px solid var(--gray-300);
+            border-radius: 16px;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            background: var(--white);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            transition: all 0.3s ease;
+            color: var(--gray-800);
+        }
+
+        .hero-search-input:focus {
+            outline: none;
+            border-color: var(--primary-lighter);
+            box-shadow: 0 4px 24px rgba(76, 175, 80, 0.15);
+        }
+
+        .hero-search-input:focus + i,
+        .hero-search-input:focus ~ i {
+            color: var(--primary);
+        }
+
+        .hero-search-input-wrap:focus-within i {
+            color: var(--primary);
+        }
+
+        .hero-search-results {
+            position: absolute;
+            top: calc(100% + 6px);
+            left: 0;
+            right: 0;
+            background: var(--white);
+            border-radius: 14px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+            border: 1px solid var(--gray-200);
+            z-index: 100;
+            display: none;
+            overflow: hidden;
+            max-height: 380px;
+            overflow-y: auto;
+        }
+
+        .hero-search-results.show {
+            display: block;
+            animation: heroSearchDrop 0.2s ease;
+        }
+
+        @keyframes heroSearchDrop {
+            from { opacity: 0; transform: translateY(-6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-search-result-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 18px;
+            border-bottom: 1px solid var(--gray-100);
+            transition: background 0.15s;
+            cursor: pointer;
+            gap: 12px;
+        }
+
+        .hero-search-result-item:last-child {
+            border-bottom: none;
+        }
+
+        .hero-search-result-item:hover {
+            background: var(--primary-bg);
+        }
+
+        .hero-search-result-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .hero-search-result-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--gray-800);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .hero-search-result-meta {
+            font-size: 12px;
+            color: var(--gray-500);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 2px;
+        }
+
+        .hero-search-result-price {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--primary);
+            white-space: nowrap;
+        }
+
+        .hero-search-result-order {
+            background: #25D366;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 6px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-family: 'Inter', sans-serif;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+
+        .hero-search-result-order:hover {
+            background: #20BD5A;
+            transform: scale(1.04);
+        }
+
+        .hero-search-not-found {
+            padding: 24px 18px;
+            text-align: center;
+        }
+
+        .hero-search-not-found p {
+            font-size: 14px;
+            color: var(--gray-600);
+            margin-bottom: 12px;
+        }
+
+        .hero-search-not-found .btn {
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+
+        .hero-search-hint {
+            font-size: 12px;
+            color: var(--gray-500);
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .hero-search-hint i {
+            color: var(--primary-lighter);
+        }
+
+        @media (max-width: 968px) {
+            .hero-search {
+                max-width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-search-input {
+                font-size: 15px;
+                padding: 14px 16px 14px 44px;
+                border-radius: 12px;
+            }
+
+            .hero-search-input-wrap i {
+                font-size: 16px;
+                left: 14px;
+            }
+
+            .hero-search-results {
+                border-radius: 12px;
+                max-height: 300px;
+            }
+
+            .hero-search-result-item {
+                padding: 10px 14px;
+            }
+        }
     </style>
     <!-- Schema Markup for Local Pharmacy -->
     <script type="application/ld+json">
@@ -2017,6 +2224,20 @@
                     hai.
                     Genuine medicines at honest prices, <strong>delivery available in Vrindavan Yojna</strong>, aur WhatsApp pe
                     instant ordering. Built with ❤️ in Lucknow, for Lucknow.</p>
+                <!-- HERO MEDICINE SEARCH BAR -->
+                <div class="hero-search" id="heroSearchWrap">
+                    <div class="hero-search-input-wrap">
+                        <input type="text" class="hero-search-input" id="heroSearchInput"
+                            placeholder="Dawa ka naam search karein... (e.g. Dolo, Calpol)"
+                            autocomplete="off">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="hero-search-results" id="heroSearchResults"></div>
+                    <div class="hero-search-hint">
+                        <i class="fas fa-pills"></i>
+                        <span>500+ medicines available - search aur WhatsApp pe order karein</span>
+                    </div>
+                </div>
                 <div class="hero-actions">
                     <a href="https://wa.me/917897526668?text=Hi%20Vaibhav%20Pharmacy!%20I%20would%20like%20to%20place%20an%20order."
                         class="btn btn-whatsapp" target="_blank">
@@ -3478,6 +3699,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             updateOpenStatus();
             setInterval(updateOpenStatus, 60000);
+            fetchInventory();
         });
 
         // Close mobile nav when clicking outside
@@ -3576,6 +3798,124 @@
             }
 
             setTimeout(typeEffect, typingDelay);
+        }
+
+        // ===== HERO MEDICINE SEARCH - DEMAND CAPTURE =====
+        (function() {
+            const heroInput = document.getElementById('heroSearchInput');
+            const heroResults = document.getElementById('heroSearchResults');
+            const heroWrap = document.getElementById('heroSearchWrap');
+            if (!heroInput || !heroResults) return;
+
+            let heroSearchTimer;
+            let lastTrackedQuery = '';
+
+            heroInput.addEventListener('input', function() {
+                clearTimeout(heroSearchTimer);
+                const query = this.value.trim().toLowerCase();
+
+                if (query.length < 2) {
+                    heroResults.classList.remove('show');
+                    return;
+                }
+
+                // Show results immediately
+                showHeroResults(query);
+
+                // Track to GA after 800ms pause (debounced)
+                heroSearchTimer = setTimeout(() => {
+                    if (query !== lastTrackedQuery && query.length >= 2) {
+                        lastTrackedQuery = query;
+                        const matches = allProducts.filter(p =>
+                            p.name.toLowerCase().includes(query) ||
+                            (p.company && p.company.toLowerCase().includes(query))
+                        );
+                        if (typeof gtag === 'function') {
+                            if (matches.length === 0) {
+                                gtag('event', 'medicine_not_found', {
+                                    'event_category': 'demand_capture',
+                                    'event_label': query,
+                                    'search_term': query
+                                });
+                            } else {
+                                gtag('event', 'medicine_search', {
+                                    'event_category': 'demand_capture',
+                                    'event_label': query,
+                                    'search_term': query,
+                                    'results_count': matches.length
+                                });
+                            }
+                        }
+                    }
+                }, 800);
+            });
+
+            function showHeroResults(query) {
+                const matches = allProducts.filter(p =>
+                    p.name.toLowerCase().includes(query) ||
+                    (p.company && p.company.toLowerCase().includes(query))
+                ).slice(0, 5);
+
+                if (matches.length === 0) {
+                    const waText = encodeURIComponent(`Hi! Mujhe "${heroInput.value.trim()}" chahiye. Kya yeh available hai?`);
+                    heroResults.innerHTML = `
+                        <div class="hero-search-not-found">
+                            <i class="fas fa-search" style="font-size: 28px; color: var(--gray-300); margin-bottom: 8px;"></i>
+                            <p>"<strong>${heroInput.value.trim()}</strong>" nahi mila - hum manually check karenge!</p>
+                            <a href="https://wa.me/917897526668?text=${waText}" target="_blank" class="btn btn-whatsapp"
+                                onclick="heroSearchWA('${heroInput.value.trim().replace(/'/g, '')}')">
+                                <i class="fab fa-whatsapp"></i> WhatsApp pe poochein
+                            </a>
+                        </div>`;
+                } else {
+                    heroResults.innerHTML = matches.map(p => {
+                        const price = p.mrp ? Math.round(p.mrp) : 0;
+                        const waText = encodeURIComponent(`Hi! I would like to order:\n${p.name}${price ? ' (MRP ₹' + price + ')' : ''}\n\nPlease confirm availability and price.`);
+                        return `
+                            <div class="hero-search-result-item">
+                                <div class="hero-search-result-info">
+                                    <div class="hero-search-result-name">${p.name}</div>
+                                    <div class="hero-search-result-meta">
+                                        <span>${p.category || ''}</span>
+                                        ${p.company ? '<span>• ' + p.company + '</span>' : ''}
+                                    </div>
+                                </div>
+                                ${price ? '<span class="hero-search-result-price">₹' + price + '</span>' : ''}
+                                <a href="https://wa.me/917897526668?text=${waText}" target="_blank"
+                                    class="hero-search-result-order"
+                                    onclick="heroSearchWA('${p.name.replace(/'/g, '')}')">
+                                    <i class="fab fa-whatsapp"></i> Order
+                                </a>
+                            </div>`;
+                    }).join('');
+                }
+
+                heroResults.classList.add('show');
+            }
+
+            // Close dropdown on click outside
+            document.addEventListener('click', function(e) {
+                if (!heroWrap.contains(e.target)) {
+                    heroResults.classList.remove('show');
+                }
+            });
+
+            // Re-show on focus if there's text
+            heroInput.addEventListener('focus', function() {
+                if (this.value.trim().length >= 2) {
+                    showHeroResults(this.value.trim().toLowerCase());
+                }
+            });
+        })();
+
+        // GA event for WhatsApp clicks from hero search
+        function heroSearchWA(medicineName) {
+            if (typeof gtag === 'function') {
+                gtag('event', 'medicine_search_whatsapp', {
+                    'event_category': 'demand_capture',
+                    'event_label': medicineName
+                });
+            }
         }
     </script>
 
