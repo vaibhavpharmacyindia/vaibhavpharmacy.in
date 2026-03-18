@@ -40,6 +40,22 @@
 ## 📅 5. Recent Development Log
 *A condensed chronological log of recent development phases.*
 
+### **SEO/GEO Optimization (March 18, 2026)**
+- Optimized title tag, meta description, and keywords with trending Google Trends terms (medicine home delivery, ORS, summer health, Hinglish queries).
+- Added 5 new FAQ schema questions targeting seasonal (ORS, summer kit, sunscreen) and local (medicine delivery, pollution) trending queries.
+- Updated hero tagline to include "Medicine Home Delivery" and added seasonal "Summer Essentials" badge.
+- Added "Summer Health Essentials" product card (ORS, Glucon-D, Electral, sunscreen) in the products section.
+- Added Article schema to 3 blog posts missing it (`combating-flu.html`, `first-aid-kit.html`, `lucknow-summer-heatstroke-prevention.html`).
+- Refreshed all `sitemap.xml` lastmod dates to trigger Google re-crawling.
+
+| File | Change |
+|------|--------|
+| `website/index.html` | Meta tags, hero content, 5 new FAQ schema questions, Summer Essentials card |
+| `website/blog/combating-flu.html` | Article schema added |
+| `website/blog/first-aid-kit.html` | Article schema added |
+| `website/blog/lucknow-summer-heatstroke-prevention.html` | Article schema added |
+| `website/sitemap.xml` | All lastmod dates refreshed to 2026-03-18 |
+
 ### **Demand Capture: Hero Medicine Search (March 18, 2026)**
 - Added a prominent medicine search bar in the products section of `index.html` with autocomplete from `inventory.json`.
 - Search fires 3 new GA events for demand capture: `medicine_search`, `medicine_not_found`, `medicine_search_whatsapp`.
