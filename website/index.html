@@ -1505,6 +1505,99 @@
         }
 
         /* ===== SEHAT DIARY PREVIEW ===== */
+        .diary-featured-container {
+            margin-bottom: 32px;
+        }
+
+        .diary-featured-card {
+            background: var(--white);
+            border-radius: 16px;
+            border: 1px solid var(--primary-lighter);
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .diary-featured-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: var(--primary);
+        }
+
+        .diary-featured-visual {
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .diary-featured-visual::after {
+            content: '';
+            position: absolute;
+            top: -20%;
+            right: -20%;
+            width: 250px;
+            height: 250px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
+
+        .diary-featured-icon {
+            font-size: 80px;
+            color: rgba(255, 255, 255, 0.95);
+            z-index: 1;
+        }
+
+        .diary-featured-body {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .diary-featured-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--gray-900);
+            line-height: 1.35;
+            margin-bottom: 12px;
+            transition: color 0.2s ease;
+        }
+
+        .diary-featured-card:hover .diary-featured-title {
+            color: var(--primary);
+        }
+
+        .diary-featured-excerpt {
+            color: var(--gray-600);
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .diary-featured-card {
+                grid-template-columns: 1fr;
+            }
+            .diary-featured-visual {
+                padding: 32px;
+                min-height: 200px;
+            }
+            .diary-featured-body {
+                padding: 24px;
+            }
+            .diary-featured-title {
+                font-size: 20px;
+            }
+        }
+
         .diary-grid {
             display: flex;
             overflow-x: auto;
@@ -2650,26 +2743,32 @@
                 <h2>Health Tips & Guides</h2>
                 <p>Lucknow walo ke liye expert health advice, wellness tips, aur zaroori health alerts</p>
             </div>
-            <div class="diary-grid">
-                <!-- Card 1: Heatstroke Prevention (NEW) -->
-                <a href="blog/lucknow-summer-heatstroke-prevention.html" class="diary-card">
-                    <div class="diary-card-visual"
+            <div class="diary-featured-container">
+                <!-- FEATURED RECENT POST -->
+                <a href="blog/lucknow-summer-heatstroke-prevention.html" class="diary-featured-card">
+                    <div class="diary-featured-visual"
                         style="background: linear-gradient(135deg, #FF6F00 0%, #FFA726 100%);">
-                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-sun diary-featured-icon"></i>
                     </div>
-                    <div class="diary-card-body">
-                        <span class="diary-chip" style="background: #FFF3E0; color: #E65100;">Seasonal Health</span>
-                        <h3 class="diary-card-title">Lucknow ki Garmi aur Loo Se Bachaav: Kya Karein, Kya Na Karein</h3>
-                        <p class="diary-card-excerpt">UP ki tez garmi aur loo se apni family ko kaise surakshit rakhein. Important tips and summer essentials list.</p>
-                        <div class="diary-card-footer">
+                    <div class="diary-featured-body">
+                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+                            <span class="diary-chip" style="background: #FFF3E0; color: #E65100; margin-bottom: 0;">Seasonal Health</span>
+                            <span style="background: #E8F5E9; color: #1B5E20; font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 50px; text-transform: uppercase;">Latest Post</span>
+                        </div>
+                        <h3 class="diary-featured-title">Lucknow ki Garmi aur Loo Se Bachaav: Kya Karein, Kya Na Karein</h3>
+                        <p class="diary-featured-excerpt">UP ki tez garmi aur loo se apni family ko kaise surakshit rakhein. Important tips and summer essentials list.</p>
+                        <div class="diary-card-footer" style="padding-top: 0; border-top: none;">
                             <div class="diary-card-meta">
                                 <span><i class="far fa-calendar"></i> Mar 17</span>
                                 <span><i class="far fa-clock"></i> 5 min</span>
                             </div>
-                            <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                            <span class="diary-card-arrow" style="font-size: 15px;">Read <i class="fas fa-arrow-right"></i></span>
                         </div>
                     </div>
                 </a>
+            </div>
+
+            <div class="diary-grid">
                 
                 <!-- Card 2: Mosquito Prevention -->
                 <a href="blog/mosquito-prevention-tips-lucknow.html" class="diary-card">
