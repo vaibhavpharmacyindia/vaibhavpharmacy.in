@@ -1506,13 +1506,34 @@
 
         /* ===== SEHAT DIARY PREVIEW ===== */
         .diary-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            display: flex;
+            overflow-x: auto;
             gap: 24px;
             margin-bottom: 40px;
+            padding-bottom: 16px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: thin;
+        }
+
+        .diary-grid::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .diary-grid::-webkit-scrollbar-track {
+            background: var(--gray-100);
+            border-radius: 4px;
+        }
+
+        .diary-grid::-webkit-scrollbar-thumb {
+            background: var(--gray-300);
+            border-radius: 4px;
         }
 
         .diary-card {
+            flex: 0 0 auto;
+            width: 340px;
+            scroll-snap-align: start;
             background: var(--white);
             border-radius: 16px;
             border: 1px solid var(--gray-200);
@@ -1688,8 +1709,12 @@
 
         @media (max-width: 768px) {
             .diary-grid {
-                grid-template-columns: 1fr;
                 gap: 16px;
+                padding-bottom: 12px;
+            }
+
+            .diary-card {
+                width: 280px; /* Narrower on mobile so the next card peeks out */
             }
 
             .diary-card-visual {

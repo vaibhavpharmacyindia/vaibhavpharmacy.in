@@ -45,6 +45,7 @@
 - Search fires 3 new GA events for demand capture: `medicine_search`, `medicine_not_found`, `medicine_search_whatsapp`.
 - "Not found" state shows WhatsApp CTA so visitors can still inquire about medicines not in inventory.
 - Fixed `fetchInventory()` not being called on page load (was defined but never invoked in `DOMContentLoaded`).
+- Made the **Sehat Diary (Health Tips & Guides)** section horizontally scrollable on both desktop and mobile for better UX.
 - Mobile responsive - works on all screen sizes.
 
 | File | Change |
