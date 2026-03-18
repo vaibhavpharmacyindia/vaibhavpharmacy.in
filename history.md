@@ -41,7 +41,7 @@
 *A condensed chronological log of recent development phases.*
 
 ### **Demand Capture: Hero Medicine Search (March 18, 2026)**
-- Added a prominent medicine search bar in the hero section of `index.html` with autocomplete from `inventory.json`.
+- Added a prominent medicine search bar in the products section of `index.html` with autocomplete from `inventory.json`.
 - Search fires 3 new GA events for demand capture: `medicine_search`, `medicine_not_found`, `medicine_search_whatsapp`.
 - "Not found" state shows WhatsApp CTA so visitors can still inquire about medicines not in inventory.
 - Fixed `fetchInventory()` not being called on page load (was defined but never invoked in `DOMContentLoaded`).
