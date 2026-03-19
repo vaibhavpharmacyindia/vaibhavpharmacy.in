@@ -48,7 +48,7 @@
 - Added Article schema to 3 blog posts missing it (`combating-flu.html`, `first-aid-kit.html`, `lucknow-summer-heatstroke-prevention.html`).
 - Refreshed all `sitemap.xml` lastmod dates to trigger Google re-crawling.
 - Restored 3 missing blog cards to the "Sehat Diary" grid (Mosquito, Holi, First Aid) to re-enable horizontal scrolling functionality on the homepage.
-- Redesigned the Sehat Diary section by moving the most recent post (Heatstroke) into a prominent, larger "Featured Card" sitting centered above the older scrollable posts.
+- Redesigned the Sehat Diary section to a full-bleed horizontal scroll layout where the newest post is initially centered on the screen, elegantly revealing older posts as the user scrolls horizontally.
 
 | File | Change |
 |------|--------|
