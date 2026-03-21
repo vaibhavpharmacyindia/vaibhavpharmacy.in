@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaibhav Pharmacy | Best Pharmacy & Medical Store in Vrindavan Yojna, Lucknow | Medicine Home Delivery</title>
     <meta name="description"
-        content="Vaibhav Pharmacy - trusted medical store in Vrindavan Yojna, Lucknow. Cheapest medicines, medicine home delivery in Vrindavan Yojna, ORS, summer health essentials, genuine products. WhatsApp order: 7897526668. Open daily 9 AM - 9 PM.">
+        content="Vaibhav Pharmacy - trusted medical store in Vrindavan Yojna, Lucknow. Generic medicines at affordable prices, medicine home delivery in Vrindavan Yojna, ORS, summer health essentials, genuine products. Best generic medicine store in Lucknow. WhatsApp order: 7897526668. Open daily 9 AM - 9 PM.">
     <meta name="keywords"
-        content="medicine home delivery in lucknow, medicine home delivery vrindavan yojna, online medicine delivery in lucknow, discount medical store in vrindavan yojna, genuine medicine store in lucknow, chemist near me vrindavan yojna, medical store in vrindavan yojna lucknow, best medical store in lucknow, best pharmacy in lucknow, cheapest medicines in vrindavan yojna, pharmacy near me, medical store near me, pharmacy near me in Lucknow, medical store near me in Lucknow, chemist near me, dawai ki dukan near me, pharmacy with delivery near me, best pharmacy near me Vrindavan Yojna, medical shop near me Lucknow, 24 hours medical store near me, Vaibhav Pharmacy, chemist shop near me, pharmacy delivery Lucknow, medicine store near me, ORS Lucknow, electrolytes, Glucon-D, sunscreen SPF, garmi ki dawa, loo lagna ilaj, summer medicine kit, dawai ghar pe, ghar baithe dawa mangwayein Lucknow">
+        content="generic medicine store in lucknow, generic medicines vrindavan yojna, generic medicine shop near me, generic dawai lucknow, sasti generic medicine, generic medicine home delivery lucknow, medicine home delivery in lucknow, medicine home delivery vrindavan yojna, online medicine delivery in lucknow, discount medical store in vrindavan yojna, genuine medicine store in lucknow, chemist near me vrindavan yojna, medical store in vrindavan yojna lucknow, best medical store in lucknow, best pharmacy in lucknow, cheapest medicines in vrindavan yojna, pharmacy near me, medical store near me, pharmacy near me in Lucknow, medical store near me in Lucknow, chemist near me, dawai ki dukan near me, pharmacy with delivery near me, best pharmacy near me Vrindavan Yojna, medical shop near me Lucknow, 24 hours medical store near me, Vaibhav Pharmacy, chemist shop near me, pharmacy delivery Lucknow, medicine store near me, ORS Lucknow, electrolytes, Glucon-D, sunscreen SPF, garmi ki dawa, loo lagna ilaj, summer medicine kit, dawai ghar pe, ghar baithe dawa mangwayein Lucknow">
     <meta name="geo.region" content="IN-UP">
     <meta name="geo.placename" content="Lucknow, Vrindavan Yojna">
     <meta name="geo.position" content="26.7583;80.9535">
@@ -1505,72 +1505,61 @@
         }
 
         /* ===== SEHAT DIARY PREVIEW ===== */
-        .diary-hero-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 16px;
-            margin-bottom: 16px;
+        #sehat-diary .section-header {
+            margin-bottom: 32px;
         }
 
-        .diary-secondary-row {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 14px;
-            margin-bottom: 24px;
+        #sehat-diary .section-header h2 {
+            font-size: 32px;
         }
 
-        @media (max-width: 900px) {
-            .diary-hero-row {
-                grid-template-columns: 1fr;
-            }
-            .diary-secondary-row {
-                grid-template-columns: repeat(2, 1fr);
-            }
+        #sehat-diary .section-header p {
+            font-size: 15px;
         }
 
-        @media (max-width: 600px) {
-            .diary-secondary-row {
-                grid-template-columns: 1fr;
-            }
+        .diary-scroll-wrap {
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            padding-bottom: 8px;
+            /* Break out of section-container to go full width */
+            margin-left: calc(-50vw + 50%);
+            margin-right: calc(-50vw + 50%);
+            padding-left: max(24px, calc((100vw - 1200px) / 2));
+            padding-right: max(24px, calc((100vw - 1200px) / 2));
+            position: relative;
         }
-        /* Featured card (left of hero row) */
-        .diary-featured-new {
-            background: var(--white);
-            border-radius: 16px;
-            border: 1px solid var(--gray-200);
-            overflow: hidden;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            color: inherit;
+
+        .diary-scroll-wrap::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Scroll fade indicators */
+        .diary-scroll-wrap::after {
+            content: '';
+            position: sticky;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            min-width: 60px;
+            min-height: 100%;
+            background: linear-gradient(to left, var(--primary-bg-light) 0%, transparent 100%);
+            pointer-events: none;
+            flex-shrink: 0;
+        }
+
+        .diary-scroll-row {
             display: flex;
-            flex-direction: column;
-            box-shadow: var(--shadow-sm);
+            gap: 20px;
+            width: max-content;
         }
 
-        .diary-featured-new:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-md);
-            border-color: var(--primary-lighter);
-        }
-
-        .diary-featured-new .diary-card-visual {
-            height: 150px;
-        }
-
-        .diary-featured-new .diary-card-title {
-            font-size: 16px;
-        }
-
-        .diary-hero-right {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        /* Standard card used in hero-right and secondary row */
         .diary-card {
+            width: 380px;
+            flex-shrink: 0;
             background: var(--white);
-            border-radius: 16px;
+            border-radius: 14px;
             border: 1px solid var(--gray-200);
             overflow: hidden;
             transition: all 0.3s ease;
@@ -1582,13 +1571,13 @@
         }
 
         .diary-card:hover {
-            transform: translateY(-4px);
+            transform: translateY(-3px);
             box-shadow: var(--shadow-md);
             border-color: var(--primary-lighter);
         }
 
         .diary-card-visual {
-            height: 110px;
+            height: 140px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -1608,26 +1597,14 @@
         }
 
         .diary-card-visual i {
-            font-size: 32px;
+            font-size: 36px;
             color: rgba(255, 255, 255, 0.85);
             position: relative;
             z-index: 1;
         }
 
-        .diary-card-visual.v-services {
-            background: linear-gradient(135deg, #1B5E20 0%, #66BB6A 100%);
-        }
-
-        .diary-card-visual.v-first-aid {
-            background: linear-gradient(135deg, #C62828 0%, #EF5350 100%);
-        }
-
-        .diary-card-visual.v-health {
-            background: linear-gradient(135deg, #1565C0 0%, #42A5F5 100%);
-        }
-
         .diary-card-body {
-            padding: 22px;
+            padding: 20px;
             display: flex;
             flex-direction: column;
             flex-grow: 1;
@@ -1638,7 +1615,7 @@
             align-items: center;
             font-size: 11px;
             font-weight: 700;
-            padding: 3px 11px;
+            padding: 4px 12px;
             border-radius: 50px;
             text-transform: uppercase;
             letter-spacing: 0.7px;
@@ -1646,52 +1623,35 @@
             align-self: flex-start;
         }
 
-        .diary-chip.c-services {
-            background: var(--primary-bg);
-            color: var(--primary);
-        }
-
-        .diary-chip.c-first-aid {
-            background: #FFEBEE;
-            color: #C62828;
-        }
-
-        .diary-chip.c-health {
-            background: #E3F2FD;
-            color: #1565C0;
-        }
-
         .diary-card-title {
             font-family: 'Outfit', sans-serif;
-            font-size: 17px;
+            font-size: 16px;
             font-weight: 700;
             color: var(--gray-900);
-            line-height: 1.35;
+            line-height: 1.4;
             margin-bottom: 8px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         .diary-card:hover .diary-card-title {
             color: var(--primary);
         }
 
-        .diary-card-excerpt {
-            color: var(--gray-600);
-            font-size: 13px;
-            line-height: 1.6;
-            margin-bottom: 14px;
-            flex-grow: 1;
-        }
-
         .diary-card-footer {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding-top: 14px;
+            padding-top: 12px;
             border-top: 1px solid var(--gray-100);
+            margin-top: auto;
         }
 
         .diary-card-meta {
-            font-size: 11px;
+            font-size: 12px;
             color: var(--gray-500);
             display: flex;
             align-items: center;
@@ -1718,43 +1678,38 @@
             gap: 8px;
         }
 
-        .diary-cta {
+        .diary-card.diary-cta-card {
+            background: var(--primary-bg);
+            border: 2px dashed var(--primary-lighter);
+            justify-content: center;
+            align-items: center;
             text-align: center;
         }
 
-        .diary-cta a {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 13px 32px;
-            background: var(--white);
-            color: var(--primary);
-            border: 2px solid var(--primary-lighter);
-            border-radius: 12px;
-            font-size: 15px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .diary-cta a:hover {
-            background: var(--primary-bg);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 14px rgba(27, 94, 32, 0.15);
-        }
-
         @media (max-width: 768px) {
-            .diary-grid {
-                gap: 16px;
-                padding-bottom: 12px;
+            .diary-scroll-wrap {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+            #sehat-diary .section-header h2 {
+                font-size: 26px;
             }
 
             .diary-card {
-                width: 280px; /* Narrower on mobile so the next card peeks out */
+                width: 300px;
             }
 
             .diary-card-visual {
                 height: 110px;
+            }
+
+            .diary-card-body {
+                padding: 16px;
+            }
+
+            .diary-card-title {
+                font-size: 15px;
             }
         }
 
@@ -1971,8 +1926,8 @@
       "@context": "https://schema.org",
       "@type": ["Pharmacy", "MedicalBusiness"],
       "name": "Vaibhav Pharmacy",
-      "alternateName": ["Vaibhav Medical Store", "Vaibhav Chemist", "Best Medical Store in Lucknow", "Cheapest Medicines in Vrindavan Yojna", "Discount Medical Store", "Genuine Medicine Store"],
-      "description": "Vaibhav Pharmacy is a licensed retail pharmacy and medical store located in Vrindavan Yojna, Lucknow, Uttar Pradesh. Known as the best pharmacy in Lucknow and offering the cheapest medicines in Vrindavan Yojna, we provide genuine prescription medicines, OTC drugs, diabetes care, baby care, vitamins, and health products with free home delivery. We are your top choice for online medicine delivery in Lucknow and a trusted discount medical store. Open 7 days a week from 9 AM to 9 PM.",
+      "alternateName": ["Vaibhav Medical Store", "Vaibhav Chemist", "Best Medical Store in Lucknow", "Cheapest Medicines in Vrindavan Yojna", "Discount Medical Store", "Genuine Medicine Store", "Generic Medicine Store Lucknow", "Generic Dawai Store Vrindavan Yojna"],
+      "description": "Vaibhav Pharmacy is a licensed retail pharmacy and medical store located in Vrindavan Yojna, Lucknow, Uttar Pradesh. Known as the best pharmacy in Lucknow and offering the cheapest generic medicines in Vrindavan Yojna, we provide genuine prescription medicines, generic medicines, OTC drugs, diabetes care, baby care, vitamins, and health products with free home delivery. We are your top choice for generic medicine and online medicine delivery in Lucknow and a trusted discount medical store. Open 7 days a week from 9 AM to 9 PM.",
       "slogan": "Sahi Dava, Sahi Daam",
       "image": "https://vaibhavpharmacy.in/icon_vp.png",
       "@id": "https://vaibhavpharmacy.in/",
@@ -2103,7 +2058,7 @@
           "name": "What products does Vaibhav Pharmacy sell?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Vaibhav Pharmacy offers prescription medicines, OTC drugs, diabetes care products (glucometers, strips, insulin), baby and mom care, vitamins and supplements, skin and hair care, pain relief, first aid supplies, and surgical items. We stock over 1000 products."
+            "text": "Vaibhav Pharmacy offers generic medicines, branded prescription medicines, OTC drugs, diabetes care products (glucometers, strips, insulin), baby and mom care, vitamins and supplements, skin and hair care, pain relief, first aid supplies, and surgical items. We stock over 1000 products including affordable generic medicine alternatives."
           }
         },
         {
@@ -2217,6 +2172,14 @@
             "@type": "Answer",
             "text": "Lucknow mein badhte pollution se saans ki problems badh rahi hain. Innse bachne ke liye: N95 mask pehnen jab bahar jayein, ghar mein air purifier ya indoor plants rakhein, steam inhalation roz karein, aur Vitamin C lein immunity ke liye. Agar khansi 2 hafte se zyada ho, saans mein seeti aaye, ya chest mein tightness ho toh turant doctor ko dikhayein. Nebulizer, inhalers, aur respiratory medicines Vaibhav Pharmacy mein available hain."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Kya Vaibhav Pharmacy mein generic medicines milti hain? Generic medicine store in Lucknow",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Haan, Vaibhav Pharmacy Lucknow ki sabse trusted generic medicine store hai. Hamare paas branded aur generic dono tarah ki medicines available hain. Generic medicines branded dawai ke mukable 30-80% sasti hoti hain aur utni hi effective hoti hain. Agar aap apni dawai ka generic alternative chahte hain, toh WhatsApp pe prescription bhejein (+91 7897526668) - hum aapko best generic option batayenge. Sahi Dava, Sahi Daam - yahi humara promise hai."
+          }
         }
       ]
     }
@@ -2318,7 +2281,7 @@
                 </div>
                 <h1>Lucknow's Trusted<br><span id="dynamic-text">Medical Store</span><span class="type-cursor">|</span>
                 </h1>
-                <p class="hero-tagline">Vrindavan Yojna ki Pharmacy - Genuine Medicines + Medicine Home Delivery in Vrindavan Yojna</p>
+                <p class="hero-tagline">Vrindavan Yojna ki Pharmacy - Genuine & Generic Medicines + Medicine Home Delivery in Vrindavan Yojna</p>
                 <p class="hero-tagline-hindi hindi">Aapki Family ka Health Partner - परिवार की सेहत, हमारी ज़िम्मेदारी
                 </p>
                 <div style="display: inline-flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #FFF3E0, #FFECB3); padding: 8px 16px; border-radius: 50px; font-size: 13px; font-weight: 600; color: #E65100; margin-bottom: 16px;">
@@ -2326,8 +2289,8 @@
                 </div>
                 <p>Vaibhav Pharmacy aapki <strong>trusted neighbourhood pharmacy in Vrindavan Yojna, Lucknow</strong>
                     hai.
-                    Genuine medicines at honest prices, <strong>medicine home delivery in Vrindavan Yojna</strong>, aur WhatsApp pe
-                    instant ordering. Built with ❤️ in Lucknow, for Lucknow.</p>
+                    Genuine & generic medicines at honest prices, <strong>medicine home delivery in Vrindavan Yojna</strong>, aur WhatsApp pe
+                    instant ordering. Best <strong>generic medicine store in Lucknow</strong>. Built with ❤️ in Lucknow, for Lucknow.</p>
                 <div class="hero-actions">
                     <a href="https://wa.me/917897526668?text=Hi%20Vaibhav%20Pharmacy!%20I%20would%20like%20to%20place%20an%20order."
                         class="btn btn-whatsapp" target="_blank">
@@ -2679,115 +2642,119 @@
     </section>
 
     <!-- SEHAT DIARY PREVIEW -->
-    <section class="section page-section" id="sehat-diary" style="background: var(--primary-bg-light);">
-        <div class="section-container">
+    <section class="section page-section" id="sehat-diary" style="background: var(--primary-bg-light); padding: 40px 24px; overflow: hidden;">
+        <div class="section-container" style="overflow: visible;">
             <div class="section-header">
                 <span class="section-label">📖 Sehat Diary</span>
                 <h2>Health Tips &amp; Guides</h2>
                 <p>Lucknow walo ke liye expert health advice, wellness tips, aur zaroori health alerts</p>
             </div>
 
-            <!-- HERO ROW: featured latest + 2 compact cards -->
-            <div class="diary-hero-row">
+            <div class="diary-scroll-wrap">
+                <div class="diary-scroll-row">
 
-                <!-- FEATURED: Most recent post -->
-                <a href="blog/lucknow-summer-heatstroke-prevention.html" class="diary-featured-new">
-                    <div class="diary-card-visual" style="background: linear-gradient(135deg, #FF6F00 0%, #FFA726 100%); height: 220px;">
-                        <i class="fas fa-sun"></i>
-                        <span style="position:absolute; top:16px; left:16px; background:#fff; color:#E65100; font-size:10px; font-weight:800; padding:4px 10px; border-radius:50px; text-transform:uppercase; letter-spacing:1px;">New</span>
-                    </div>
-                    <div class="diary-card-body">
-                        <span class="diary-chip" style="background: #FFF3E0; color: #E65100;">Seasonal Health</span>
-                        <h3 class="diary-card-title" style="font-size:20px;">Lucknow ki Garmi aur Loo Se Bachaav: Kya Karein, Kya Na Karein</h3>
-                        <p class="diary-card-excerpt">UP ki tez garmi aur loo se apni family ko kaise surakshit rakhein. Important tips and summer essentials list.</p>
-                        <div class="diary-card-footer">
-                            <div class="diary-card-meta">
-                                <span><i class="far fa-calendar"></i> Mar 17, 2026</span>
-                                <span><i class="far fa-clock"></i> 5 min read</span>
-                            </div>
-                            <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                    <!-- Card 1: Heatstroke -->
+                    <a href="blog/lucknow-summer-heatstroke-prevention.html" class="diary-card">
+                        <div class="diary-card-visual" style="background: linear-gradient(135deg, #FF6F00 0%, #FFA726 100%);">
+                            <i class="fas fa-sun"></i>
+                            <span style="position:absolute; top:10px; left:10px; background:#fff; color:#E65100; font-size:9px; font-weight:800; padding:3px 8px; border-radius:50px; text-transform:uppercase; letter-spacing:0.8px;">New</span>
                         </div>
-                    </div>
-                </a>
-
-                <!-- RIGHT COLUMN: 2 compact cards stacked -->
-                <div class="diary-hero-right">
-                    <a href="blog/mosquito-prevention-tips-lucknow.html" class="diary-card" style="flex-direction: row; align-items: stretch;">
-                        <div class="diary-card-visual" style="background: linear-gradient(135deg, #1B5E20 0%, #66BB6A 100%); width: 90px; height: auto; flex-shrink: 0; border-radius: 0;">
-                            <i class="fas fa-shield-virus" style="font-size:28px;"></i>
-                        </div>
-                        <div class="diary-card-body" style="padding: 16px;">
-                            <span class="diary-chip" style="background: #E8F5E9; color: #1B5E20; margin-bottom:8px;">Seasonal</span>
-                            <h3 class="diary-card-title" style="font-size:15px; margin-bottom: 6px;">Machhar Se Bachav Ke 7 Tarike: Dengue, Malaria Se Family Ko Safe Rakhein</h3>
-                            <div class="diary-card-meta" style="font-size:11px;">
-                                <span><i class="far fa-calendar"></i> Mar 11</span>
-                                <span><i class="far fa-clock"></i> 7 min</span>
-                                <span class="diary-card-arrow" style="margin-left:auto;">Read <i class="fas fa-arrow-right"></i></span>
+                        <div class="diary-card-body">
+                            <span class="diary-chip" style="background: #FFF3E0; color: #E65100;">Seasonal</span>
+                            <h3 class="diary-card-title">Lucknow ki Garmi aur Loo Se Bachaav: Kya Karein, Kya Na Karein</h3>
+                            <div class="diary-card-footer">
+                                <div class="diary-card-meta">
+                                    <span><i class="far fa-calendar"></i> Mar 17</span>
+                                    <span><i class="far fa-clock"></i> 5 min</span>
+                                </div>
+                                <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
                             </div>
                         </div>
                     </a>
 
-                    <a href="blog/womens-health-essentials-india.html" class="diary-card" style="flex-direction: row; align-items: stretch;">
-                        <div class="diary-card-visual" style="background: linear-gradient(135deg, #AD1457 0%, #F48FB1 100%); width: 90px; height: auto; flex-shrink: 0; border-radius: 0;">
-                            <i class="fas fa-venus" style="font-size:28px;"></i>
+                    <!-- Card 2: Mosquito -->
+                    <a href="blog/mosquito-prevention-tips-lucknow.html" class="diary-card">
+                        <div class="diary-card-visual" style="background: linear-gradient(135deg, #1B5E20 0%, #66BB6A 100%);">
+                            <i class="fas fa-shield-virus"></i>
                         </div>
-                        <div class="diary-card-body" style="padding: 16px;">
-                            <span class="diary-chip" style="background: #FCE4EC; color: #AD1457; margin-bottom:8px;">Women</span>
-                            <h3 class="diary-card-title" style="font-size:15px; margin-bottom: 6px;">8 Health Essentials Har Indian Woman Ko Apni Kit Mein Rakhne Chahiye</h3>
-                            <div class="diary-card-meta" style="font-size:11px;">
-                                <span><i class="far fa-calendar"></i> Mar 8</span>
-                                <span><i class="far fa-clock"></i> 7 min</span>
-                                <span class="diary-card-arrow" style="margin-left:auto;">Read <i class="fas fa-arrow-right"></i></span>
+                        <div class="diary-card-body">
+                            <span class="diary-chip" style="background: #E8F5E9; color: #1B5E20;">Seasonal</span>
+                            <h3 class="diary-card-title">Machhar Se Bachav Ke 7 Tarike: Dengue, Malaria Se Safe Rakhein</h3>
+                            <div class="diary-card-footer">
+                                <div class="diary-card-meta">
+                                    <span><i class="far fa-calendar"></i> Mar 11</span>
+                                    <span><i class="far fa-clock"></i> 7 min</span>
+                                </div>
+                                <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
                             </div>
                         </div>
                     </a>
+
+                    <!-- Card 3: Women's Health -->
+                    <a href="blog/womens-health-essentials-india.html" class="diary-card">
+                        <div class="diary-card-visual" style="background: linear-gradient(135deg, #AD1457 0%, #F48FB1 100%);">
+                            <i class="fas fa-venus"></i>
+                        </div>
+                        <div class="diary-card-body">
+                            <span class="diary-chip" style="background: #FCE4EC; color: #AD1457;">Women</span>
+                            <h3 class="diary-card-title">8 Health Essentials Har Indian Woman Ko Kit Mein Rakhne Chahiye</h3>
+                            <div class="diary-card-footer">
+                                <div class="diary-card-meta">
+                                    <span><i class="far fa-calendar"></i> Mar 8</span>
+                                    <span><i class="far fa-clock"></i> 7 min</span>
+                                </div>
+                                <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 4: Holi Skin Care -->
+                    <a href="blog/post-holi-skin-care-tips-hindi.html" class="diary-card">
+                        <div class="diary-card-visual" style="background: linear-gradient(135deg, #E65100 0%, #FFA726 100%);">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <div class="diary-card-body">
+                            <span class="diary-chip" style="background: #FFF3E0; color: #E65100;">Skin Care</span>
+                            <h3 class="diary-card-title">Holi Ke Baad Skin Ka Haal Kharab? Yeh 7 Tips Apnao</h3>
+                            <div class="diary-card-footer">
+                                <div class="diary-card-meta">
+                                    <span><i class="far fa-calendar"></i> Mar 5</span>
+                                    <span><i class="far fa-clock"></i> 6 min</span>
+                                </div>
+                                <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 5: First Aid Kit -->
+                    <a href="blog/first-aid-kit.html" class="diary-card">
+                        <div class="diary-card-visual" style="background: linear-gradient(135deg, #C62828 0%, #EF5350 100%);">
+                            <i class="fas fa-briefcase-medical"></i>
+                        </div>
+                        <div class="diary-card-body">
+                            <span class="diary-chip" style="background: #FFEBEE; color: #C62828;">First Aid</span>
+                            <h3 class="diary-card-title">Zaroori At-Home First Aid Kit Checklist</h3>
+                            <div class="diary-card-footer">
+                                <div class="diary-card-meta">
+                                    <span><i class="far fa-calendar"></i> Feb 15</span>
+                                    <span><i class="far fa-clock"></i> 3 min</span>
+                                </div>
+                                <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- CTA Card -->
+                    <a href="blog/index.html" class="diary-card diary-cta-card">
+                        <div style="padding: 20px;">
+                            <div style="font-size:28px; margin-bottom:8px;">📚</div>
+                            <h4 style="font-family:'Outfit',sans-serif; font-size:13px; font-weight:700; color:var(--primary); margin-bottom:4px;">Aur Bhi Padhein</h4>
+                            <p style="font-size:11px; color:var(--gray-600); margin-bottom:12px;">8+ articles in Sehat Diary</p>
+                            <span style="background:var(--primary); color:#fff; font-size:11px; font-weight:600; padding:6px 14px; border-radius:50px;">Open <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </a>
+
                 </div>
-            </div>
-
-            <!-- SECONDARY ROW: 3 older posts -->
-            <div class="diary-secondary-row">
-                <a href="blog/post-holi-skin-care-tips-hindi.html" class="diary-card">
-                    <div class="diary-card-visual" style="background: linear-gradient(135deg, #E65100 0%, #FFA726 100%);">
-                        <i class="fas fa-spa"></i>
-                    </div>
-                    <div class="diary-card-body">
-                        <span class="diary-chip" style="background: #FFF3E0; color: #E65100;">Seasonal Care</span>
-                        <h3 class="diary-card-title">Holi Ke Baad Skin Ka Haal Kharab? Yeh 7 Tips Apnao, Glow Wapas Lao</h3>
-                        <div class="diary-card-footer">
-                            <div class="diary-card-meta">
-                                <span><i class="far fa-calendar"></i> Mar 5</span>
-                                <span><i class="far fa-clock"></i> 6 min</span>
-                            </div>
-                            <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="blog/first-aid-kit.html" class="diary-card">
-                    <div class="diary-card-visual" style="background: linear-gradient(135deg, #C62828 0%, #EF5350 100%);">
-                        <i class="fas fa-briefcase-medical"></i>
-                    </div>
-                    <div class="diary-card-body">
-                        <span class="diary-chip" style="background: #FFEBEE; color: #C62828;">First Aid</span>
-                        <h3 class="diary-card-title">Lucknow Households ke liye Zaroori At-Home First Aid Kit Checklist</h3>
-                        <div class="diary-card-footer">
-                            <div class="diary-card-meta">
-                                <span><i class="far fa-calendar"></i> Feb 15</span>
-                                <span><i class="far fa-clock"></i> 3 min</span>
-                            </div>
-                            <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="blog/index.html" class="diary-card" style="background: var(--primary-bg); border: 2px dashed var(--primary-lighter); justify-content: center; align-items: center; min-height: 180px; text-align: center;">
-                    <div style="padding: 28px;">
-                        <div style="font-size:36px; margin-bottom:12px;">📚</div>
-                        <h4 style="font-family:'Outfit',sans-serif; font-size:15px; font-weight:700; color:var(--primary); margin-bottom:6px;">Aur Bhi Padhein</h4>
-                        <p style="font-size:12px; color:var(--gray-600); margin-bottom:16px;">8 aur articles available hain Sehat Diary mein</p>
-                        <span style="background:var(--primary); color:#fff; font-size:12px; font-weight:600; padding:8px 18px; border-radius:50px;">Sehat Diary Kholein <i class="fas fa-arrow-right"></i></span>
-                    </div>
-                </a>
             </div>
 
         </div>
@@ -2951,19 +2918,19 @@
             </div>
             <div class="about-grid">
                 <div class="about-content">
-                    <h3>Aapki Apni Pharmacy - The Best Medical Store in Lucknow & Vrindavan Yojna</h3>
+                    <h3>Aapki Apni Pharmacy - Best Generic Medicine Store in Lucknow & Vrindavan Yojna</h3>
                     <p>Vaibhav Pharmacy aapka trusted neighbourhood medical store hai Vrindavan Yojna, Lucknow mein. Hum
-                        maante hain ki sabko asli aur affordable medicines milni chahiye - yahi humara promise hai
+                        maante hain ki sabko asli aur affordable generic medicines milni chahiye - yahi humara promise hai
                         <strong>Sahi Dava, Sahi Daam</strong>.
                     </p>
-                    <p>Prescription medicines ho, OTC products ho, ya health essentials - hum hamesha aapki seva mein
+                    <p>Branded medicines ho, generic medicines ho, OTC products ho, ya health essentials - hum hamesha aapki seva mein
                         hain. Bas WhatsApp pe message kariye ya call kariye!</p>
                     <div class="about-features">
                         <div class="about-feature">
                             <div class="about-feature-icon"><i class="fas fa-prescription-bottle-alt"></i></div>
                             <div>
-                                <h4>Wide Medicine Range</h4>
-                                <p>Prescription medicines, OTC drugs, and healthcare products</p>
+                                <h4>Generic & Branded Medicines</h4>
+                                <p>Affordable generic medicines, prescription drugs, OTC & healthcare products</p>
                             </div>
                         </div>
                         <div class="about-feature">
