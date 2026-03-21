@@ -4154,9 +4154,8 @@
                 promoDots.forEach(dot => {
                     dot.addEventListener('click', () => {
                         const idx = parseInt(dot.dataset.index);
-                        if (banners[idx]) {
-                            banners[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
-                        }
+                        const bannerWidth = banners[0].offsetWidth + 20;
+                        promoWrap.scrollTo({ left: idx * bannerWidth, behavior: 'smooth' });
                     });
                 });
 
@@ -4178,7 +4177,7 @@
                         const bannerWidth = banners[0].offsetWidth + 20;
                         const activeIdx = Math.round(scrollLeft / bannerWidth);
                         const nextIdx = (activeIdx + 1) % banners.length;
-                        banners[nextIdx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+                        promoWrap.scrollTo({ left: nextIdx * bannerWidth, behavior: 'smooth' });
                     }, 4000);
                 }
                 startPromoAutoScroll();
