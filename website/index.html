@@ -1933,12 +1933,7 @@
             scrollbar-width: none;
             scroll-snap-type: x mandatory;
             scroll-behavior: smooth;
-            /* Break out of section-container to go full width */
-            margin-left: calc(-50vw + 50%);
-            margin-right: calc(-50vw + 50%);
-            padding-left: max(24px, calc((100vw - 1200px) / 2));
-            padding-right: max(24px, calc((100vw - 1200px) / 2));
-            position: relative;
+            padding: 0 max(24px, calc((100vw - 1200px) / 2));
         }
 
         .promo-scroll-wrap::-webkit-scrollbar {
@@ -2810,10 +2805,11 @@
                 <h2>Medicines & Health Products</h2>
                 <p>Category tap kariye aur WhatsApp pe order kariye ya hume call kariye!</p>
             </div>
+        </div>
 
-            <!-- PROMO BANNERS CAROUSEL -->
-            <div class="promo-scroll-wrap" id="promoScrollWrap">
-                <div class="promo-scroll-row">
+        <!-- PROMO BANNERS CAROUSEL -->
+        <div class="promo-scroll-wrap" id="promoScrollWrap">
+            <div class="promo-scroll-row">
 
                 <!-- Banner 1: Generic Medicines -->
                 <a href="https://wa.me/917897526668?text=Hi!%20Mujhe%20generic%20medicines%20ke%20baare%20mein%20jaanna%20hai." target="_blank" class="promo-banner" style="background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);">
@@ -2881,17 +2877,17 @@
                 </a>
 
             </div>
-            <div class="promo-dots" id="promoDots">
-                <button class="promo-dot active" data-index="0"></button>
-                <button class="promo-dot" data-index="1"></button>
-                <button class="promo-dot" data-index="2"></button>
-                <button class="promo-dot" data-index="3"></button>
-                <button class="promo-dot" data-index="4"></button>
-            </div>
+        </div>
+        <div class="promo-dots" id="promoDots">
+            <button class="promo-dot active" data-index="0"></button>
+            <button class="promo-dot" data-index="1"></button>
+            <button class="promo-dot" data-index="2"></button>
+            <button class="promo-dot" data-index="3"></button>
+            <button class="promo-dot" data-index="4"></button>
         </div>
 
         <!-- CATEGORIES + SEARCH -->
-        <div class="section-container" style="margin-top: 40px;">
+        <div class="section-container">
             <!-- SHOP BY CATEGORY HEADER -->
             <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
                 <h3 style="font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 700; color: var(--gray-800); margin: 0;">Shop by Category</h3>
