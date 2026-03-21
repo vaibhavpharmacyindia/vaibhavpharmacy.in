@@ -2156,6 +2156,43 @@
             background: linear-gradient(135deg, #FFFDE7, #FFF8E1);
         }
 
+        .category-text {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            flex-grow: 1;
+            text-align: left;
+        }
+
+        .category-wa-btn {
+            width: 36px;
+            height: 36px;
+            background: #E8F5E9;
+            color: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            flex-shrink: 0;
+            transition: all 0.2s ease;
+        }
+
+        .category-card:hover .category-wa-btn {
+            background: #25D366;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        .category-card-highlight .category-wa-btn {
+            background: #FFF8E1;
+            color: #FF8F00;
+        }
+        .category-card-highlight:hover .category-wa-btn {
+            background: #FF8F00;
+            color: #fff;
+        }
+
         @media (max-width: 768px) {
             .category-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -2163,10 +2200,20 @@
             }
 
             .category-card {
-                flex-direction: column;
-                text-align: center;
+                flex-direction: row;
+                text-align: left;
                 padding: 16px 12px;
                 gap: 10px;
+            }
+
+            .category-text {
+                gap: 2px;
+            }
+
+            .category-wa-btn {
+                width: 28px;
+                height: 28px;
+                font-size: 14px;
             }
 
             .category-icon {
@@ -2751,7 +2798,7 @@
     </section>
 
     <!-- PRODUCTS SECTION -->
-    <section class="section page-section" id="products" style="overflow: hidden;">
+    <section class="section page-section" id="products" style="position: relative; z-index: 10;">
         <div class="section-container">
             <div class="section-header">
                 <span class="section-label">Our Products</span>
@@ -2852,72 +2899,99 @@
                     <div class="category-icon" style="background: linear-gradient(135deg, #E8F5E9, #C8E6C9);">
                         <i class="fas fa-prescription-bottle-alt" style="color: #1B5E20;"></i>
                     </div>
-                    <h4>Prescription Medicines</h4>
-                    <p>Antibiotics, cardiac, diabetic aur sabhi prescribed dawayein</p>
+                    <div class="category-text">
+                        <h4>Prescription Medicines</h4>
+                        <p>Antibiotics, cardiac, diabetic aur sabhi prescribed dawayein</p>
+                    </div>
+                    <div class="category-wa-btn"><i class="fab fa-whatsapp"></i></div>
                 </a>
 
                 <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20OTC%20%26%20General%20category." target="_blank" class="category-card">
                     <div class="category-icon" style="background: linear-gradient(135deg, #E3F2FD, #BBDEFB);">
                         <i class="fas fa-pills" style="color: #1565C0;"></i>
                     </div>
-                    <h4>OTC & General</h4>
-                    <p>Dard ki dawa, antacids, sardi-khansi ki medicines</p>
+                    <div class="category-text">
+                        <h4>OTC & General</h4>
+                        <p>Dard ki dawa, antacids, sardi-khansi ki medicines</p>
+                    </div>
+                    <div class="category-wa-btn"><i class="fab fa-whatsapp"></i></div>
                 </a>
 
                 <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Diabetes%20Care%20category." target="_blank" class="category-card">
                     <div class="category-icon" style="background: linear-gradient(135deg, #E3F2FD, #BBDEFB);">
                         <i class="fas fa-tint" style="color: #1565C0;"></i>
                     </div>
-                    <h4>Diabetes Care</h4>
-                    <p>Glucometer, strips, insulin aur sugar-free products</p>
+                    <div class="category-text">
+                        <h4>Diabetes Care</h4>
+                        <p>Glucometer, strips, insulin aur sugar-free products</p>
+                    </div>
+                    <div class="category-wa-btn"><i class="fab fa-whatsapp"></i></div>
                 </a>
 
                 <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Baby%20%26%20Mom%20Care%20category." target="_blank" class="category-card">
                     <div class="category-icon" style="background: linear-gradient(135deg, #FCE4EC, #F8BBD0);">
                         <i class="fas fa-baby" style="color: #AD1457;"></i>
                     </div>
-                    <h4>Baby & Mom Care</h4>
-                    <p>Diapers, baby food, prenatal vitamins aur zaruri cheezein</p>
+                    <div class="category-text">
+                        <h4>Baby & Mom Care</h4>
+                        <p>Diapers, baby food, prenatal vitamins aur zaruri cheezein</p>
+                    </div>
+                    <div class="category-wa-btn"><i class="fab fa-whatsapp"></i></div>
                 </a>
 
                 <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Pain%20Relief%20%26%20Fever%20category." target="_blank" class="category-card">
                     <div class="category-icon" style="background: linear-gradient(135deg, #FFF3E0, #FFE0B2);">
                         <i class="fas fa-fire" style="color: #E65100;"></i>
                     </div>
-                    <h4>Pain Relief & Fever</h4>
-                    <p>Paracetamol, sprays, gels aur bukhar ki dawa</p>
+                    <div class="category-text">
+                        <h4>Pain Relief & Fever</h4>
+                        <p>Paracetamol, sprays, gels aur bukhar ki dawa</p>
+                    </div>
+                    <div class="category-wa-btn"><i class="fab fa-whatsapp"></i></div>
                 </a>
 
                 <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Vitamins%20%26%20Supplements%20category." target="_blank" class="category-card">
                     <div class="category-icon" style="background: linear-gradient(135deg, #FFF3E0, #FFE0B2);">
                         <i class="fas fa-capsules" style="color: #E65100;"></i>
                     </div>
-                    <h4>Vitamins & Supplements</h4>
-                    <p>Multivitamins, calcium, iron aur immunity boosters</p>
+                    <div class="category-text">
+                        <h4>Vitamins & Supplements</h4>
+                        <p>Multivitamins, calcium, iron aur immunity boosters</p>
+                    </div>
+                    <div class="category-wa-btn"><i class="fab fa-whatsapp"></i></div>
                 </a>
 
                 <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Skin%20%26%20Hair%20Care%20category." target="_blank" class="category-card">
                     <div class="category-icon" style="background: linear-gradient(135deg, #F3E5F5, #E1BEE7);">
                         <i class="fas fa-spa" style="color: #7B1FA2;"></i>
                     </div>
-                    <h4>Skin & Hair Care</h4>
-                    <p>Derma products, sunscreens, shampoos aur serums</p>
+                    <div class="category-text">
+                        <h4>Skin & Hair Care</h4>
+                        <p>Derma products, sunscreens, shampoos aur serums</p>
+                    </div>
+                    <div class="category-wa-btn"><i class="fab fa-whatsapp"></i></div>
                 </a>
 
                 <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20First%20Aid%20%26%20Surgical%20category." target="_blank" class="category-card">
                     <div class="category-icon" style="background: linear-gradient(135deg, #EFEBE9, #D7CCC8);">
                         <i class="fas fa-briefcase-medical" style="color: #4E342E;"></i>
                     </div>
-                    <h4>First Aid & Surgical</h4>
-                    <p>Bandages, antiseptics, masks aur surgical supplies</p>
+                    <div class="category-text">
+                        <h4>First Aid & Surgical</h4>
+                        <p>Bandages, antiseptics, masks aur surgical supplies</p>
+                    </div>
+                    <div class="category-wa-btn"><i class="fab fa-whatsapp"></i></div>
                 </a>
 
                 <a href="https://wa.me/917897526668?text=Hi!%20Mujhe%20Summer%20Health%20Essentials%20chahiye%20-%20ORS%2C%20Electrolytes%2C%20Sunscreen." target="_blank" class="category-card category-card-highlight">
                     <div class="category-icon" style="background: linear-gradient(135deg, #FFF8E1, #FFECB3);">
                         <i class="fas fa-sun" style="color: #FF8F00;"></i>
                     </div>
-                    <h4>Summer Essentials</h4>
-                    <p>ORS, Glucon-D, Electral, sunscreen aur garmi ki dawayein</p>
+                    <div class="category-text">
+                        <h4>Summer Essentials</h4>
+                        <p>ORS, Glucon-D, Electral, sunscreen aur garmi ki dawayein</p>
+                    </div>
+                    <div class="category-wa-btn"><i class="fab fa-whatsapp"></i></div>
                 </a>
             </div>
 
@@ -2953,11 +3027,29 @@
             <div class="diary-scroll-wrap">
                 <div class="diary-scroll-row">
 
-                    <!-- Card 1: Heatstroke -->
+                    <!-- Card 1: Dehydration -->
+                    <a href="blog/dehydration-prevention-lucknow-summer.html" class="diary-card">
+                        <div class="diary-card-visual" style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);">
+                            <i class="fas fa-tint"></i>
+                            <span style="position:absolute; top:10px; left:10px; background:#fff; color:#1565C0; font-size:9px; font-weight:800; padding:3px 8px; border-radius:50px; text-transform:uppercase; letter-spacing:0.8px;">New</span>
+                        </div>
+                        <div class="diary-card-body">
+                            <span class="diary-chip" style="background: #E8F5E9; color: #1B5E20;">Summer Health</span>
+                            <h3 class="diary-card-title">Lucknow Ki Garmi Mein Dehydration Se Kaise Bachein: Complete Guide</h3>
+                            <div class="diary-card-footer">
+                                <div class="diary-card-meta">
+                                    <span><i class="far fa-calendar"></i> Mar 21</span>
+                                    <span><i class="far fa-clock"></i> 6 min</span>
+                                </div>
+                                <span class="diary-card-arrow">Read <i class="fas fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Card 2: Heatstroke -->
                     <a href="blog/lucknow-summer-heatstroke-prevention.html" class="diary-card">
                         <div class="diary-card-visual" style="background: linear-gradient(135deg, #FF6F00 0%, #FFA726 100%);">
                             <i class="fas fa-sun"></i>
-                            <span style="position:absolute; top:10px; left:10px; background:#fff; color:#E65100; font-size:9px; font-weight:800; padding:3px 8px; border-radius:50px; text-transform:uppercase; letter-spacing:0.8px;">New</span>
                         </div>
                         <div class="diary-card-body">
                             <span class="diary-chip" style="background: #FFF3E0; color: #E65100;">Seasonal</span>
