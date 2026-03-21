@@ -40,6 +40,18 @@
 ## 📅 5. Recent Development Log
 *A condensed chronological log of recent development phases.*
 
+### **Promotional Banner Carousel (March 21, 2026)**
+- Added a horizontally scrollable promotional banner carousel section between Services and Products.
+- 5 banner cards: Generic Medicines, Vitamins & Supplements, Diabetes Care, Skin & Hair Care, Baby & Mom Care.
+- Each banner has AI-generated product imagery, gradient background, category tag badge, and WhatsApp CTA.
+- Auto-scrolls every 4 seconds with dot navigation indicators and pause-on-interaction.
+- Responsive design with adjusted sizing for mobile.
+
+| File | Change |
+|------|--------|
+| `website/index.html` | CSS (160+ lines), HTML (5 promo banners), JS (auto-scroll + dot nav) |
+| `website/images/promo_*.png` | 5 new product category images |
+
 ### **Generic Medicine SEO Keywords (March 21, 2026)**
 - Added "generic medicine" related keywords across 9 SEO-critical locations for improved search ranking.
 - Updated meta description and keywords with 6 new generic medicine keyword phrases (generic medicine store in lucknow, generic medicines vrindavan yojna, generic medicine shop near me, generic dawai lucknow, sasti generic medicine, generic medicine home delivery lucknow).

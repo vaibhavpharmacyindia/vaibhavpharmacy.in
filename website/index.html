@@ -1919,6 +1919,186 @@
                 padding: 10px 14px;
             }
         }
+
+        /* ===== PROMO BANNERS CAROUSEL ===== */
+        .promo-section {
+            padding: 40px 0;
+            background: var(--white);
+            overflow: hidden;
+        }
+
+        .promo-scroll-wrap {
+            overflow-x: auto;
+            overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            padding: 0 max(24px, calc((100vw - 1200px) / 2));
+        }
+
+        .promo-scroll-wrap::-webkit-scrollbar {
+            display: none;
+        }
+
+        .promo-scroll-row {
+            display: flex;
+            gap: 20px;
+            width: max-content;
+        }
+
+        .promo-banner {
+            width: min(560px, 80vw);
+            height: 240px;
+            flex-shrink: 0;
+            border-radius: 20px;
+            overflow: hidden;
+            display: flex;
+            align-items: stretch;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            scroll-snap-align: start;
+        }
+
+        .promo-banner:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+        }
+
+        .promo-banner-content {
+            flex: 1;
+            padding: 32px 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            z-index: 2;
+            min-width: 0;
+        }
+
+        .promo-banner-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 50px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+            align-self: flex-start;
+        }
+
+        .promo-banner-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 6px;
+        }
+
+        .promo-banner-subtitle {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-bottom: 16px;
+            line-height: 1.4;
+        }
+
+        .promo-banner-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            font-weight: 700;
+            padding: 10px 20px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            align-self: flex-start;
+        }
+
+        .promo-banner-cta:hover {
+            transform: scale(1.05);
+        }
+
+        .promo-banner-image {
+            width: 240px;
+            flex-shrink: 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .promo-banner-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .promo-dots {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 20px;
+            padding: 0 24px;
+        }
+
+        .promo-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--gray-300);
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 0;
+        }
+
+        .promo-dot.active {
+            width: 24px;
+            border-radius: 4px;
+            background: var(--primary);
+        }
+
+        @media (max-width: 768px) {
+            .promo-banner {
+                width: min(420px, 85vw);
+                height: 200px;
+            }
+
+            .promo-banner-content {
+                padding: 24px 20px;
+            }
+
+            .promo-banner-title {
+                font-size: 20px;
+            }
+
+            .promo-banner-subtitle {
+                font-size: 12px;
+                margin-bottom: 12px;
+            }
+
+            .promo-banner-image {
+                width: 160px;
+            }
+
+            .promo-scroll-wrap {
+                padding: 0 16px;
+            }
+
+            .promo-banner-cta {
+                font-size: 12px;
+                padding: 8px 16px;
+            }
+        }
     </style>
     <!-- Schema Markup for Local Pharmacy -->
     <script type="application/ld+json">
@@ -2483,6 +2663,87 @@
                         target="_blank"><i class="fab fa-whatsapp"></i> Reminder Start Karein</a>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- PROMO BANNERS -->
+    <section class="promo-section page-section">
+        <div class="promo-scroll-wrap" id="promoScrollWrap">
+            <div class="promo-scroll-row">
+
+                <!-- Banner 1: Generic Medicines -->
+                <a href="https://wa.me/917897526668?text=Hi!%20Mujhe%20generic%20medicines%20ke%20baare%20mein%20jaanna%20hai." target="_blank" class="promo-banner" style="background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);">
+                    <div class="promo-banner-content">
+                        <span class="promo-banner-tag" style="background: #1B5E20; color: #fff;">Upto 80% Savings</span>
+                        <h3 class="promo-banner-title" style="color: #1B5E20;">Generic<br>Medicines</h3>
+                        <p class="promo-banner-subtitle" style="color: #2E7D32;">Same quality, affordable prices</p>
+                        <span class="promo-banner-cta" style="background: #1B5E20; color: #fff;"><i class="fab fa-whatsapp"></i> Order Now</span>
+                    </div>
+                    <div class="promo-banner-image">
+                        <img src="images/promo_generic.png" alt="Generic Medicines - Affordable prices at Vaibhav Pharmacy Lucknow" loading="lazy">
+                    </div>
+                </a>
+
+                <!-- Banner 2: Vitamins & Supplements -->
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20Vitamins%20%26%20Supplements." target="_blank" class="promo-banner" style="background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%);">
+                    <div class="promo-banner-content">
+                        <span class="promo-banner-tag" style="background: #E65100; color: #fff;">Bestsellers</span>
+                        <h3 class="promo-banner-title" style="color: #E65100;">Vitamins &<br>Supplements</h3>
+                        <p class="promo-banner-subtitle" style="color: #BF360C;">For daily health & immunity</p>
+                        <span class="promo-banner-cta" style="background: #E65100; color: #fff;"><i class="fab fa-whatsapp"></i> Order Now</span>
+                    </div>
+                    <div class="promo-banner-image">
+                        <img src="images/promo_vitamins.png" alt="Vitamins and Supplements - Vaibhav Pharmacy Lucknow" loading="lazy">
+                    </div>
+                </a>
+
+                <!-- Banner 3: Diabetes Care -->
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20Diabetes%20Care%20products." target="_blank" class="promo-banner" style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);">
+                    <div class="promo-banner-content">
+                        <span class="promo-banner-tag" style="background: #1565C0; color: #fff;">Complete Care</span>
+                        <h3 class="promo-banner-title" style="color: #1565C0;">Diabetes<br>Care</h3>
+                        <p class="promo-banner-subtitle" style="color: #1976D2;">Glucometers, strips & medicines</p>
+                        <span class="promo-banner-cta" style="background: #1565C0; color: #fff;"><i class="fab fa-whatsapp"></i> Order Now</span>
+                    </div>
+                    <div class="promo-banner-image">
+                        <img src="images/promo_diabetes.png" alt="Diabetes Care Products - Glucometer, strips at Vaibhav Pharmacy" loading="lazy">
+                    </div>
+                </a>
+
+                <!-- Banner 4: Skin & Hair Care -->
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20Skin%20Care%20products." target="_blank" class="promo-banner" style="background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%);">
+                    <div class="promo-banner-content">
+                        <span class="promo-banner-tag" style="background: #7B1FA2; color: #fff;">Derma Range</span>
+                        <h3 class="promo-banner-title" style="color: #7B1FA2;">Skin &<br>Hair Care</h3>
+                        <p class="promo-banner-subtitle" style="color: #8E24AA;">Sunscreen, serums & face wash</p>
+                        <span class="promo-banner-cta" style="background: #7B1FA2; color: #fff;"><i class="fab fa-whatsapp"></i> Order Now</span>
+                    </div>
+                    <div class="promo-banner-image">
+                        <img src="images/promo_skincare.png" alt="Skin Care and Hair Care Products - Vaibhav Pharmacy" loading="lazy">
+                    </div>
+                </a>
+
+                <!-- Banner 5: Baby & Mom Care -->
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20Baby%20%26%20Mom%20Care%20products." target="_blank" class="promo-banner" style="background: linear-gradient(135deg, #FCE4EC 0%, #F8BBD0 100%);">
+                    <div class="promo-banner-content">
+                        <span class="promo-banner-tag" style="background: #AD1457; color: #fff;">Mom & Baby</span>
+                        <h3 class="promo-banner-title" style="color: #AD1457;">Baby &<br>Mom Care</h3>
+                        <p class="promo-banner-subtitle" style="color: #C2185B;">Diapers, baby food & essentials</p>
+                        <span class="promo-banner-cta" style="background: #AD1457; color: #fff;"><i class="fab fa-whatsapp"></i> Order Now</span>
+                    </div>
+                    <div class="promo-banner-image">
+                        <img src="images/promo_baby.png" alt="Baby Care and Mom Care products - Vaibhav Pharmacy" loading="lazy">
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        <div class="promo-dots" id="promoDots">
+            <button class="promo-dot active" data-index="0"></button>
+            <button class="promo-dot" data-index="1"></button>
+            <button class="promo-dot" data-index="2"></button>
+            <button class="promo-dot" data-index="3"></button>
+            <button class="promo-dot" data-index="4"></button>
         </div>
     </section>
 
@@ -3843,6 +4104,50 @@
             updateOpenStatus();
             setInterval(updateOpenStatus, 60000);
             fetchInventory();
+
+            // ===== PROMO BANNER CAROUSEL =====
+            const promoWrap = document.getElementById('promoScrollWrap');
+            const promoDots = document.querySelectorAll('.promo-dot');
+            if (promoWrap && promoDots.length) {
+                const banners = promoWrap.querySelectorAll('.promo-banner');
+
+                // Dot click navigation
+                promoDots.forEach(dot => {
+                    dot.addEventListener('click', () => {
+                        const idx = parseInt(dot.dataset.index);
+                        if (banners[idx]) {
+                            banners[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+                        }
+                    });
+                });
+
+                // Update dots on scroll
+                promoWrap.addEventListener('scroll', () => {
+                    const scrollLeft = promoWrap.scrollLeft;
+                    const bannerWidth = banners[0].offsetWidth + 20; // card width + gap
+                    const activeIdx = Math.round(scrollLeft / bannerWidth);
+                    promoDots.forEach((d, i) => {
+                        d.classList.toggle('active', i === activeIdx);
+                    });
+                });
+
+                // Auto-scroll every 4 seconds
+                let promoAutoScroll;
+                function startPromoAutoScroll() {
+                    promoAutoScroll = setInterval(() => {
+                        const scrollLeft = promoWrap.scrollLeft;
+                        const bannerWidth = banners[0].offsetWidth + 20;
+                        const activeIdx = Math.round(scrollLeft / bannerWidth);
+                        const nextIdx = (activeIdx + 1) % banners.length;
+                        banners[nextIdx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+                    }, 4000);
+                }
+                startPromoAutoScroll();
+
+                // Pause auto-scroll on interaction
+                promoWrap.addEventListener('pointerdown', () => clearInterval(promoAutoScroll));
+                promoWrap.addEventListener('pointerup', () => { clearInterval(promoAutoScroll); startPromoAutoScroll(); });
+            }
         });
 
         // Close mobile nav when clicking outside
