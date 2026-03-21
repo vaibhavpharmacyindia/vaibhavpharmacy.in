@@ -40,6 +40,18 @@
 ## 📅 5. Recent Development Log
 *A condensed chronological log of recent development phases.*
 
+### **Published New Blog Post: Dehydration Prevention (March 21, 2026)**
+- Created a new blog post titled "Lucknow Ki Garmi Mein Dehydration Se Kaise Bachein: Complete Guide" based on the content calendar (Blog 1).
+- Designed the blog page (`dehydration-prevention-lucknow-summer.html`) using the existing template style for consistency. 
+- Included practical tips on recognizing dehydration, making ORS at home, and taking precautions for children and the elderly.
+- Added a WhatsApp CTA button for ordering summer essentials.
+- Linked the new article on the main `blog/index.html` page, updating the total article count to 9.
+
+| File | Change |
+|------|--------|
+| `website/blog/dehydration-prevention-lucknow-summer.html` | Created new blog post file |
+| `website/blog/index.html` | Added link to the new blog post and updated article count |
+
 ### **Products Section Redesign + Promo Banners (March 21, 2026)**
 - Merged standalone promo banners section into the "Medicines & Health Products" section as a single cohesive unit.
 - Promo banner carousel at the top (5 banners: Generic Medicines, Vitamins, Diabetes Care, Skin & Hair Care, Baby & Mom Care).
