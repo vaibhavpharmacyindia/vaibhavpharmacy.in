@@ -40,17 +40,18 @@
 ## 📅 5. Recent Development Log
 *A condensed chronological log of recent development phases.*
 
-### **Promotional Banner Carousel (March 21, 2026)**
-- Added a horizontally scrollable promotional banner carousel section between Services and Products.
-- 5 banner cards: Generic Medicines, Vitamins & Supplements, Diabetes Care, Skin & Hair Care, Baby & Mom Care.
-- Each banner has AI-generated product imagery, gradient background, category tag badge, and WhatsApp CTA.
-- Auto-scrolls every 4 seconds with dot navigation indicators and pause-on-interaction.
-- Responsive design with adjusted sizing for mobile.
+### **Products Section Redesign + Promo Banners (March 21, 2026)**
+- Merged standalone promo banners section into the "Medicines & Health Products" section as a single cohesive unit.
+- Promo banner carousel at the top (5 banners: Generic Medicines, Vitamins, Diabetes Care, Skin & Hair Care, Baby & Mom Care).
+- Replaced old emoji-based product cards with a modern 3-column "Shop by Category" grid (9 categories).
+- New category cards use Font Awesome icons in colored gradient circles, hover lift effects, and responsive 2-col mobile layout.
+- Summer Essentials card has a gold highlight border.
+- Auto-scrolling carousel with dot navigation indicators.
 
 | File | Change |
 |------|--------|
-| `website/index.html` | CSS (160+ lines), HTML (5 promo banners), JS (auto-scroll + dot nav) |
-| `website/images/promo_*.png` | 5 new product category images |
+| `website/index.html` | CSS for category grid + promo carousel, new HTML structure, JS auto-scroll |
+| `website/images/promo_*.png` | 5 AI-generated product category images |
 
 ### **Generic Medicine SEO Keywords (March 21, 2026)**
 - Added "generic medicine" related keywords across 9 SEO-critical locations for improved search ranking.

@@ -1921,10 +1921,9 @@
         }
 
         /* ===== PROMO BANNERS CAROUSEL ===== */
-        .promo-section {
-            padding: 40px 0;
-            background: var(--white);
-            overflow: hidden;
+        #products .promo-scroll-wrap {
+            margin-top: 8px;
+            margin-bottom: 8px;
         }
 
         .promo-scroll-wrap {
@@ -2097,6 +2096,91 @@
             .promo-banner-cta {
                 font-size: 12px;
                 padding: 8px 16px;
+            }
+        }
+
+        /* ===== CATEGORY GRID ===== */
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        .category-card {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 18px 20px;
+            background: var(--white);
+            border: 1px solid var(--gray-200);
+            border-radius: 16px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.25s ease;
+        }
+
+        .category-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            border-color: var(--primary);
+        }
+
+        .category-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            font-size: 22px;
+        }
+
+        .category-card h4 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--gray-800);
+            margin: 0 0 3px 0;
+        }
+
+        .category-card p {
+            font-size: 12px;
+            color: var(--gray-500);
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .category-card-highlight {
+            border: 2px solid #FFB300;
+            background: linear-gradient(135deg, #FFFDE7, #FFF8E1);
+        }
+
+        @media (max-width: 768px) {
+            .category-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 12px;
+            }
+
+            .category-card {
+                flex-direction: column;
+                text-align: center;
+                padding: 16px 12px;
+                gap: 10px;
+            }
+
+            .category-icon {
+                width: 48px;
+                height: 48px;
+                font-size: 20px;
+            }
+
+            .category-card h4 {
+                font-size: 13px;
+            }
+
+            .category-card p {
+                font-size: 11px;
             }
         }
     </style>
@@ -2666,8 +2750,17 @@
         </div>
     </section>
 
-    <!-- PROMO BANNERS -->
-    <section class="promo-section page-section">
+    <!-- PRODUCTS SECTION -->
+    <section class="section page-section" id="products" style="overflow: hidden;">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-label">Our Products</span>
+                <h2>Medicines & Health Products</h2>
+                <p>Category tap kariye aur WhatsApp pe order kariye ya hume call kariye!</p>
+            </div>
+        </div>
+
+        <!-- PROMO BANNERS CAROUSEL -->
         <div class="promo-scroll-wrap" id="promoScrollWrap">
             <div class="promo-scroll-row">
 
@@ -2745,16 +2838,9 @@
             <button class="promo-dot" data-index="3"></button>
             <button class="promo-dot" data-index="4"></button>
         </div>
-    </section>
 
-    <!-- PRODUCTS SECTION -->
-    <section class="section page-section" id="products">
+        <!-- SEARCH + CATEGORIES -->
         <div class="section-container">
-            <div class="section-header">
-                <span class="section-label">Our Products</span>
-                <h2>Medicines & Health Products</h2>
-                <p>Category tap kariye aur WhatsApp pe order kariye ya hume call kariye!</p>
-            </div>
             <!-- MEDICINE SEARCH BAR -->
             <div class="hero-search" id="heroSearchWrap">
                 <div class="hero-search-input-wrap">
@@ -2769,135 +2855,85 @@
                     <span>500+ medicines available - search aur WhatsApp pe order karein</span>
                 </div>
             </div>
-            <div class="products-grid"
-                style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px;">
 
-                <div class="product-card"
-                    style="background: var(--white); border-radius: var(--radius); padding: 28px 24px; border: 1px solid var(--gray-200); text-align: center; transition: all 0.3s ease;">
-                    <div style="font-size: 40px; margin-bottom: 12px;">💊</div>
-                    <h3
-                        style="font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: var(--gray-800); margin-bottom: 8px;">
-                        Prescription Medicines</h3>
-                    <p style="font-size: 14px; color: var(--gray-500); margin-bottom: 16px;">Antibiotics, cardiac,
-                        diabetic aur sabhi prescribed dawayein</p>
-                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20Prescription%20Medicines%20category."
-                        target="_blank" class="btn btn-whatsapp"
-                        style="display: inline-block; font-size: 13px; padding: 10px 20px;"><i
-                            class="fab fa-whatsapp"></i> Order on WhatsApp</a>
-                </div>
+            <!-- SHOP BY CATEGORY HEADER -->
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px;">
+                <h3 style="font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 700; color: var(--gray-800); margin: 0;">Shop by Category</h3>
+            </div>
 
-                <div class="product-card"
-                    style="background: var(--white); border-radius: var(--radius); padding: 28px 24px; border: 1px solid var(--gray-200); text-align: center; transition: all 0.3s ease;">
-                    <div style="font-size: 40px; margin-bottom: 12px;">🏥</div>
-                    <h3
-                        style="font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: var(--gray-800); margin-bottom: 8px;">
-                        OTC & General</h3>
-                    <p style="font-size: 14px; color: var(--gray-500); margin-bottom: 16px;">Dard ki dawa, antacids,
-                        sardi-khansi ki medicines</p>
-                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20OTC%20%26%20General%20category."
-                        target="_blank" class="btn btn-whatsapp"
-                        style="display: inline-block; font-size: 13px; padding: 10px 20px;"><i
-                            class="fab fa-whatsapp"></i> Order on WhatsApp</a>
-                </div>
+            <!-- CATEGORY GRID -->
+            <div class="category-grid">
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20Prescription%20Medicines%20category." target="_blank" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #E8F5E9, #C8E6C9);">
+                        <i class="fas fa-prescription-bottle-alt" style="color: #1B5E20;"></i>
+                    </div>
+                    <h4>Prescription Medicines</h4>
+                    <p>Antibiotics, cardiac, diabetic aur sabhi prescribed dawayein</p>
+                </a>
 
-                <div class="product-card"
-                    style="background: var(--white); border-radius: var(--radius); padding: 28px 24px; border: 1px solid var(--gray-200); text-align: center; transition: all 0.3s ease;">
-                    <div style="font-size: 40px; margin-bottom: 12px;">🩸</div>
-                    <h3
-                        style="font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: var(--gray-800); margin-bottom: 8px;">
-                        Diabetes Care</h3>
-                    <p style="font-size: 14px; color: var(--gray-500); margin-bottom: 16px;">Glucometer, strips, insulin
-                        aur sugar-free products</p>
-                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Diabetes%20Care%20category."
-                        target="_blank" class="btn btn-whatsapp"
-                        style="display: inline-block; font-size: 13px; padding: 10px 20px;"><i
-                            class="fab fa-whatsapp"></i> Order on WhatsApp</a>
-                </div>
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20medicines%20from%20OTC%20%26%20General%20category." target="_blank" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #E3F2FD, #BBDEFB);">
+                        <i class="fas fa-pills" style="color: #1565C0;"></i>
+                    </div>
+                    <h4>OTC & General</h4>
+                    <p>Dard ki dawa, antacids, sardi-khansi ki medicines</p>
+                </a>
 
-                <div class="product-card"
-                    style="background: var(--white); border-radius: var(--radius); padding: 28px 24px; border: 1px solid var(--gray-200); text-align: center; transition: all 0.3s ease;">
-                    <div style="font-size: 40px; margin-bottom: 12px;">👶</div>
-                    <h3
-                        style="font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: var(--gray-800); margin-bottom: 8px;">
-                        Baby & Mom Care</h3>
-                    <p style="font-size: 14px; color: var(--gray-500); margin-bottom: 16px;">Diapers, baby food,
-                        prenatal vitamins aur zaruri cheezein</p>
-                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Baby%20%26%20Mom%20Care%20category."
-                        target="_blank" class="btn btn-whatsapp"
-                        style="display: inline-block; font-size: 13px; padding: 10px 20px;"><i
-                            class="fab fa-whatsapp"></i> Order on WhatsApp</a>
-                </div>
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Diabetes%20Care%20category." target="_blank" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #E3F2FD, #BBDEFB);">
+                        <i class="fas fa-tint" style="color: #1565C0;"></i>
+                    </div>
+                    <h4>Diabetes Care</h4>
+                    <p>Glucometer, strips, insulin aur sugar-free products</p>
+                </a>
 
-                <div class="product-card"
-                    style="background: var(--white); border-radius: var(--radius); padding: 28px 24px; border: 1px solid var(--gray-200); text-align: center; transition: all 0.3s ease;">
-                    <div style="font-size: 40px; margin-bottom: 12px;">🌡️</div>
-                    <h3
-                        style="font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: var(--gray-800); margin-bottom: 8px;">
-                        Pain Relief & Fever</h3>
-                    <p style="font-size: 14px; color: var(--gray-500); margin-bottom: 16px;">Paracetamol, sprays, gels
-                        aur bukhar ki dawa</p>
-                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Pain%20Relief%20%26%20Fever%20category."
-                        target="_blank" class="btn btn-whatsapp"
-                        style="display: inline-block; font-size: 13px; padding: 10px 20px;"><i
-                            class="fab fa-whatsapp"></i> Order on WhatsApp</a>
-                </div>
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Baby%20%26%20Mom%20Care%20category." target="_blank" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #FCE4EC, #F8BBD0);">
+                        <i class="fas fa-baby" style="color: #AD1457;"></i>
+                    </div>
+                    <h4>Baby & Mom Care</h4>
+                    <p>Diapers, baby food, prenatal vitamins aur zaruri cheezein</p>
+                </a>
 
-                <div class="product-card"
-                    style="background: var(--white); border-radius: var(--radius); padding: 28px 24px; border: 1px solid var(--gray-200); text-align: center; transition: all 0.3s ease;">
-                    <div style="font-size: 40px; margin-bottom: 12px;">💪</div>
-                    <h3
-                        style="font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: var(--gray-800); margin-bottom: 8px;">
-                        Vitamins & Supplements</h3>
-                    <p style="font-size: 14px; color: var(--gray-500); margin-bottom: 16px;">Multivitamins, calcium,
-                        iron aur immunity boosters</p>
-                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Vitamins%20%26%20Supplements%20category."
-                        target="_blank" class="btn btn-whatsapp"
-                        style="display: inline-block; font-size: 13px; padding: 10px 20px;"><i
-                            class="fab fa-whatsapp"></i> Order on WhatsApp</a>
-                </div>
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Pain%20Relief%20%26%20Fever%20category." target="_blank" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #FFF3E0, #FFE0B2);">
+                        <i class="fas fa-fire" style="color: #E65100;"></i>
+                    </div>
+                    <h4>Pain Relief & Fever</h4>
+                    <p>Paracetamol, sprays, gels aur bukhar ki dawa</p>
+                </a>
 
-                <div class="product-card"
-                    style="background: var(--white); border-radius: var(--radius); padding: 28px 24px; border: 1px solid var(--gray-200); text-align: center; transition: all 0.3s ease;">
-                    <div style="font-size: 40px; margin-bottom: 12px;">✨</div>
-                    <h3
-                        style="font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: var(--gray-800); margin-bottom: 8px;">
-                        Skin & Hair Care</h3>
-                    <p style="font-size: 14px; color: var(--gray-500); margin-bottom: 16px;">Derma products, sunscreens,
-                        shampoos aur serums</p>
-                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Skin%20%26%20Hair%20Care%20category."
-                        target="_blank" class="btn btn-whatsapp"
-                        style="display: inline-block; font-size: 13px; padding: 10px 20px;"><i
-                            class="fab fa-whatsapp"></i> Order on WhatsApp</a>
-                </div>
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Vitamins%20%26%20Supplements%20category." target="_blank" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #FFF3E0, #FFE0B2);">
+                        <i class="fas fa-capsules" style="color: #E65100;"></i>
+                    </div>
+                    <h4>Vitamins & Supplements</h4>
+                    <p>Multivitamins, calcium, iron aur immunity boosters</p>
+                </a>
 
-                <div class="product-card"
-                    style="background: var(--white); border-radius: var(--radius); padding: 28px 24px; border: 1px solid var(--gray-200); text-align: center; transition: all 0.3s ease;">
-                    <div style="font-size: 40px; margin-bottom: 12px;">🩹</div>
-                    <h3
-                        style="font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: var(--gray-800); margin-bottom: 8px;">
-                        First Aid & Surgical</h3>
-                    <p style="font-size: 14px; color: var(--gray-500); margin-bottom: 16px;">Bandages, antiseptics,
-                        masks aur surgical supplies</p>
-                    <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20First%20Aid%20%26%20Surgical%20category."
-                        target="_blank" class="btn btn-whatsapp"
-                        style="display: inline-block; font-size: 13px; padding: 10px 20px;"><i
-                            class="fab fa-whatsapp"></i> Order on WhatsApp</a>
-                </div>
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20Skin%20%26%20Hair%20Care%20category." target="_blank" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #F3E5F5, #E1BEE7);">
+                        <i class="fas fa-spa" style="color: #7B1FA2;"></i>
+                    </div>
+                    <h4>Skin & Hair Care</h4>
+                    <p>Derma products, sunscreens, shampoos aur serums</p>
+                </a>
 
-                <div class="product-card"
-                    style="background: linear-gradient(135deg, #FFF8E1, #FFECB3); border-radius: var(--radius); padding: 28px 24px; border: 2px solid #FFB300; text-align: center; transition: all 0.3s ease;">
-                    <div style="font-size: 40px; margin-bottom: 12px;">☀️</div>
-                    <h3
-                        style="font-family: 'Outfit', sans-serif; font-size: 18px; font-weight: 700; color: #E65100; margin-bottom: 8px;">
-                        Summer Health Essentials</h3>
-                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 16px;">ORS, Glucon-D, Electral,
-                        sunscreen, cooling powder aur garmi ki zaruri dawayein</p>
-                    <a href="https://wa.me/917897526668?text=Hi!%20Mujhe%20Summer%20Health%20Essentials%20chahiye%20-%20ORS%2C%20Electrolytes%2C%20Sunscreen."
-                        target="_blank" class="btn btn-whatsapp"
-                        style="display: inline-block; font-size: 13px; padding: 10px 20px;"><i
-                            class="fab fa-whatsapp"></i> Order Summer Kit</a>
-                </div>
+                <a href="https://wa.me/917897526668?text=Hi!%20I%20need%20products%20from%20First%20Aid%20%26%20Surgical%20category." target="_blank" class="category-card">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #EFEBE9, #D7CCC8);">
+                        <i class="fas fa-briefcase-medical" style="color: #4E342E;"></i>
+                    </div>
+                    <h4>First Aid & Surgical</h4>
+                    <p>Bandages, antiseptics, masks aur surgical supplies</p>
+                </a>
 
+                <a href="https://wa.me/917897526668?text=Hi!%20Mujhe%20Summer%20Health%20Essentials%20chahiye%20-%20ORS%2C%20Electrolytes%2C%20Sunscreen." target="_blank" class="category-card category-card-highlight">
+                    <div class="category-icon" style="background: linear-gradient(135deg, #FFF8E1, #FFECB3);">
+                        <i class="fas fa-sun" style="color: #FF8F00;"></i>
+                    </div>
+                    <h4>Summer Essentials</h4>
+                    <p>ORS, Glucon-D, Electral, sunscreen aur garmi ki dawayein</p>
+                </a>
             </div>
         </div>
     </section>
