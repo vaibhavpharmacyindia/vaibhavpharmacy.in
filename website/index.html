@@ -4257,7 +4257,13 @@
                 promoWrap.addEventListener('scroll', () => {
                     const scrollLeft = promoWrap.scrollLeft;
                     const bannerWidth = banners[0].offsetWidth + 20; // card width + gap
-                    const activeIdx = Math.round(scrollLeft / bannerWidth);
+                    let activeIdx = Math.round(scrollLeft / bannerWidth);
+                    
+                    // If scrolled to the very end, force last dot active
+                    if (Math.ceil(scrollLeft + promoWrap.clientWidth) >= promoWrap.scrollWidth - 10) {
+                        activeIdx = banners.length - 1;
+                    }
+
                     promoDots.forEach((d, i) => {
                         d.classList.toggle('active', i === activeIdx);
                     });
@@ -4269,7 +4275,12 @@
                     promoAutoScroll = setInterval(() => {
                         const scrollLeft = promoWrap.scrollLeft;
                         const bannerWidth = banners[0].offsetWidth + 20;
-                        const activeIdx = Math.round(scrollLeft / bannerWidth);
+                        let activeIdx = Math.round(scrollLeft / bannerWidth);
+                        
+                        if (Math.ceil(scrollLeft + promoWrap.clientWidth) >= promoWrap.scrollWidth - 10) {
+                            activeIdx = banners.length - 1;
+                        }
+
                         const nextIdx = (activeIdx + 1) % banners.length;
                         promoWrap.scrollTo({ left: nextIdx * bannerWidth, behavior: 'smooth' });
                     }, 4000);
